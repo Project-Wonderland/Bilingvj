@@ -5,6 +5,7 @@ import { AuthService, DataService, routes } from '../../../../../../src/app/core
 import { MenuItem, SideBar, SideBarMenu, subMenus } from '../../../../../../src/app/core/models/models';
 import { SideBarService } from '../../../../../../src/app/core/services/side-bar/side-bar.service';
 import { NgScrollbarModule } from 'ngx-scrollbar';
+import { de } from 'intl-tel-input/i18n';
 
 interface SubMenu {
   menuValue: string;
@@ -73,6 +74,7 @@ export class SideMenuOneComponent implements OnDestroy {
     public sideBar: SideBarService,
     private auth: AuthService
   ) {
+    debugger;
     router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.getRoutes(event);
@@ -93,9 +95,21 @@ export class SideMenuOneComponent implements OnDestroy {
       }
     });
     // get sidebar data as observable because data is controlled for design to expand submenus
-      this.data.getSideBarData.subscribe((res:SideBarData[]) => {
-        this.side_bar_data = res;
-    });
+    debugger;
+
+      this.data.getSideBarData.subscribe((res: SideBarData[]) => {
+
+        const allowedSections = [
+          'Inventory & Sales',
+          'Purchases',
+          'Finance & Accounts'
+        ];
+
+        this.side_bar_data = res.filter(item =>
+          allowedSections.includes(item.tittle)
+        );
+
+      });
   }
 
  
