@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "category": "Invoicing",
+      "date": "22 Feb 2025",
+      "status": "Active"
+    },
+    {
+      "category": "Accounting",
+      "date": "07 Feb",
+      "status": "Inactive"
+    },
+    {
+      "category": "ExpenseManagement",
+      "date": "30 Jan",
+      "status": "Active"
+    },
+    {
+      "category": "FinanceTips",
+      "date": "17 Jan",
+      "status": "Inactive"
+    },
+    {
+      "category": "BusinessFinance",
+      "date": "04 Jan",
+      "status": "Active"
+    },
+    {
+      "category": "Tax&Compilance",
+      "date": "09 Dec",
+      "status": "Inactive"
+    },
+    {
+      "category": "ExpenseTracking",
+      "date": "02 Dec",
+      "status": "Active"
+    },
+    {
+      "category": "Technology",
+      "date": "15 Nov",
+      "status": "Inactive"
+    },
+    {
+      "category": "Reporting",
+      "date": "30 Nov",
+      "status": "Active"
+    },
+    {
+      "category": "SoftwareReview",
+      "date": "12 Oct",
+      "status": "Inactive"
+    },
+    {
+      "category": "CreditManagement",
+      "date": "05 Oct",
+      "status": "Active"
+    },
+    {
+      "category": "DigitalPayments",
+      "date": "09 Sep",
+      "status": "Inactive"
+    },
+    {
+      "category": "MarketInsights",
+      "date": "02 Sep",
+      "status": "Active"
+    },
+    {
+      "category": "EconomicTrends",
+      "date": "07 Aug",
+      "status": "Inactive"
+    }
+  ]
+  ,
+  "totalData": 8
+}

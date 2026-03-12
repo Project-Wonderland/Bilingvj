@@ -1,0 +1,122 @@
+{
+    "data": [
+        {
+            "ReferenceNumber": "REF0013",
+            "Date": "22 Feb 2025",
+            "Category": "Sale",
+            "Description": "Sale of laptops",
+            "Amount": "$15,000",
+            "TransactionType": "Credit",
+            "Balance": "$10,000"
+        },
+        {
+            "ReferenceNumber": "REF0012",
+            "Date": "07 Feb 2025",
+            "Category": "Refund",
+            "Description": "Customer Refund",
+            "Amount": "$22,500",
+            "TransactionType": "Debit",
+            "Balance": "$15,000"
+        },
+        {
+            "ReferenceNumber": "REF0011",
+            "Date": "30 Jan 2025",
+            "Category": "Purchase",
+            "Description": "Office Supplies Bought",
+            "Amount": "$30,000",
+            "TransactionType": "Credit",
+            "Balance": "$20,000"
+        },
+        {
+            "ReferenceNumber": "REF0010",
+            "Date": "17 Jan 2025",
+            "Category": "Income",
+            "Description": "Salary Received",
+            "Amount": "$12,000",
+            "TransactionType": "Debit",
+            "Balance": "$9,000"
+        },
+        {
+            "ReferenceNumber": "REF0009",
+            "Date": "04 Jan 2025",
+            "Category": "Expense",
+            "Description": "Electricity Bill Paid",
+            "Amount": "$18,000",
+            "TransactionType": "Credit",
+            "Balance": "$12,000"
+        },
+        {
+            "ReferenceNumber": "REF0008",
+            "Date": "09 Dec 2024",
+            "Category": "Sale",
+            "Description": "Service Fee Collected",
+            "Amount": "$25,000",
+            "TransactionType": "Debit",
+            "Balance": "$17,000"
+        },
+        {
+            "ReferenceNumber": "REF0007",
+            "Date": "02 Dec 2024",
+            "Category": "Refund",
+            "Description": "Customer Refund",
+            "Amount": "$35,000",
+            "TransactionType": "Credit",
+            "Balance": "$23,000"
+        },
+        {
+            "ReferenceNumber": "REF0006",
+            "Date": "15 Nov 2024",
+            "Category": "Purchase",
+            "Description": "Equipment Purchase",
+            "Amount": "$40,000",
+            "TransactionType": "Debit",
+            "Balance": "$25,000"
+        },
+        {
+            "ReferenceNumber": "REF0005",
+            "Date": "30 Nov 2024",
+            "Category": "Income",
+            "Description": "Freelance Payment",
+            "Amount": "$27,500",
+            "TransactionType": "Credit",
+            "Balance": "$18,000"
+        },
+        {
+            "ReferenceNumber": "REF0004",
+            "Date": "12 Oct 2024",
+            "Category": "Expense",
+            "Description": "Office Rent Paid",
+            "Amount": "$20,000",
+            "TransactionType": "Debit",
+            "Balance": "$13,000"
+        },
+        {
+            "ReferenceNumber": "REF0003",
+            "Date": "05 Oct 2024",
+            "Category": "Sale",
+            "Description": "Subscription Sale",
+            "Amount": "$45,000",
+            "TransactionType": "Credit",
+            "Balance": "$27,000"
+        },
+        {
+            "ReferenceNumber": "REF0002",
+            "Date": "09 Sep 2024",
+            "Category": "Refund",
+            "Description": "Refund Issued",
+            "Amount": "$37,500",
+            "TransactionType": "Debit",
+            "Balance": "$23,500"
+        },
+        {
+            "ReferenceNumber": "REF0001",
+            "Date": "02 Sep 2024",
+            "Category": "Purchase",
+            "Description": "Inventory Restock",
+            "Amount": "$38,000",
+            "TransactionType": "Credit",
+            "Balance": "$24,000"
+        }
+    ],
+    "totalData": 13
+}

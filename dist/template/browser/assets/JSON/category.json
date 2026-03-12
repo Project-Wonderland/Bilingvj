@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+          "category": "Smartphones",
+          "noOfProducts": "2",
+          "img": "product-01.jpg"
+      },
+      {
+          "category": "Laptops",
+          "noOfProducts": "12",
+          "img": "product-02.jpg"
+      },
+      {
+          "category": "Headphones",
+          "noOfProducts": "34",
+          "img": "product-03.jpg"
+      },
+      {
+          "category": "Men's Apparel",
+          "noOfProducts": "24",
+          "img": "product-04.jpg"
+      },
+      {
+          "category": "Footwear",
+          "noOfProducts": "13",
+          "img": "product-05.jpg"
+      },
+      {
+          "category": "Kitchen",
+          "noOfProducts": "67",
+          "img": "product-06.jpg"
+      },
+      {
+          "category": "Cleaning",
+          "noOfProducts": "13",
+          "img": "product-07.jpg"
+      },
+      {
+          "category": "Haircare",
+          "noOfProducts": "25",
+          "img": "product-08.jpg"
+      },
+      {
+          "category": "Men’s Apparel",
+          "noOfProducts": "24",
+          "img": "product-09.jpg"
+      },
+      {
+          "category": "Skincare",
+          "noOfProducts": "65",
+          "img": "product-10.jpg"
+      },
+      {
+          "category": "Bikes & Accessories",
+          "noOfProducts": "23",
+          "img": "product-11.jpg"
+      },
+      {
+          "category": "Televisions",
+          "noOfProducts": "12",
+          "img": "product-12.jpg"
+      },
+      {
+          "category": "Luxury Handbags",
+          "noOfProducts": "43",
+          "img": "product-13.jpg"
+      },
+      {
+          "category": "Dairy Alternatives",
+          "noOfProducts": "23",
+          "img": "product-14.jpg"
+      }
+  ]
+  ,
+    "totalData": 14
+  }
+  

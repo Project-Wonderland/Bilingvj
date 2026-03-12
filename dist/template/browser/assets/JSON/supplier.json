@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "supplier": "Emily Clark",
+      "image": "avatar-28.jpg",
+      "phone": "+1 202-555-0198",
+      "createdOn": "22 Feb 2025",
+      "balance": "$10,000",
+      "currency": "USD ($)"
+    },
+    {
+      "supplier": "John Carter",
+      "image": "avatar-29.jpg",
+      "phone": "+1 305-456-7821",
+      "createdOn": "07 Feb 2025",
+      "balance": "$15,000",
+      "currency": "CAD (C$)"
+    },
+    {
+      "supplier": "Sophia White",
+      "image": "avatar-12.jpg",
+      "phone": "+1 415-678-1234",
+      "createdOn": "30 Jan 2025",
+      "balance": "$20,000",
+      "currency": "GBP (£)"
+    },
+    {
+      "supplier": "Michael Johnson",
+      "image": "avatar-06.jpg",
+      "phone": "+1 718-987-6543",
+      "createdOn": "17 Jan 2025",
+      "balance": "$9,000",
+      "currency": "AUD (A$)"
+    },
+    {
+      "supplier": "Olivia Harris",
+      "image": "avatar-30.jpg",
+      "phone": "+1 909-234-5678",
+      "createdOn": "04 Jan 2025",
+      "balance": "$12,000",
+      "currency": "EUR (€)"
+    },
+    {
+      "supplier": "David Anderson",
+      "image": "avatar-16.jpg",
+      "phone": "+1 602-789-3456",
+      "createdOn": "09 Dec 2024",
+      "balance": "$17,000",
+      "currency": "JPY (¥)"
+    },
+    {
+      "supplier": "Emma Lewis",
+      "image": "avatar-17.jpg",
+      "phone": "+1 812-456-9087",
+      "createdOn": "02 Dec 2024",
+      "balance": "$23,000",
+      "currency": "INR (₹)"
+    },
+    {
+      "supplier": "Robert Thomas",
+      "image": "avatar-23.jpg",
+      "phone": "+1 214-123-4567",
+      "createdOn": "15 Nov 2024",
+      "balance": "$25,000",
+      "currency": "SGD (S$)"
+    },
+    {
+      "supplier": "Isabella Scott",
+      "image": "avatar-07.jpg",
+      "phone": "+1 646-789-1230",
+      "createdOn": "30 Nov 2024",
+      "balance": "$18,000",
+      "currency": "EUR (€)"
+    },
+    {
+      "supplier": "Daniel Martinez",
+      "image": "avatar-31.jpg",
+      "phone": "+1 901-678-4321",
+      "createdOn": "12 Oct 2024",
+      "balance": "$13,000",
+      "currency": "KRW (₩)"
+    },
+    {
+      "supplier": "Charlotte Brown",
+      "image": "avatar-37.jpg",
+      "phone": "+1 503-987-2105",
+      "createdOn": "05 Oct 2024",
+      "balance": "$27,000",
+      "currency": "BRL (R$)"
+    },
+    {
+      "supplier": "William Parker",
+      "image": "avatar-21.jpg",
+      "phone": "+1 320-345-6789",
+      "createdOn": "09 Sep 2024",
+      "balance": "$23,500",
+      "currency": "MXN ($)"
+    },
+    {
+      "supplier": "Mia Thompson",
+      "image": "avatar-17.jpg",
+      "phone": "+1 720-654-7890",
+      "createdOn": "02 Sep 2024",
+      "balance": "$24,000",
+      "currency": "MXN ($)"
+    },
+    {
+      "supplier": "Amelia Robinson",
+      "image": "avatar-07.jpg",
+      "phone": "+1 919-321-9876",
+      "createdOn": "07 Aug 2024",
+      "balance": "$35,000",
+      "currency": "ZAR (R)"
+    }
+  ],
+  "totalData": 14
+}

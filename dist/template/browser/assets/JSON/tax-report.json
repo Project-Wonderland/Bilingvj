@@ -1,0 +1,159 @@
+{
+    "data":[
+        {
+            "img":"avatar-28.jpg",
+            "sku": "CN0014",
+            "customer": "Emily Clark",
+            "date": "22 Feb 2025",
+            "category": "Smartphones",
+            "totalPrice": "$10,000",
+            "mode": "Cash",
+            "price": "$10,000",
+            "sellingPrice": "$75,900"
+        },
+        {
+            "img":"avatar-29.jpg",
+            "sku": "CN0013",
+            "customer": "John Carter",
+            "date": "07 Feb 2025",
+            "category": "Laptops",
+            "totalPrice": "$25,750",
+            "mode": "Cheque",
+            "price": "$25,750",
+            "sellingPrice": "$2,50,000"
+        },
+        {
+            "img":"avatar-12.jpg",
+            "sku": "CN0012",
+            "customer": "Sophia White",
+            "date": "30 Jan 2025",
+            "category": "Headphones",
+            "totalPrice": "$50,125",
+            "mode": "Cash",
+            "price": "$50,125",
+            "sellingPrice": "$7,50,300"
+        },
+        {
+            "img":"avatar-06.jpg",
+            "sku": "CN0011",
+            "customer": "Michael Johnson",
+            "date": "17 Jan 2025",
+            "category": "Computer Service",
+            "totalPrice": "$75,900",
+            "mode": "Cheque",
+            "price": "$75,900",
+            "sellingPrice": "$87,650"
+        },
+        {
+            "img":"avatar-30.jpg",
+            "sku": "CN0010",
+            "customer": "Olivia Harris",
+            "date": "04 Jan 2025",
+            "category": "Footwear",
+            "totalPrice": "$99,999",
+            "mode": "Cheque",
+            "price": "$99,999",
+            "sellingPrice": "$10,000"
+        },
+        {
+            "img":"avatar-16.jpg",
+            "sku": "CN0009",
+            "customer": "David Anderson",
+            "date": "09 Dec 2024",
+            "category": "Kitchen",
+            "totalPrice": "$1,20,500",
+            "mode": "Cash",
+            "price": "$1,20,500",
+            "sellingPrice": "$69,420"
+        },
+        {
+            "img":"avatar-17.jpg",
+            "sku": "CN0008",
+            "customer": "Emma Lewis",
+            "date": "02 Dec 2024",
+            "category": "Cleaning",
+            "totalPrice": "$2,50,000",
+            "mode": "Cash",
+            "price": "$2,50,000",
+            "sellingPrice": "$33,210"
+        },
+        {
+            "img":"avatar-23.jpg",
+            "sku": "CN0007",
+            "customer": "Robert Thomas",
+            "date": "15 Nov 2024",
+            "category": "Laptops",
+            "totalPrice": "$5,00,750",
+            "mode": "Cheque",
+            "price": "$5,00,750",
+            "sellingPrice": "$2,10,000"
+        },
+        {
+            "img":"avatar-07.jpg",
+            "sku": "CN0006",
+            "customer": "Isabella Scott",
+            "date": "30 Nov 2024",
+            "category": "Haircare",
+            "totalPrice": "$7,50,300",
+            "mode": "Cheque",
+            "price": "$7,50,300",
+            "sellingPrice": "$25,750"
+        },
+        {
+            "img":"avatar-31.jpg",
+            "sku": "CN0005",
+            "customer": "Daniel Martinez",
+            "date": "12 Oct 2024",
+            "category": "Headphones",
+            "totalPrice": "$9,99,999",
+            "mode": "Cash",
+            "price": "$9,99,999",
+            "sellingPrice": "$50,125"
+        },
+        {
+            "img":"avatar-32.jpg",
+            "sku": "CN0004",
+            "customer": "Charlotte Brown",
+            "date": "05 Oct 2024",
+            "category": "Men’s Apparel",
+            "totalPrice": "$87,650",
+            "mode": "Cheque",
+            "price": "$87,650",
+            "sellingPrice": "$99,999"
+        },
+        {
+            "img":"avatar-33.jpg",
+            "sku": "CN0003",
+            "customer": "William Parker",
+            "date": "09 Oct 2024",
+            "category": "Skincare",
+            "totalPrice": "$69,420",
+            "mode": "$Cash",
+            "price": "$69,420",
+            "sellingPrice": "$1,20,500"
+        },
+        {
+            "img":"avatar-34.jpg",
+            "sku": "CN0002",
+            "customer": "Mia Thompson",
+            "date": "02 Sep 2024",
+            "category": "Bikes & Accessories",
+            "totalPrice": "$33,210",
+            "mode": "Cheque",
+            "price": "$33,210",
+            "sellingPrice": "$5,00,750"
+        },
+        {
+            "img":"avatar-35.jpg",
+            "sku": "CN0001",
+            "customer": "Amelia Robinson",
+            "date": "07 Aug 2024",
+            "category": "Smartphones",
+            "totalPrice": "$2,10,000",
+            "mode": "Cheque",
+            "price": "$2,10,000",
+            "sellingPrice": "$9,99,999"
+        }
+    ],
+    "totalData":14
+}

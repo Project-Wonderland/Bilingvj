@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+            "addonName": "Advanced Reports",
+            "planName": "Free",
+            "createdOn": "22 Feb 2025",
+            "price": "$300",
+            "status": "Active"
+        },
+        {
+            "addonName": "Audit Logs",
+            "planName": "Starter",
+            "createdOn": "07 Feb 2025",
+            "price": "$150",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "Financial Forecasting",
+            "planName": "Business",
+            "createdOn": "30 Jan 2025",
+            "price": "$350",
+            "status": "Active"
+        },
+        {
+            "addonName": "Extra Storage (Invoices)",
+            "planName": "Enterprise",
+            "createdOn": "17 Jan 2025",
+            "price": "$500",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "Payment Gateway Integration",
+            "planName": "Free",
+            "createdOn": "04 Jan 2025",
+            "price": "$2000",
+            "status": "Active"
+        },
+        {
+            "addonName": "Real-time Notifications",
+            "planName": "Starter",
+            "createdOn": "09 Dec 2024",
+            "price": "$100",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "Recurring Invoice Automation",
+            "planName": "Business",
+            "createdOn": "02 Dec 2024",
+            "price": "$550",
+            "status": "Active"
+        },
+        {
+            "addonName": "Custom Invoice Due Dates",
+            "planName": "Enterprise",
+            "createdOn": "15 Nov 2024",
+            "price": "$700",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "E-signature for Invoices",
+            "planName": "Free",
+            "createdOn": "30 Nov 2024",
+            "price": "$2500",
+            "status": "Active"
+        },
+        {
+            "addonName": "Priority Support",
+            "planName": "Starter",
+            "createdOn": "12 Oct 2024",
+            "price": "$1000",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "Bank Reconciliation Tool",
+            "planName": "Business",
+            "createdOn": "09 Sep 2024",
+            "price": "$200",
+            "status": "Active"
+        },
+        {
+            "addonName": "Multi-Currency Invoicing",
+            "planName": "Enterprise",
+            "createdOn": "05 Oct 2024",
+            "price": "$350",
+            "status": "Inactive"
+        },
+        {
+            "addonName": "Multi-User Access",
+            "planName": "Free",
+            "createdOn": "09 Sep 2024",
+            "price": "$500",
+            "status": "Active"
+        },
+        {
+            "addonName": "Legal Compliance Reports",
+            "planName": "Starter",
+            "createdOn": "02 Sep 2024",
+            "price": "$800",    
+            "status": "Inactive"
+        }
+    ]
+    ,
+    "totalData": 14
+}

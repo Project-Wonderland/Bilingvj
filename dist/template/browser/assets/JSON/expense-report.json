@@ -1,0 +1,132 @@
+{
+    "data": [
+      {
+        "ID": "EXP00025",
+        "Date": "22 Feb 2025",
+        "ReferenceNumber": "PO-202402-012",
+        "Description": "Payment for raw materials",
+        "Amount": "$10,000",
+        "PaymentMode": "Cash",
+        "Status": "Paid"
+      },
+      {
+        "ID": "EXP00024",
+        "Date": "07 Feb 2025",
+        "ReferenceNumber": "INV00025",
+        "Description": "Purchase of packaging materials",
+        "Amount": "$25,750",
+        "PaymentMode": "Cheque",
+        "Status": "Pending"
+      },
+      {
+        "ID": "EXP00023",
+        "Date": "30 Jan 2025",
+        "ReferenceNumber": "PO-202401-011",
+        "Description": "Payment for electronic components",
+        "Amount": "$50,125",
+        "PaymentMode": "Paypal",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "EXP00022",
+        "Date": "17 Jan 2025",
+        "ReferenceNumber": "REF12345",
+        "Description": "Social media ad campaign",
+        "Amount": "$75,900",
+        "PaymentMode": "Bank Transfer",
+        "Status": "Paid"
+      },
+      {
+        "ID": "EXP00021",
+        "Date": "04 Jan 2025",
+        "ReferenceNumber": "REF18294",
+        "Description": "Business trip for sales meeting",
+        "Amount": "$99,999",
+        "PaymentMode": "Stripe",
+        "Status": "Pending"
+      },
+      {
+        "ID": "EXP00020",
+        "Date": "09 Dec 2024",
+        "ReferenceNumber": "PO-202412-010",
+        "Description": "Wholesale purchase of inventory",
+        "Amount": "$1,20,500",
+        "PaymentMode": "Cash",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "EXP00019",
+        "Date": "02 Dec 2024",
+        "ReferenceNumber": "UTI20241219",
+        "Description": "Electricity bill",
+        "Amount": "$2,50,000",
+        "PaymentMode": "Cheque",
+        "Status": "Paid"
+      },
+      {
+        "ID": "EXP00018",
+        "Date": "15 Nov 2024",
+        "ReferenceNumber": "PO-202411-008",
+        "Description": "Purchase of office furniture",
+        "Amount": "$5,00,750",
+        "PaymentMode": "Paypal",
+        "Status": "Pending"
+      },
+      {
+        "ID": "EXP00017",
+        "Date": "30 Nov 2024",
+        "ReferenceNumber": "PO-202411-007",
+        "Description": "Purchase of manufacturing tools",
+        "Amount": "$7,50,300",
+        "PaymentMode": "Bank Transfer",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "EXP00016",
+        "Date": "12 Oct 2024",
+        "ReferenceNumber": "REF17420",
+        "Description": "Server maintenance costs",
+        "Amount": "$9,99,999",
+        "PaymentMode": "Stripe",
+        "Status": "Paid"
+      },
+      {
+        "ID": "EXP00015",
+        "Date": "05 Oct 2024",
+        "ReferenceNumber": "REF16302",
+        "Description": "Digital marketing campaign",
+        "Amount": "$87,650",
+        "PaymentMode": "Cheque",
+        "Status": "Pending"
+      },
+      {
+        "ID": "EXP00014",
+        "Date": "09 Sep 2024",
+        "ReferenceNumber": "REF15035",
+        "Description": "Equipment repairs and servicing",
+        "Amount": "$69,420",
+        "PaymentMode": "Paypal",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "EXP00013",
+        "Date": "02 Sep 2024",
+        "ReferenceNumber": "REF14710",
+        "Description": "Renovation of office workspace",
+        "Amount": "$33,210",
+        "PaymentMode": "Bank Transfer",
+        "Status": "Paid"
+      },
+      {
+        "ID": "EXP00012",
+        "Date": "07 Aug 2024",
+        "ReferenceNumber": "INV00020",
+        "Description": "Bulk order freight costs",
+        "Amount": "$2,10,000",
+        "PaymentMode": "Cash",
+        "Status": "Pending"
+      }
+    ],
+    "totalData": 9
+  }
+  

@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "Title": "What is accounting software?",
+        "Category": "General",
+        "Description": "Accounting software helps businesses manage financial transactions, invoicing, and reporting."
+      },
+      {
+        "Title": "How does invoicing software benefit businesses?",
+        "Category": "Benefits",
+        "Description": "It automates billing, reduces errors, and speeds up the payment process."
+      },
+      {
+        "Title": "Can freelancers use accounting software?",
+        "Category": "Usage",
+        "Description": "Yes, freelancers can track income, expenses, and generate professional invoices."
+      },
+      {
+        "Title": "What are tax reports in accounting software?",
+        "Category": "Tax & Compliance",
+        "Description": "Tax reports summarize taxable income, deductions, and liabilities for easy filing."
+      },
+      {
+        "Title": "Does accounting software support multiple currencies?",
+        "Category": "Features",
+        "Description": "Many platforms allow transactions, invoices, and reports in different currencies."
+      },
+      {
+        "Title": "Can I integrate accounting software with my bank?",
+        "Category": "Integrations",
+        "Description": "Yes, bank integrations enable automatic transaction syncing and reconciliation."
+      },
+      {
+        "Title": "Is financial data secure in cloud accounting software?",
+        "Category": "Security",
+        "Description": "Cloud accounting software uses encryption and security protocols to protect data."
+      },
+      {
+        "Title": "Can I access accounting software on mobile devices?",
+        "Category": "Accessibility",
+        "Description": "Most modern accounting platforms offer mobile apps for iOS and Android."
+      },
+      {
+        "Title": "Does accounting software offer a free trial?",
+        "Category": "Pricing",
+        "Description": "Many providers offer a free trial to explore features before purchasing."
+      },
+      {
+        "Title": "How can I contact customer support?",
+        "Category": "Support",
+        "Description": "Support options include email, live chat, phone, and help centers."
+      },
+      {
+        "Title": "Does accounting software support multiple users?",
+        "Category": "Features",
+        "Description": "Yes, businesses can add multiple users with different access permissions."
+      },
+      {
+        "Title": "Can I customize invoices in accounting software?",
+        "Category": "Customization",
+        "Description": "Users can add logos, change colors, and modify invoice templates."
+      },
+      {
+        "Title": "Is cloud accounting better than traditional software?",
+        "Category": "Features",
+        "Description": "Cloud solutions offer real-time access, backups, and multi-device support."
+      },
+      {
+        "Title": "Does accounting software integrate with third-party apps?",
+        "Category": "Integrations",
+        "Description": "Many platforms integrate with payment gateways, CRM, and e-commerce tools."
+      }
+    ]
+    ,
+    "totalData": 9
+  }
+  

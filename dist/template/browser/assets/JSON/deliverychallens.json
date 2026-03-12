@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "img": "avatar-28.jpg",
+      "challanId": "CH0014",
+      "customer": "Emily Clark",
+      "amount": "$10,000",
+      "category": "Advertising",
+      "createdOn": "22 Feb 2025"
+    },
+    {
+      "img": "avatar-29.jpg",
+      "challanId": "CH0013",
+      "customer": "John Carter",
+      "amount": "$25,750",
+      "category": "Food",
+      "createdOn": "07 Feb 2025"
+    },
+    {
+      "img": "avatar-12.jpg",
+      "challanId": "CH0012",
+      "customer": "Sophia White",
+      "amount": "$50,125",
+      "category": "Repairs",
+      "createdOn": "30 Jan 2025"
+    },
+    {
+      "img": "avatar-06.jpg",
+      "challanId": "CH0011",
+      "customer": "Michael Johnson",
+      "amount": "$75,900",
+      "category": "Software",
+      "createdOn": "17 Jan 2025"
+    },
+    {
+      "img": "avatar-30.jpg",
+      "challanId": "CH0010",
+      "customer": "Olivia Harris",
+      "amount": "$99,999",
+      "category": "Advertising",
+      "createdOn": "04 Jan 2025"
+    },
+    {
+      "img": "avatar-16.jpg",
+      "challanId": "CH0009",
+      "customer": "David Anderson",
+      "amount": "$1,20,500",
+      "category": "Food",
+      "createdOn": "09 Dec 2024"
+    },
+    {
+      "img": "avatar-17.jpg",
+      "challanId": "CH0008",
+      "customer": "Emma Lewis",
+      "amount": "$2,50,000",
+      "category": "Repairs",
+      "createdOn": "02 Dec 2024"
+    },
+    {
+      "img": "avatar-23.jpg",
+      "challanId": "CH0007",
+      "customer": "Robert Thomas",
+      "amount": "$5,00,750",
+      "category": "Software",
+      "createdOn": "15 Nov 2024"
+    },
+    {
+      "img": "avatar-07.jpg",
+      "challanId": "CH0006",
+      "customer": "Isabella Scott",
+      "amount": "$7,50,300",
+      "category": "Advertising",
+      "createdOn": "30 Nov 2024"
+    },
+    {
+      "img": "avatar-31.jpg",
+      "challanId": "CH0005",
+      "customer": "Daniel Martinez",
+      "amount": "$9,99,999",
+      "category": "Food",
+      "createdOn": "12 Oct 2024"
+    },
+    {
+      "img": "avatar-32.jpg",
+      "challanId": "CH0004",
+      "customer": "Charlotte Brown",
+      "amount": "$87,650",
+      "category": "Repairs",
+      "createdOn": "05 Oct 2024"
+    },
+    {
+      "img": "avatar-33.jpg",
+      "challanId": "CH0003",
+      "customer": "William Parker",
+      "amount": "$69,420",
+      "category": "Software",
+      "createdOn": "09 Oct 2024"
+    },
+    {
+      "img": "avatar-34.jpg",
+      "challanId": "CH0002",
+      "customer": "Mia Thompson",
+      "amount": "$33,210",
+      "category": "Advertising",
+      "createdOn": "02 Sep 2024"
+    },
+    {
+      "img": "avatar-35.jpg",
+      "challanId": "CH0001",
+      "customer": "Amelia Robinson",
+      "amount": "$2,10,000",
+      "category": "Food",
+      "createdOn": "07 Aug 2024"
+    }
+  ],
+  "totalData": 14
+}

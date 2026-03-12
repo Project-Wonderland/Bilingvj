@@ -1,0 +1,104 @@
+{
+    "data":[
+        {
+            "type": "Wallet Topup",
+            "amount": "$300",
+            "date": "22 Feb 2025",
+            "paymentMode": "Cash",
+            "status": "Completed"
+        },
+        {
+            "type": "Purchase",
+            "amount": "$150",
+            "date": "07 Feb 2025",
+            "paymentMode": "Cheque",
+            "status": "Canceled"
+        },
+        {
+            "type": "Refund",
+            "amount": "$350",
+            "date": "30 Jan 2025",
+            "paymentMode": "Bank Transfer",
+            "status": "Completed"
+        },
+        {
+            "type": "Wallet Topup",
+            "amount": "$500",
+            "date": "17 Jan 2025",
+            "paymentMode": "Paypal",
+            "status": "Canceled"
+        },
+        {
+            "type": "Purchase",
+            "amount": "$2000",
+            "date": "04 Jan 2025",
+            "paymentMode": "Stripe",
+            "status": "Completed"
+        },
+        {
+            "type": "Refund",
+            "amount": "$100",
+            "date": "09 Dec 2024",
+            "paymentMode": "Cash",
+            "status": "Canceled"
+        },
+        {
+            "type": "Wallet Topup",
+            "amount": "$550",
+            "date": "02 Dec 2024",
+            "paymentMode": "Cheque",
+            "status": "Completed"
+        },
+        {
+            "type": "Purchase",
+            "amount": "$700",
+            "date": "15 Nov 2024",
+            "paymentMode": "Bank Transfer",
+            "status": "Canceled"
+        },
+        {
+            "type": "Refund",
+            "amount": "$2500",
+            "date": "30 Nov 2024",
+            "paymentMode": "Paypal",
+            "status": "Completed"
+        },
+        {
+            "type": "Wallet Topup",
+            "amount": "$1000",
+            "date": "12 Oct 2024",
+            "paymentMode": "Stripe",
+            "status": "Canceled"
+        },
+        {
+            "type": "Purchase",
+            "amount": "$200",
+            "date": "05 Oct 2024",
+            "paymentMode": "Cash",
+            "status": "Completed"
+        },
+        {
+            "type": "Refund",
+            "amount": "$350",
+            "date": "09 Sep 2024",
+            "paymentMode": "Cheque",
+            "status": "Canceled"
+        },
+        {
+            "type": "Wallet Topup",
+            "amount": "$500",
+            "date": "02 Sep 2024",
+            "paymentMode": "Bank Transfer",
+            "status": "Completed"
+        },
+        {
+            "type": "Purchase",
+            "amount": "$800",
+            "date": "07 Aug 2024",
+            "paymentMode": "Paypal",
+            "status": "Canceled"
+        }
+    ]
+    ,
+    "totalData":14
+}

@@ -1,0 +1,75 @@
+{
+    "data":[
+        {
+          "pages": "Home",
+          "pageSlug": "/home",
+          "status": "Active"
+        },
+        {
+          "pages": "About Us",
+          "pageSlug": "/about-us",
+          "status": "Inactive"
+        },
+        {
+          "pages": "Contact",
+          "pageSlug": "/contact",
+          "status": "Active"
+        },
+        {
+          "pages": "Blog",
+          "pageSlug": "/blog",
+          "status": "Inactive"
+        },
+        {
+          "pages": "FAQ",
+          "pageSlug": "/faq",
+          "status": "Active"
+        },
+        {
+          "pages": "Privacy Policy",
+          "pageSlug": "/privacy-policy",
+          "status": "Inactive"
+        },
+        {
+          "pages": "Terms & Conditions",
+          "pageSlug": "/terms & conditions",
+          "status": "Active"
+        },
+        {
+          "pages": "Support",
+          "pageSlug": "/support",
+          "status": "Inactive"
+        },
+        {
+          "pages": "Testimonials",
+          "pageSlug": "/testimonials",
+          "status": "Active"
+        },
+        {
+          "pages": "Invoices",
+          "pageSlug": "/invoices",
+          "status": "Inactive"
+        },
+        {
+          "pages": "Payments",
+          "pageSlug": "/payments",
+          "status": "Active"
+        },
+        {
+          "pages": "Expenses",
+          "pageSlug": "/expenses",
+          "status": "Inactive"
+        },
+        {
+          "pages": "Services",
+          "pageSlug": "/services",
+          "status": "Active"
+        },
+        {
+          "pages": "Revenue Report",
+          "pageSlug": "/revenue_report",
+          "status": "Inactive"
+        }
+      ],
+      "totalData":14
+}

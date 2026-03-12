@@ -1,0 +1,160 @@
+{
+
+  "data": [
+    {
+      "img": "avatar-28.jpg",
+      "flag": "flag-1.svg",
+      "customer": "Emily Clark",
+      "phone": "+1 202-555-0198",
+      "country": "USA",
+      "balance": "$10,000",
+      "totalInvoice": "12",
+      "createdOn": "22 Feb 2025",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-29.jpg",
+      "flag": "flag-2.svg",
+      "customer": "John Carter",
+      "phone": "+1 305-456-7821",
+      "country": "Canada",
+      "balance": "$25,750",
+      "totalInvoice": "6",
+      "createdOn": "07 Feb 2025",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-12.jpg",
+      "flag": "flag-3.svg",
+      "customer": "Sophia White",
+      "phone": "+1 415-678-1234",
+      "country": "UK",
+      "balance": "$50,125",
+      "totalInvoice": "3",
+      "createdOn": "30 Jan 2025",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-06.jpg",
+      "flag": "flag-4.svg",
+      "customer": "Michael Johnson",
+      "phone": "+1 718-987-6543",
+      "country": "Germany",
+      "balance": "$75,900",
+      "totalInvoice": "10",
+      "createdOn": "17 Jan 2025",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-30.jpg",
+      "flag": "flag-5.svg",
+      "customer": "Olivia Harris",
+      "phone": "+1 909-234-5678",
+      "country": "France",
+      "balance": "$99,999",
+      "totalInvoice": "9",
+      "createdOn": "04 Jan 2025",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-16.jpg",
+      "flag": "flag-6.svg",
+      "customer": "David Anderson",
+      "phone": "+1 602-789-3456",
+      "country": "Argentina",
+      "balance": "$1,20,500",
+      "totalInvoice": "12",
+      "createdOn": "09 Dec 2024",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-17.jpg",
+      "flag": "flag-7.svg",
+      "customer": "Emma Lewis",
+      "phone": "+1 812-456-9087",
+      "country": "India",
+      "balance": "$2,50,000",
+      "totalInvoice": "8",
+      "createdOn": "02 Dec 2024",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-23.jpg",
+      "flag": "flag-8.svg",
+      "customer": "Robert Thomas",
+      "phone": "+1 214-123-4567",
+      "country": "Italy",
+      "balance": "$5,00,750",
+      "totalInvoice": "15",
+      "createdOn": "15 Nov 2024",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-07.jpg",
+      "flag": "flag-9.svg",
+      "customer": "Isabella Scott",
+      "phone": "+1 646-789-1230",
+      "country": "New Zealand",
+      "balance": "$7,50,300",
+      "totalInvoice": "21",
+      "createdOn": "30 Nov 2024",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-31.jpg",
+      "flag": "flag-10.svg",
+      "customer": "Daniel Martinez",
+      "phone": "+1 901-678-4321",
+      "country": "Australia",
+      "balance": "$9,99,999",
+      "totalInvoice": "14",
+      "createdOn": "12 Oct 2024",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-32.jpg",
+      "flag": "flag-11.svg",
+      "customer": "Charlotte Brown",
+      "phone": "+1 503-987-2105",
+      "country": "China",
+      "balance": "$87,650",
+      "totalInvoice": "6",
+      "createdOn": "05 Oct 2024",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-33.jpg",
+      "flag": "flag-12.svg",
+      "customer": "William Parker",
+      "phone": "+1 320-345-6789",
+      "country": "Brazil",
+      "balance": "$69,420",
+      "totalInvoice": "16",
+      "createdOn": "09 Oct 2024",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-34.jpg",
+      "flag": "flag-13.svg",
+      "customer": "Mia Thompson",
+      "phone": "+1 720-654-7890",
+      "country": "Turkey",
+      "balance": "$33,210",
+      "totalInvoice": "18",
+      "createdOn": "02 Sep 2024",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-35.jpg",
+      "flag": "flag-14.svg",
+      "customer": "Amelia Robinson",
+      "phone": "+1 919-321-9876",
+      "country": "Turkey",
+      "balance": "$2,10,000",
+      "totalInvoice": "12",
+      "createdOn": "07 Aug 2024",
+      "status": "Inactive"
+    }
+  ],
+  "totalData": 14
+}

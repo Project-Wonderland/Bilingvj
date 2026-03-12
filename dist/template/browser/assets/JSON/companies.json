@@ -1,0 +1,146 @@
+{
+    "data": [
+      {
+       
+        "Company": "Trend Hive",
+        "Image": "company-01.svg",
+        "Email": "trendhive@example.com",
+        "AccountURL": "th.example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "22 Feb 2025",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Quick Cart",
+        "Image": "company-02.svg",
+        "Email": "quickcart@example.com",
+        "AccountURL": "qc.example.com",
+        "Plan": "Basic (Yearly)",
+        "CreatedOn": "07 Feb 2025",
+        "Status": "Inactive"
+      },
+      {
+       
+        "Company": "Tech Bazaar",
+        "Image": "company-03.svg",
+        "Email": "techbazaar@example.com",
+        "AccountURL": "tb.example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "30 Jan 2025",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Harvest Basket",
+        "Image": "company-04.svg",
+        "Email": "haervestbasket@example.com",
+        "AccountURL": "hb.example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "17 Jan 2025",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Elite Mart",
+        "Image": "company-05.svg",
+        "Email": "elitemart@example.com",
+        "AccountURL": "em.example.com",
+        "Plan": "Enterprise (Monthly)",
+        "CreatedOn": "04 Jan 2025",
+        "Status": "Inactive"
+      },
+      {
+       
+        "Company": "Prime Mart",
+        "Image": "company-06.svg",
+        "Email": "primemart@example.com",
+        "AccountURL": "pm.example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "09 Dec 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Trend Crafters",
+        "Image": "company-07.svg",
+        "Email": "trendcreafters@example.com",
+        "AccountURL": "tc.example.com",
+        "Plan": "Enterprise (Yearly)",
+        "CreatedOn": "02 Dec 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Fresh Nest",
+        "Image": "company-08.svg",
+        "Email": "freshnest@example.com",
+        "AccountURL": "fn.example.com",
+        "Plan": "Basic (Monthly)",
+        "CreatedOn": "30 Nov 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Gizmo Mart",
+        "Image": "company-09.svg",
+        "Email": "gizmomart@example.com",
+        "AccountURL": "gm.@example.com",
+        "Plan": "Basic (Yearly)",
+        "CreatedOn": "15 Nov 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Dream Space",
+        "Image": "company-10.svg",
+        "Email": "dreamspace@example.com",
+        "AccountURL": "ds.@example.com",
+        "Plan": "Enterprise (Monthly)",
+        "CreatedOn": "12 Oct 2024",
+        "Status": "Inactive"
+      },
+      {
+       
+        "Company": "Mega Mart",
+        "Image": "company-11.svg",
+        "Email": "megamart@example.com",
+        "AccountURL": "mm.@example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "05 Oct 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Decor Ease",
+        "Image": "company-12.svg",
+        "Email": "decorease@example.com",
+        "AccountURL": "de.@example.com",
+        "Plan": "Basic (Yearly)",
+        "CreatedOn": "09 Sep 2024",
+        "Status": "Inactive"
+      },
+      {
+       
+        "Company": "Electro World",
+        "Image": "company-13.svg",
+        "Email": "electroworld@example.com",
+        "AccountURL": "ew.@example.com",
+        "Plan": "Advanced (Monthly)",
+        "CreatedOn": "02 Sep 2024",
+        "Status": "Active"
+      },
+      {
+       
+        "Company": "Urban Home",
+        "Image": "company-14.svg",
+        "Email": "urbanhome@example.com",
+        "AccountURL": "uh.@example.com",
+        "Plan": "Enterprise (Monthly)",
+        "CreatedOn": "07 Aug 2024",
+        "Status": "Active"
+      }
+    ],
+    "totalData": 14
+  }
+  

@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "img": "product-01.jpg",
+      "sku": "PR00025",
+      "product": "Apple iPhone 15",
+      "quantity": "2",
+      "addedQuantity": "25",
+      "soldQuantity": "25",
+      "defectiveQuantity": "25",
+      "closingQuantity": "25"
+    },
+    {
+      "img": "product-02.jpg",
+      "sku": "PR00014",
+      "product": "Dell XPS 13 9310",
+      "quantity": "12",
+      "addedQuantity": "35",
+      "soldQuantity": "35",
+      "defectiveQuantity": "35",
+      "closingQuantity": "35"
+    },
+    {
+      "img": "product-03.jpg",
+      "sku": "PR00012",
+      "product": "Bose QuietComfort 45",
+      "quantity": "34",
+      "addedQuantity": "56",
+      "soldQuantity": "56",
+      "defectiveQuantity": "56",
+      "closingQuantity": "56"
+    },
+    {
+      "img": "product-04.jpg",
+      "sku": "PR00016",
+      "product": "Nike Dri-FIT T-shirt",
+      "quantity": "24",
+      "addedQuantity": "37",
+      "soldQuantity": "37",
+      "defectiveQuantity": "37",
+      "closingQuantity": "37"
+    },
+    {
+      "img": "product-05.jpg",
+      "sku": "PR00022",
+      "product": "Adidas Ultraboost 22 Running Shoe",
+      "quantity": "13",
+      "addedQuantity": "28",
+      "soldQuantity": "28",
+      "defectiveQuantity": "28",
+      "closingQuantity": "28"
+    },
+    {
+      "img": "product-06.jpg",
+      "sku": "PR00047",
+      "product": "Samsung French Door Refrigerator",
+      "quantity": "67",
+      "addedQuantity": "109",
+      "soldQuantity": "109",
+      "defectiveQuantity": "109",
+      "closingQuantity": "109"
+    },
+    {
+      "img": "product-07.jpg",
+      "sku": "PR00014",
+      "product": "Dyson V15 Detect  Vacuum Cleaner",
+      "quantity": "13",
+      "addedQuantity": "25",
+      "soldQuantity": "25",
+      "defectiveQuantity": "25",
+      "closingQuantity": "25"
+    },
+    {
+      "img": "product-08.jpg",
+      "sku": "PR00031",
+      "product": "HP Spectre x360 14",
+      "quantity": "25",
+      "addedQuantity": "58",
+      "soldQuantity": "58",
+      "defectiveQuantity": "58",
+      "closingQuantity": "58"
+    },
+    {
+      "img": "product-09.jpg",
+      "sku": "PR00077",
+      "product": "Dyson Supersonic Hair Dryer",
+      "quantity": "24",
+      "addedQuantity": "42",
+      "soldQuantity": "42",
+      "defectiveQuantity": "42",
+      "closingQuantity": "42"
+    },
+    {
+      "img": "product-10.jpg",
+      "sku": "PR00045",
+      "product": "Apple AirPods Pro",
+      "quantity": "65",
+      "addedQuantity": "98",
+      "soldQuantity": "98",
+      "defectiveQuantity": "98",
+      "closingQuantity": "98"
+    },
+    {
+      "img": "product-11.jpg",
+      "sku": "PR00021",
+      "product": "Levi’s 501 Original Fit Jeans",
+      "quantity": "23",
+      "addedQuantity": "65",
+      "soldQuantity": "65",
+      "defectiveQuantity": "65",
+      "closingQuantity": "65"
+    },
+    {
+      "img": "product-12.jpg",
+      "sku": "PR00074",
+      "product": "CeraVe Hydrating Facial Cleanser",
+      "quantity": "12",
+      "addedQuantity": "36",
+      "soldQuantity": "36",
+      "defectiveQuantity": "36",
+      "closingQuantity": "36"
+    },
+    {
+      "img": "product-13.jpg",
+      "sku": "PR00048",
+      "product": "Giro Synthe MIPS Helmet",
+      "quantity": "43",
+      "addedQuantity": "70",
+      "soldQuantity": "70",
+      "defectiveQuantity": "70",
+      "closingQuantity": "70"
+    },
+    {
+      "img": "product-14.jpg",
+      "sku": "PR00022",
+      "product": "OnePlus 11 5G",
+      "quantity": "20",
+      "addedQuantity": "54",
+      "soldQuantity": "54",
+      "defectiveQuantity": "54",
+      "closingQuantity": "54"
+    }
+  ],
+
+
+  
+  "totalData": 14
+}
