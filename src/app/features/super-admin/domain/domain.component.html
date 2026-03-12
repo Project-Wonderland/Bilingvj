@@ -1,0 +1,620 @@
+ <!-- Start Content -->
+ <div class="content-two">
+  <!-- Page Header -->
+  <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+      <div>
+          <h6>Domain</h6>
+      </div>
+      <div class="d-flex my-xl-auto right-content align-items-center flex-wrap gap-2">
+          <div class="dropdown me-1">
+              <a href="javascript:void(0);" class="btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                  <i class="isax isax-export-1 me-1"></i>Export
+              </a>
+              <ul class="dropdown-menu">
+                  <li>
+                      <a class="dropdown-item" href="javascript:void(0);">Download as PDF</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-item" href="javascript:void(0);">Download as Excel</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <!-- End Page Header -->
+
+  <!-- Table Search Start -->
+  <div class="mb-3">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+          <div class="d-flex align-items-center flex-wrap gap-2">
+              <div class="table-search d-flex align-items-center mb-0">
+                <div class="search-input">
+                  <a href="javascript:void(0);" class="btn-searchset"><i class="isax isax-search-normal fs-12"></i></a>
+                  <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                    <label> 
+                    <input type="search" [(ngModel)]="searchDataValue" [ngModelOptions]="{ standalone: true }" type="search" (ngModelChange)="searchData(searchDataValue)" class="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0">
+                  </label>
+                </div>
+                </div>
+              </div>
+              <a class="btn btn-outline-white fw-normal d-inline-flex align-items-center" href="javascript:void(0);" data-bs-toggle="offcanvas" data-bs-target="#customcanvas">
+                  <i class="isax isax-filter me-1"></i>Filter
+              </a>
+          </div>
+          <div class="d-flex align-items-center flex-wrap gap-2">
+              <div class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle btn btn-outline-white d-inline-flex align-items-center fw-medium" data-bs-toggle="dropdown">
+                      <i class="isax isax-sort me-1"></i>Sort By : <span class="fw-normal ms-1">Latest</span>
+                  </a>
+                  <ul class="dropdown-menu  dropdown-menu-end">
+                      <li>
+                          <a href="javascript:void(0);" class="dropdown-item">Latest</a>
+                      </li>
+                      <li>
+                          <a href="javascript:void(0);" class="dropdown-item">Oldest</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                      <i class="isax isax-grid-3 me-1"></i>Column
+                  </a>
+                  <ul class="dropdown-menu  dropdown-menu-lg">
+                      <li>
+                          <label class="dropdown-item d-flex align-items-center form-switch">
+                              <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                              <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                              <span>Company</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="dropdown-item d-flex align-items-center form-switch">
+                              <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                              <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                              <span>Domain URL</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="dropdown-item d-flex align-items-center form-switch">
+                              <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                              <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                              <span>Plan</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="dropdown-item d-flex align-items-center form-switch">
+                              <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                              <input class="form-check-input m-0 me-2" type="checkbox">
+                              <span>Created On</span>
+                          </label>
+                      </li>
+                      <li>
+                          <label class="dropdown-item d-flex align-items-center form-switch">
+                              <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                              <input class="form-check-input m-0 me-2" type="checkbox">
+                              <span>Status</span>
+                          </label>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- /Table Search End -->
+
+  <!-- Table List Start -->
+        <div class="table-responsive">
+          <table matSort (matSortChange)="sortData($event)" class="table table-nowrap datatable dataTable">
+            <thead class="thead-light">
+              <tr>
+                <th class="no-sort">
+                  <div class="form-check form-check-md" (click)="selectAll(initChecked)">
+                    <input class="form-check-input" type="checkbox" id="select-all" [(ngModel)]="initChecked">
+                  </div>
+                </th>
+                  <th class="no-sort">Company</th>
+                  <th class="no-sort">Domain URL</th>
+                  <th class="no-sort">Plan</th>
+                  <th mat-sort-header="created">Created On</th>
+                  <th mat-sort-header="status">Status</th>
+                  <th class="no-sort"></th>
+              </tr>
+          </thead>
+          <tbody>
+            @for (data of tableData;track data){
+              <tr>
+                  <td>
+                      <div class="form-check form-check-md">
+                          <input class="form-check-input" type="checkbox" [(ngModel)]="data.isSelected">
+                      </div>
+                  </td>
+                  <td>
+                      <div class="d-flex align-items-center">
+                          <a href="javascript:void(0);" class="avatar avatar-sm rounded-circle me-2 flex-shrink-0">
+                              <img src="assets/img/icons/{{data.Image}}" class="rounded-circle" alt="img">
+                          </a>
+                          <div>
+                              <h6 class="fs-14 fw-medium mb-0"><a href="javascript:void(0);">{{data.Company}}</a></h6>
+                          </div>
+                      </div>
+                  </td>
+                  <td>{{data.DomainURL}}</td>
+                  <td>{{data.Plan}}</td>
+                  <td>{{data.CreatedOn}}</td>
+                  <td>
+                      <span href="javascript:void(0);" class="badge badge-sm d-inline-flex align-items-center"
+                          [ngClass]="data.Status==='Approved'?'badge-soft-success':data.Status==='Pending'?'badge-soft-warning':'badge-soft-danger'">
+                            {{data.Status}} 
+                          <i class="isax ms-1"
+                          [ngClass]="data.Status==='Approved'?' isax-tick-circle':data.Status==='Pending'?' isax-timer':' isax-close-circle'"></i>
+										</span>
+                  </td>
+                  <td class="action-item">
+                      <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                          <i class="fa-solid fa-ellipsis"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#domain_approved"><i class="isax isax-eye me-2"></i>View</a>
+                          </li>
+                          <li>
+                              <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                          </li>
+                      </ul>
+                  </td>
+              </tr>
+            }
+            @if(tableData.length === 0){
+              <tr>
+                <td colspan="12" class="text-center text-dark">No matching records found</td>
+              </tr>
+              }
+          </tbody>
+      </table>
+  </div>
+  <!-- /Table List End -->
+  <app-custom-pagination *ngIf="row"></app-custom-pagination>
+
+</div>
+<!-- End Content -->
+
+<!-- Start Filter -->
+<div class="offcanvas offcanvas-offset offcanvas-end" tabindex="-1" id="customcanvas">
+  <div class="offcanvas-header d-block pb-0">
+      <div class="border-bottom d-flex align-items-center justify-content-between pb-3">
+          <h6 class="offcanvas-title">Filter</h6>
+          <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+      </div>
+  </div>
+  <div class="offcanvas-body pt-3">
+      <form action="#">
+          <div class="mb-3">
+              <label class="form-label">Company</label>
+              <div class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                    Select
+                  </a>
+                  <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                      <div class="mb-3">
+                          <div class="input-icon-start position-relative">
+                              <span class="input-icon-addon fs-12">
+                                <i class="isax isax-search-normal"></i>
+                              </span>
+                              <input type="text" class="form-control form-control-sm" placeholder="Search">
+                          </div>
+                      </div>
+                      <ul class="mb-3">
+                          <li class="d-flex align-items-center justify-content-between mb-3">
+                              <label class="d-inline-flex align-items-center text-gray-9">
+                                  <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                              </label>
+                              <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-01.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Trend Hive
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-02.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Quick Cart
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-03.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Tech Bazaar
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-04.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Harvest Basket
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-05.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Elite Mart
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/icons/company-06.svg" class="flex-shrink-0 rounded-circle" alt="img"></span>Prime Mart
+                              </label>
+                          </li>
+                      </ul>
+                      <div class="row g-2">
+                          <div class="col-6">
+                              <a href="javascript:void(0);" class="btn btn-outline-white w-100" id="close-filter">Cancel</a>
+                          </div>
+                          <div class="col-6">
+                              <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Plan</label>
+              <div class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                    Select
+                  </a>
+                  <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                      <div class="mb-3">
+                          <div class="input-icon-start position-relative">
+                              <span class="input-icon-addon fs-12">
+                                <i class="isax isax-search-normal"></i>
+                              </span>
+                              <input type="text" class="form-control form-control-sm" placeholder="Search">
+                          </div>
+                      </div>
+                      <ul class="mb-3">
+                          <li class="d-flex align-items-center justify-content-between mb-3">
+                              <label class="d-inline-flex align-items-center text-gray-9">
+                                  <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                              </label>
+                              <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox"> Advanced (Monthly)
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox"> Basic (Yearly)
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox"> Enterprise (Monthly)
+                              </label>
+                          </li>
+                      </ul>
+                      <div class="row g-2">
+                          <div class="col-6">
+                              <a href="javascript:void(0);" class="btn btn-outline-white w-100" id="close-filter-1">Cancel</a>
+                          </div>
+                          <div class="col-6">
+                              <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Status</label>
+              <div class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                    Select
+                  </a>
+                  <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                      <ul class="mb-3">
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <i class="fa-solid fa-circle fs-6 text-success me-1"></i>Approved
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <i class="fa-solid fa-circle fs-6 text-warning me-1"></i>Pending
+                              </label>
+                          </li>
+                          <li>
+                              <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                  <input class="form-check-input m-0 me-2" type="checkbox">
+                                  <i class="fa-solid fa-circle fs-6 text-danger me-1"></i>Rejected
+                              </label>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="offcanvas-footer">
+              <div class="row g-2">
+                  <div class="col-6">
+                      <a href="javascript:void(0);" class="btn btn-outline-white w-100">Reset</a>
+                  </div>
+                  <div class="col-6">
+                      <button data-bs-dismiss="offcanvas" class="btn btn-primary w-100" id="filter-submit">Submit</button>
+                  </div>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>
+<!-- /Filter End -->
+
+<!-- Domain Details Start -->
+<div class="modal fade" id="domain_approved">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title d-flex align-items-center">
+                Domain Detail
+                <span class="badge badge-soft-success d-inline-flex align-items-center badge-xs ms-2 border">
+                  Approved<i class="isax isax-tick-circle ms-1"></i>
+                </span>
+              </h4>
+              <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+          </div>
+          <form>
+              <div class="modal-body pb-0">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="mb-3">
+                              <div class="p-3 mb-3 br-5 bg-light border">
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                          <div class="d-flex align-items-center file-name-icon position-relative z-1">
+                                              <a href="javascript:void(0);" class="avatar avatar-md border avatar-rounded">
+                                                  <img src="assets/img/icons/company-01.svg" class="img-fluid" alt="img">
+                                              </a>
+                                              <div class="ms-2">
+                                                  <h6><a href="javascript:void(0);">Trend Hive</a></h6>
+                                              </div>
+                                              <img src="assets/img/bg/domin-bg-1.png" class="img-fluid position-absolute end-0 z-n1" alt="img">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Name</span>
+                              <h6 class="fs-14 fw-medium mb-0">Advanced</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Type</span>
+                              <h6 class="fs-14 fw-medium mb-0">Monthly</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Account URL</span>
+                              <h6 class="fs-14 fw-medium mb-0">th.example.com</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Price</span>
+                              <h6 class="fs-14 fw-medium mb-0">$200</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Register Date</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Jan 2025</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Expiring On</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Feb 2025</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+<!-- /Domain Details End -->
+
+<!-- Domain Details Start -->
+<div class="modal fade" id="domain_pending">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title d-flex align-items-center">
+    Domain Detail
+    <span class="badge badge-soft-warning d-inline-flex align-items-center badge-xs ms-2">
+      Pending<i class="isax isax-tick-circle ms-1"></i>
+    </span>
+  </h4>
+              <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-x"></i>
+              </button>
+          </div>
+          <form>
+              <div class="modal-body pb-0">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="mb-3">
+                              <div class="p-3 mb-3 br-5 bg-light">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <div class="d-flex align-items-center file-name-icon position-relative z-1">
+                                              <a href="javascript:void(0);" class="avatar avatar-md border avatar-rounded">
+                                                  <img src="assets/img/icons/company-01.svg" class="img-fluid" alt="img">
+                                              </a>
+                                              <div class="ms-2">
+                                                  <h6><a href="javascript:void(0);">Trend Hive</a></h6>
+                                              </div>
+                                              <img src="assets/img/bg/domin-bg-1.png" class="img-fluid position-absolute end-0 bottom-0 top-0 z-n1" alt="img">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6 text-end">
+                                          <span class="badge badge-soft-success d-inline-flex align-items-center badge-xs ms-2">
+                  Approved<i class="isax isax-tick-circle ms-1"></i>
+                </span>
+                                          <span class="badge badge-soft-danger d-inline-flex align-items-center badge-xs ms-2">
+                  Rejected<i class="isax isax-close-circle ms-1"></i>
+                </span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Name</span>
+                              <h6 class="fs-14 fw-medium mb-0">Advanced</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Type</span>
+                              <h6 class="fs-14 fw-medium mb-0">Monthly</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Account URL</span>
+                              <h6 class="fs-14 fw-medium mb-0">th.example.com</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Price</span>
+                              <h6 class="fs-14 fw-medium mb-0">$200</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Register Date</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Jan 2025</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Expiring On</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Feb 2025</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+<!-- /Domain Details End -->
+
+<!-- Domain Details Start -->
+<div class="modal fade" id="domain_rejected">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title d-flex align-items-center">
+                Domain Detail
+                <span class="badge badge-soft-danger d-inline-flex align-items-center badge-xs ms-2">
+                  Rejected<i class="isax isax-tick-circle ms-1"></i>
+                </span>
+              </h4>
+              <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+          </div>
+          <form>
+              <div class="modal-body pb-0">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="mb-3">
+                              <div class="p-3 mb-3 br-5 bg-light">
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                          <div class="d-flex align-items-center file-name-icon position-relative z-1">
+                                              <a href="javascript:void(0);" class="avatar avatar-md border avatar-rounded">
+                                                  <img src="assets/img/icons/company-01.svg" class="img-fluid" alt="img">
+                                              </a>
+                                              <div class="ms-2">
+                                                  <h6><a href="javascript:void(0);">Trend Hive</a></h6>
+                                              </div>
+                                              <img src="assets/img/bg/domin-bg-1.png" class="img-fluid position-absolute end-0 z-n1" alt="img">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Name</span>
+                              <h6 class="fs-14 fw-medium mb-0">Advanced</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Plan Type</span>
+                              <h6 class="fs-14 fw-medium mb-0">Monthly</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Account URL</span>
+                              <h6 class="fs-14 fw-medium mb-0">th.example.com</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Price</span>
+                              <h6 class="fs-14 fw-medium mb-0">$200</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Register Date</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Jan 2025</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="mb-3">
+                              <span class="fs-13">Expiring On</span>
+                              <h6 class="fs-14 fw-medium mb-0">03 Feb 2025</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+<!-- /Domain Details End -->
+
+<!-- Delete Modal Start  -->
+<div class="modal fade" id="delete_modal">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+      <div class="modal-content">
+          <div class="modal-body text-center">
+              <div class="mb-3">
+                  <img src="assets/img/icons/delete.svg" alt="img">
+              </div>
+              <h6 class="mb-1">Delete Domain</h6>
+              <p class="mb-3">Are you sure, you want to delete domain?</p>
+              <div class="d-flex justify-content-center">
+                  <a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+                  <a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Yes, Delete</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- /Delete Modal  End -->

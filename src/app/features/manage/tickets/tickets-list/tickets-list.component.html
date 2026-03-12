@@ -1,0 +1,398 @@
+            <!-- Start Content -->
+            <div class="content-two">
+
+                <!-- Page Header -->
+                <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+                    <div>
+                        <h6>Tickets</h6>
+                    </div>
+                    <div class="d-flex my-xl-auto right-content align-items-center flex-wrap gap-2">
+                        <div class="d-flex align-items-center">
+                            <a [routerLink]="routes.ticketLists" class="btn btn-outline-white p-2 d-inline-flex align-items-center justify-content-center me-2"><i class="isax isax-menu-1"></i></a>
+                            <a [routerLink]="routes.ticketList" class="btn btn-primary p-2 d-inline-flex align-items-center justify-content-center me-2"><i class="isax isax-grid-25"></i></a>
+                            <a [routerLink]="routes.ticketKanban" class="btn btn-outline-white p-2 d-inline-flex align-items-center justify-content-center me-1"><i class="isax isax-kanban"></i></a>
+                        </div>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                                <i class="isax isax-export-1 me-1"></i>Export
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as PDF</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as Excel</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0);" class="btn btn-primary d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#add_modal">
+                                <i class="isax isax-add-circle5 me-1"></i>New Ticket
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                                    <div>
+                                        <p class="mb-1">Total Tickets</p>
+                                        <h6 class="fs-16 fw-semibold">298</h6>
+                                    </div>
+                                    <div>
+                                        <span class="avatar bg-primary rounded-circle">
+											<i class="isax isax-receipt-item"></i>
+										</span>
+                                    </div>
+                                </div>
+                                <p class="fs-13 mb-0"><span class="text-success"><i class="isax isax-send text-success me-1"></i>5.62%</span>from last month</p>
+                                <span class="position-absolute end-0 bottom-0">
+									<img src="assets/img/bg/card-overlay-01.svg" alt="User Img">
+								</span>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                                    <div>
+                                        <p class="mb-1">Completed Tickets</p>
+                                        <h6 class="fs-16 fw-semibold">185</h6>
+                                    </div>
+                                    <div>
+                                        <span class="avatar bg-success rounded-circle">
+											<i class="isax isax-tick-circle"></i>
+										</span>
+                                    </div>
+                                </div>
+                                <p class="fs-13 mb-0"><span class="text-success"><i class="isax isax-send text-success me-1"></i>11.4%</span> from last month</p>
+                                <span class="position-absolute end-0 bottom-0">
+									<img src="assets/img/bg/card-overlay-02.svg" alt="User Img">
+								</span>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                                    <div>
+                                        <p class="mb-1">In Progress Tickets</p>
+                                        <h6 class="fs-16 fw-semibold">32</h6>
+                                    </div>
+                                    <div>
+                                        <span class="avatar bg-warning rounded-circle">
+											<i class="isax isax-timer"></i>
+										</span>
+                                    </div>
+                                </div>
+                                <p class="fs-13 mb-0"><span class="text-success"><i class="isax isax-send text-success me-1"></i>8.52%</span> from last month</p>
+                                <span class="position-absolute end-0 bottom-0">
+									<img src="assets/img/bg/card-overlay-03.svg" alt="User Img">
+								</span>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
+                                    <div>
+                                        <p class="mb-1">Closed Tickets</p>
+                                        <h6 class="fs-16 fw-semibold">24</h6>
+                                    </div>
+                                    <div>
+                                        <span class="avatar bg-danger rounded-circle">
+											<i class="isax isax-information"></i>
+										</span>
+                                    </div>
+                                </div>
+                                <p class="fs-13 mb-0"><span class="text-danger"><i class="isax isax-received text-danger me-1"></i>7.45%</span> from last month</p>
+                                <span class="position-absolute end-0 bottom-0">
+									<img src="assets/img/bg/card-overlay-04.svg" alt="User Img">
+								</span>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <ul class="nav nav-tabs nav-bordered mb-3 ticket-list-tab">
+                    <li class="nav-item"><a class="nav-link active" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#tab-1">All</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#tab-2">Open</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#tab-3">Resolved</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#tab-4">Pending</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);" data-bs-toggle="tab" data-bs-target="#tab-5">Closed</a></li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                        <div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap">
+                                        <div class="d-flex align-items-center">
+                                            <h6 class="fs-14 me-2 fw-semibold">Support For Theme</h6>
+                                            <span class="badge badge-soft-success badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-success me-2"></span>Resolved</span>
+                                        </div>
+                                        <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                    </div>
+                                    <p>Our support ticket system ensures quick resolution for your queries. Easily submit tickets for technical issues, billing inquiries, or feature requests. Track your ticket status in real-time and receive prompt assistance from our support team. Stay organized and get the help you need efficiently.</p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="badge badge-soft-danger badge-sm d-flex align-items-center justify-content-center me-3">Medium</span>
+                                        <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                        <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1 text-gray-9"></i>14</span>
+                                    </div>
+                                </div><!-- end card body -->
+                            </div><!-- end card -->
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap">
+                                        <div class="d-flex align-items-center">
+                                            <h6 class="fs-14 me-2 fw-semibold text-capitalize">Verify your email</h6>
+                                            <span class="badge badge-soft-warning badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-warning me-2"></span>Pending</span>
+                                        </div>
+                                        <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                    </div>
+                                    <p>Please verify your email to activate your account and access all features. Click the verification link sent to your inbox. If you haven’t received it, check your spam folder or request a new link. Secure your account and start managing your finances effortlessly!</p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="badge badge-soft-danger badge-sm d-flex align-items-center justify-content-center me-3">High</span>
+                                        <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                        <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1 text-gray-9"></i>14</span>
+                                    </div>
+                                </div><!-- end card body -->
+                            </div><!-- end card -->
+
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap">
+                                        <div class="d-flex align-items-center">
+                                            <h6 class="fs-14 me-2 fw-semibold text-capitalize">Calling for help</h6>
+                                            <span class="badge badge-soft-success badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-success me-2"></span>Open</span>
+                                        </div>
+                                        <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                    </div>
+                                    <p>If you require immediate support, don't hesitate to call our help center. Our dedicated team is available to assist with technical issues, billing inquiries, and general questions. Contact us for quick and reliable support to keep your accounting operations running smoothly!</p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="badge badge-soft-primary badge-sm d-flex align-items-center justify-content-center me-3">low</span>
+                                        <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                        <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1 text-gray-9"></i>14</span>
+                                    </div>
+                                </div><!-- end card body -->
+                            </div><!-- end card -->
+
+                            <div class="card mb-0">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+                                        <div class="d-flex align-items-center">
+                                            <h6 class="fs-14 me-2 fw-semibold text-capitalize">Management</h6>
+                                            <span class="badge badge-soft-light text-dark badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-dark me-2"></span>Closed</span>
+                                        </div>
+                                        <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                    </div>
+                                    <p>Streamline your business operations with smart financial management tools. Automate invoicing, track expenses, generate reports, and stay tax-compliant with ease. Manage everything from one centralized platform, ensuring efficiency, accuracy, and growth. Take control of your finances and focus on what truly matters—your business success!</p>
+                                    <div class="d-flex align-items-center">
+                                        <span class="badge badge-soft-danger badge-sm d-flex align-items-center justify-content-center me-3">Medium</span>
+                                        <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                        <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1 text-gray-9"></i>14</span>
+                                    </div>
+                                </div><!-- end card body -->
+                            </div><!-- end card -->
+                            
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                    <div class="d-flex align-items-center">
+                                        <h6 class="fs-14 me-2 fw-semibold text-capitalize">Calling for help</h6>
+                                        <span class="badge badge-soft-success badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-success me-2"></span>Open</span>
+                                    </div>
+                                    <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                </div>
+                                <p>If you require immediate support, don't hesitate to call our help center. Our dedicated team is available to assist with technical issues, billing inquiries, and general questions. Contact us for quick and reliable support to keep your accounting operations running smoothly!</p>
+                                <div class="d-flex align-items-center">
+                                    <span class="badge badge-soft-primary badge-sm d-flex align-items-center justify-content-center me-3">low</span>
+                                    <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                    <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1 "></i>14</span>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div>
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                    <div class="d-flex align-items-center">
+                                        <h6 class="fs-14 me-2 fw-semibold text-capitalize">Support For Theme</h6>
+                                        <span class="badge badge-soft-success badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-success me-2"></span>Resolved</span>
+                                    </div>
+                                    <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                </div>
+                                <p>Our support ticket system ensures quick resolution for your queries. Easily submit tickets for technical issues, billing inquiries, or feature requests. Track your ticket status in real-time and receive prompt assistance from our support team. Stay organized and get the help you need efficiently.</p>
+                                <div class="d-flex align-items-center">
+                                    <span class="badge badge-soft-danger badge-sm d-flex align-items-center justify-content-center me-3">Medium</span>
+                                    <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                    <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1"></i>14</span>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div>
+                    <div class="tab-pane fade" id="tab-4" role="tabpanel">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                    <div class="d-flex align-items-center">
+                                        <h6 class="fs-14 me-2 fw-semibold text-capitalize">Verify your email</h6>
+                                        <span class="badge badge-soft-warning badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-warning me-2"></span>Pending</span>
+                                    </div>
+                                    <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                </div>
+                                <p>Please verify your email to activate your account and access all features. Click the verification link sent to your inbox. If you haven’t received it, check your spam folder or request a new link. Secure your account and start managing your finances effortlessly!</p>
+                                <div class="d-flex align-items-center">
+                                    <span class="badge badge-soft-danger badge-sm d-flex align-items-center justify-content-center me-3">High</span>
+                                    <span class="badge badge-soft-light text-dark badge-sm d-flex align-items-center justify-content-center me-3">#1234</span>
+                                    <span class="fs-12 text-gray-9"><i class="isax isax-message-text me-1"></i>14</span>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div>
+                    <div class="tab-pane fade" id="tab-5" role="tabpanel">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                    <div class="d-flex align-items-center">
+                                        <h6 class="fs-14 me-2 fw-semibold">Management</h6>
+                                        <span class="badge badge-soft-light text-dark badge-sm d-inline-flex align-items-center"><span class="badge-dot bg-dark me-2"></span>Closed</span>
+                                    </div>
+                                    <span class="d-flex align-items-center text-gray-9 fs-12"><i class="isax isax-clock me-1"></i>Just Now</span>
+                                </div>
+                                <p>Streamline your business operations with smart financial management tools. Automate invoicing, track expenses, generate reports, and stay tax-compliant with ease. Manage everything from one centralized platform, ensuring efficiency, accuracy, and growth. Take control of your finances and focus on what truly matters—your business success!</p>
+                                <div class="d-flex align-items-center">
+                                    <span class="badge badge-soft-danger badge-xs d-flex align-items-center justify-content-center me-3">Medium</span>
+                                    <span class="badge badge-soft-light text-dark badge-xs d-flex align-items-center justify-content-center me-3">#1234</span>
+                                    <span><i class="isax isax-message-text me-1"></i>14</span>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Content -->
+
+
+
+                    <!-- Add Modal Start -->
+        <div id="add_modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add New Ticket</h4>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Subject<span class="text-danger ms-1">*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Assigned Name<span class="text-danger ms-1">*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label id="dateRangePicker" class="form-label">Assigned Date<span class="text-danger ms-1">*</span></label>
+                                        <div class="input-group position-relative mb-3 ngxdate">
+                                            <input type="text" class="form-control datetimepicker rounded-end" bsDatepicker container=".ngxdate" placeholder="dd/mm/yyyy">
+                                            <span class="input-icon-addon fs-16 text-gray-9">
+                                                <i class="isax isax-calendar-2"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label id="dateRangePicker" class="form-label">Created Date<span class="text-danger ms-1">*</span></label>
+                                        <div class="input-group position-relative mb-3 ngxdate1">
+                                            <input type="text" class="form-control datetimepicker rounded-end" bsDatepicker container=".ngxdate1" placeholder="dd/mm/yyyy">
+                                            <span class="input-icon-addon fs-16 text-gray-9">
+                                                <i class="isax isax-calendar-2"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label id="dateRangePicker" class="form-label">Due Date<span class="text-danger ms-1">*</span></label>
+                                        <div class="input-group position-relative mb-3 ngxdate2">
+                                            <input type="text" class="form-control datetimepicker rounded-end" bsDatepicker container=".ngxdate2" placeholder="dd/mm/yyyy">
+                                            <span class="input-icon-addon fs-16 text-gray-9">
+                                                <i class="isax isax-calendar-2"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Assignee Name<span class="text-danger ms-1">*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Priority</label>
+                                        <mat-select class="custom-mat-select select" placeholder="Select">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">Medium</mat-option>
+                                            <mat-option value="1">Low</mat-option>
+                                            <mat-option value="1">High</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Status</label>
+                                        <mat-select class="custom-mat-select select" placeholder="Select">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">Resolved</mat-option>
+                                            <mat-option value="1">Closed</mat-option>
+                                            <mat-option value="1">Open</mat-option>
+                                            <mat-option value="1">Pending</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <div>
+                                    <label class="form-label">Content<span class="text-danger ms-1">*</span></label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                            <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Add Modal End -->

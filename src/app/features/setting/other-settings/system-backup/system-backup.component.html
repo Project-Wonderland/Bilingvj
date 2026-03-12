@@ -1,0 +1,154 @@
+<div class="">
+    <div>
+        <div class="pb-3 border-bottom mb-3">
+            <h6 class="mb-0">System Backup</h6>
+        </div>
+        
+        <!-- start row -->
+        <div class="row justify-content-between align-items-center pb-1">
+            <div class="col-md-5 mb-3">
+                <div class="input-icon-start position-relative">
+                    <span class="input-icon-addon">
+                        <i class="isax isax-search-normal"></i>
+                    </span>
+                    <input type="text" class="form-control form-control-sm bg-white" placeholder="Search">
+                </div>	
+            </div><!-- end col -->
+            <div class="col-md-7 text-end mb-3">
+                <a href="javascript:void(0);" class="btn btn-primary d-inline-flex align-items-center" data-bs-toggle="modal" data-bs-target="#generate_modal"><i class="isax isax-folder-connection5 me-1"></i>Generate Backup</a>
+            </div><!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <!-- Table List -->
+        <div class="table-responsive table-nowrap">
+            <table class="table border dataTable">
+                <thead class="table-light">
+                    <tr>
+                        <th class="no-sort">Template Name</th>
+                        <th class="no-sort">Created On</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="text-dark">customer_data_backup_2025.txt</p>
+                        </td>
+                        <td>
+                            22 Feb 2025
+                        </td>
+                        <td class="action-item">
+                            <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                <i class="isax isax-more"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text-dark">invoice_records_backup_2024.txt</p>
+                        </td>
+                        <td>
+                            07 Feb 2025
+                        </td>
+                        <td class="action-item">
+                            <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                <i class="isax isax-more"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text-dark">sales_transactions_2024.txt</p>
+                        </td>
+                        <td>
+                            30 Jan 2025
+                        </td>
+                        <td class="action-item">
+                            <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                <i class="isax isax-more"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="text-dark">payment_transactions_2024</p>
+                        </td>
+                        <td>
+                            02 Jan 2025
+                        </td>
+                        <td class="action-item">
+                            <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                <i class="isax isax-more"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /Table List -->
+
+    </div>
+</div><!-- end col -->
+
+
+        <!-- Add Modal Start -->
+		<div class="modal fade" id="generate_modal">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<div class="mb-3">
+							<i class="isax isax-folder-24 fs-48 text-primary fw-normal"></i>
+						</div>
+						<h6 class="mb-1">Generate Backup</h6>
+						<p class="mb-3">Are you sure you want to generate database backup?</p>
+						<div class="d-flex justify-content-center">
+							<a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+							<a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Generate</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Add Modal End -->
+
+
+        <!-- Delete Modal Start -->
+		<div class="modal fade" id="delete_modal">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<div class="mb-3">
+							<img src="assets/img/icons/delete.svg" alt="img">
+						</div>
+						<h6 class="mb-1">Delete System Backup</h6>
+						<p class="mb-3">Are you sure,  you want to delete System Backup?</p>
+						<div class="d-flex justify-content-center">
+							<a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+							<a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Yes, Delete</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Delete Modal End -->

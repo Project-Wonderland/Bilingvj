@@ -1,0 +1,111 @@
+{
+    "data":[
+        {
+          "img": "avatar-28.jpg",
+          "customer": "Emily Clark",
+          "email": "emily@example.com",
+          "content": "Great insights! This article really helped me understand the topic better. Looking forward to more informative content from you!",
+          "createdOn": "22 Feb 2025"
+        },
+        {
+          "img": "avatar-21.jpg",
+          "customer": "John Carter",
+          "email": "john@example.com",
+          "content": "Excellent write-up! The examples made it easier to grasp the concept. Keep sharing such valuable knowledge with your readers!",
+          "createdOn": "07 Feb 2025"
+        },
+        {
+          "img": "avatar-12.jpg",
+          "customer": "Sophia White",
+          "email": "sophia@example.com",
+          "content": "I never thought about it this way. Your perspective is truly eye-opening. Thanks for sharing such a detailed explanation!",
+          "createdOn": "30 Jan 2025"
+        },
+        {
+          "img": "avatar-06.jpg",
+          "customer": "Michael Johnson",
+          "email": "michael@example.com",
+          "content": "Very informative and well-structured content. I appreciate the effort you put into breaking down this complex topic. Well done!",
+          "createdOn": "17 Jan 2025"
+        },
+        {
+          "img": "avatar-30.jpg",
+          "customer": "Olivia Harris",
+          "email": "olivia@example.com",
+          "content": "This was exactly what I needed to read today. Your points are well-articulated and backed by solid reasoning. Thank you!",
+          "createdOn": "04 Jan 2025"
+        },
+        {
+          "img": "avatar-16.jpg",
+          "customer": "David Anderson",
+          "email": "david@example.com",
+          "content": "This was exactly what I needed to read today. Your points are well-articulated and backed by solid reasoning. Thank you!",
+          "createdOn": "04 Jan 2025"
+        },
+        {
+          "img": "avatar-09.jpg",
+          "customer": "Emma Lewis",
+          "email": "emma@example.com",
+          "content": "Impressive analysis! You covered all the key aspects thoroughly. The writing style is engaging and keeps readers hooked until the end.",
+          "createdOn": "02 Dec 2024"
+        },
+        {
+          "img": "avatar-23.jpg",
+          "customer": "Robert Thomas",
+          "email": "robert@example.com",
+          "content": "Thanks for sharing! The step-by-step approach really helps in understanding. Can you provide more examples on this subject?",
+          "createdOn": "15 Nov 2024"
+        },
+        {
+          "img": "avatar-07.jpg",
+          "customer": "Isabella Scott",
+          "email": "scott@example.com",
+          "content": "Insightful read! I particularly liked the way you explained complex ideas in simple terms. Looking forward to your next post!",
+          "createdOn": "30 Nov 2024"
+        },
+        {
+          "img": "avatar-31.jpg",
+          "customer": "Daniel Martinez",
+          "email": "daniel@example.com",
+          "content": "Brilliant content! This was very helpful for beginners like me. Please share more tips on practical applications of this concept.",
+          "createdOn": "12 Oct 2024"
+        },
+        {
+          "img": "avatar-31.jpg",
+          "customer": "Daniel Martinez",
+          "email": "daniel@example.com",
+          "content": "Brilliant content! This was very helpful for beginners like me. Please share more tips on practical applications of this concept.",
+          "createdOn": "12 Oct 2024"
+        },
+        {
+          "img": "avatar-23.jpg",
+          "customer": "Charlotte Brown",
+          "email": "chaelotte@example.com",
+          "content": "Your writing always provides clarity. I appreciate how you simplify technical topics without losing depth. Keep up the great work!",
+          "createdOn": "05 Oct 2024"
+        },
+        {
+          "img": "avatar-33.jpg",
+          "customer": "William Parker",
+          "email": "william@example.com",
+          "content": "Great points! I learned something new today. Would love to hear your thoughts on how this applies in real-world scenarios.",
+          "createdOn": "09 Sep 2024"
+        },
+        {
+          "img": "avatar-34.jpg",
+          "customer": "Mia Thompson",
+          "email": "mia@example.com",
+          "content": "This post stands out because of its well-researched insights. I appreciate the detailed breakdown. Looking forward to more content like this!",
+          "createdOn": "02 Sep 2024"
+        },
+        {
+          "img": "avatar-35.jpg",
+          "customer": "Amelia Robinson",
+          "email": "amelia@example.com",
+          "content": "Fantastic article! The way you structured the information made it very digestible. Keep sharing such valuable knowledge with us!",
+          "createdOn": "02 Sep 2024"
+        }
+      ]
+      ,
+      "totalData":14      
+}

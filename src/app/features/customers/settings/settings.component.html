@@ -1,0 +1,51 @@
+			<!-- Start Content -->
+            <div class="">
+
+				<!-- start row -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-11">
+
+						<!-- start row -->
+                        <div class=" row settings-wrapper d-flex">
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="card settings-card">
+                                    <div class="card-header">
+                                        <h6 class="mb-0">Settings</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="sidebars settings-sidebar">
+                                            <div class="sidebar-inner">
+                                                <div class="sidebar-menu p-0">
+                                                    <ul>
+                                                        <li>
+                                                            <a [routerLink]="routes.customerAccountsettings" routerLinkActive="active" class="fs-14 fw-medium d-flex align-items-center"><i class="isax isax-user-octagon fs-18 me-1"></i>Account Settings</a>
+                                                        </li>
+                                                        <li>
+                                                            <a [routerLink]="routes.customerSecuritysettings" routerLinkActive="active" class="fs-14 fw-medium d-flex align-items-center active"><i class="isax isax-security-safe fs-18 me-1"></i>Security</a>
+                                                        </li>
+                                                        <li>
+                                                            <a [routerLink]="routes.customerPlanssettings" routerLinkActive="active" class="fs-14 fw-medium d-flex align-items-center"><i class="isax isax-transaction-minus fs-18 me-1"></i>Plans & Billings</a>
+                                                        </li>
+                                                        <li>
+                                                            <a [routerLink]="routes.customerNotificationsettings" routerLinkActive="active" class="fs-14 fw-medium d-flex align-items-center"><i class="isax isax-notification fs-18 me-1"></i>Notifications</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-xl-9 col-lg-8">
+                                <router-outlet></router-outlet>
+                            </div><!-- end col -->
+                        </div>
+						<!-- end row -->
+
+                    </div><!-- end col -->
+                </div>
+				<!-- end row -->
+
+            </div>
+			<!-- End Content -->
+

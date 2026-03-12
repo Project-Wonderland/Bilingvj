@@ -1,0 +1,173 @@
+{
+  "data": [
+    {
+      
+      "Company": "Trend Hive",
+      "Image": "company-01.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$200",
+      "CreatedOn": "22 Feb 2025",
+      "ExpiringOn": "22 Mar 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Quick Cart",
+      "Image": "company-02.svg",
+      "Plan": "Basic (Yearly)",
+      "BillingCycle": "365 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$600",
+      "CreatedOn": "07 Feb 2025",
+      "ExpiringOn": "07 Mar 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Tech Bazaar",
+      "Image": "company-03.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$200",
+      "CreatedOn": "30 Jan 2025",
+      "ExpiringOn": "30 Feb 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Harvest Basket",
+      "Image": "company-04.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$200",
+      "CreatedOn": "17 Jan 2025",
+      "ExpiringOn": "17 Feb 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Elite Mart",
+      "Image": "company-05.svg",
+      "Plan": "Enterprise (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$400",
+      "CreatedOn": "04 Jan 2025",
+      "ExpiringOn": "04 Feb 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Prime Mart",
+      "Image": "company-06.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$200",
+      "CreatedOn": "09 Dec 2024",
+      "ExpiringOn": "09 Jan 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Trend Crafters",
+      "Image": "company-07.svg",
+      "Plan": "Enterprise (Yearly)",
+      "BillingCycle": "365 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$4800",
+      "CreatedOn": "02 Dec 2024",
+      "ExpiringOn": "02 Jan 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Fresh Nest",
+      "Image": "company-08.svg",
+      "Plan": "Basic (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$50",
+      "CreatedOn": "30 Nov 2024",
+      "ExpiringOn": "30 Dec 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Gizmo Mart",
+      "Image": "company-09.svg",
+      "Plan": "Basic (Yearly)",
+      "BillingCycle": "365 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$600",
+      "CreatedOn": "15 Nov 2024",
+      "ExpiringOn": "15 Dec 2025",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Dream Space",
+      "Image": "company-10.svg",
+      "Plan": "Enterprise (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$400",
+      "CreatedOn": "12 Oct 2024",
+      "ExpiringOn": "12 Nov 2024",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Mega Mart",
+      "Image": "company-11.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$200",
+      "CreatedOn": "05 Oct 2024",
+      "ExpiringOn": "05 Nov 2024",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Decor Ease",
+      "Image": "company-12.svg",
+      "Plan": "Basic (Yearly)",
+      "BillingCycle": "365 Days",
+      "PaymentMode": "Cash",
+      "Amount": "$600",
+      "CreatedOn": "09 Sep 2024",
+      "ExpiringOn": "09 Oct 2024",
+      "Status": "Unpaid"
+    },
+    {
+      
+      "Company": "Electro World",
+      "Image": "company-13.svg",
+      "Plan": "Advanced (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$200",
+      "CreatedOn": "02 Sep 2024",
+      "ExpiringOn": "02 Oct 2024",
+      "Status": "Paid"
+    },
+    {
+      
+      "Company": "Urban Home",
+      "Image": "company-14.svg",
+      "Plan": "Enterprise (Monthly)",
+      "BillingCycle": "30 Days",
+      "PaymentMode": "Cheque",
+      "Amount": "$400",
+      "CreatedOn": "07 Aug 2024",
+      "ExpiringOn": "07 Sep 2024",
+      "Status": "Paid"
+    }
+  ],
+  "totalData": 14
+}

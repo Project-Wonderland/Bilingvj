@@ -1,0 +1,43 @@
+<div class="card settings-card">
+  <div class="card-header">
+      <h6 class="mb-0">Settings</h6>
+  </div>
+  <div class="card-body">
+      <div class="sidebars settings-sidebar">
+          <div class="sidebar-inner">
+              <div class="sidebar-menu p-0">
+                  <ul>
+                      <li class="submenu-open">
+                          <ul>
+                            @for(mainMenus of side_bar_data;track mainMenus){
+                                @for(menu of mainMenus.menu;track menu){
+                                    @if(menu.menuValue==='Settings'){
+                                        @for(subMenu of menu.subMenus;track subMenu){
+                                        <li class="submenu">
+                                            <a href="javascript:void(0);" (click)="openSubmenuOne(subMenu)" 
+                                            [ngClass]="{ subdrop: openSubmenuOneItem === subMenu}"
+                                            [class.active]="page===subMenu.page">
+                                                <i class="isax fs-18" [class]="'isax-'+subMenu.icon"></i>
+                                                <span class="fs-14 fw-medium ms-2">{{subMenu.menuValue}}</span>
+                                                <span class="isax isax-arrow-down-1 arrow-menu ms-auto"></span>
+                                            </a>
+                                            <ul  [ngClass]="openSubmenuOneItem === subMenu ? 'd-block' : 'd-none'">
+                                                @for(subMenu2 of subMenu.subMenus;track subMenu2){
+                                                <li><a [routerLink]="subMenu2.route" routerLinkActive="active">{{subMenu2.menuValue}}</a></li>
+                                               
+                                                }
+                                            </ul>
+                                        </li>
+                                        }
+                                    }
+                                }
+                            }
+                              
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div><!-- end card body -->
+</div><!-- end card -->

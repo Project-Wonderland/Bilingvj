@@ -1,0 +1,530 @@
+            <!-- Start Content -->
+            <div class="content-two">
+
+                <!-- Page Header -->
+                <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+                    <div>
+                        <h6 class="mb-0">Tax Report</h6>
+                    </div>
+                    <div class="d-flex my-xl-auto right-content align-items-center flex-wrap gap-2">
+                        <div class="dropdown me-1">
+                            <a href="javascript:void(0);" class="btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                                <i class="isax isax-export-1 me-1"></i>Export
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as PDF</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as Excel</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div>
+                                        <span class="badge badge-soft-primary border border-primary rounded-2 p-2 d-inline-flex align-items-center justify-content-center">
+											<i class="isax isax-dollar-circle fs-16"></i>
+										</span>
+                                    </div>
+                                    <p class="fs-13 mb-0">
+                                        <span class="badge badge-soft-success">+5.62%<i class="isax isax-arrow-up5 ms-1"></i></span>
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="mb-1">Total Tax Collected</p>
+                                        <h6 class="fs-16 fw-semibold mb-0">$450,000</h6>
+                                    </div>
+                                    <div>
+                                        <div class="time-chart" id="time-chart">
+                                            <apx-chart
+                                                [series]="timeChart.series"
+                                                [chart]="timeChart.chart"
+                                                [colors]="timeChart.colors"
+                                                [fill]="timeChart.fill"
+                                                [xaxis]="timeChart.xaxis"
+                                                [stroke]="timeChart.stroke"
+                                                [tooltip]="timeChart.tooltip"
+                                                [dataLabels]="timeChart.dataLabels"
+                                            ></apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div>
+                                        <span class="badge badge-soft-success border border-success rounded-2 p-2 d-inline-flex align-items-center justify-content-center">
+											<i class="isax isax-money-3 fs-16"></i>
+										</span>
+                                    </div>
+                                    <p class="fs-13 mb-0">
+                                        <span class="badge badge-soft-success">+11.4%<i class="isax isax-arrow-up5 ms-1"></i></span>
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="mb-1">GST</p>
+                                        <h6 class="fs-16 fw-semibold mb-0">$300,000</h6>
+                                    </div>
+                                    <div>
+                                        <div class="time-chart" id="time-chart02">
+                                            <apx-chart
+                                                [series]="timeChart2.series"
+                                                [chart]="timeChart2.chart"
+                                                [colors]="timeChart2.colors"
+                                                [fill]="timeChart2.fill"
+                                                [xaxis]="timeChart2.xaxis"
+                                                [stroke]="timeChart2.stroke"
+                                                [tooltip]="timeChart2.tooltip"
+                                                [dataLabels]="timeChart2.dataLabels"
+                                            ></apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div>
+                                        <span class="badge badge-soft-warning border border-warning rounded-2 p-2 d-inline-flex align-items-center justify-content-center">
+											<i class="isax isax-money-4 fs-16"></i>
+										</span>
+                                    </div>
+                                    <p class="fs-13 mb-0">
+                                        <span class="badge badge-soft-success">+8.12%<i class="isax isax-arrow-up5 ms-1"></i></span>
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="mb-1">VAT</p>
+                                        <h6 class="fs-16 fw-semibold mb-0">$100,000</h6>
+                                    </div>
+                                    <div>
+                                        <div class="time-chart" id="time-chart03">
+                                            <apx-chart
+                                                [series]="timeChart3.series"
+                                                [chart]="timeChart3.chart"
+                                                [colors]="timeChart3.colors"
+                                                [fill]="timeChart3.fill"
+                                                [xaxis]="timeChart3.xaxis"
+                                                [stroke]="timeChart3.stroke"
+                                                [tooltip]="timeChart3.tooltip"
+                                                [dataLabels]="timeChart3.dataLabels"
+                                            ></apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="card position-relative">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div>
+                                        <span class="badge badge-soft-danger border border-danger rounded-2 p-2 d-inline-flex align-items-center justify-content-center">
+											<i class="isax isax-money fs-16"></i>
+										</span>
+                                    </div>
+                                    <p class="fs-13 mb-0">
+                                        <span class="badge badge-soft-success">+7.45%<i class="isax isax-arrow-up5 ms-1"></i></span>
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="mb-1">Other Taxes</p>
+                                        <h6 class="fs-16 fw-semibold mb-0">$50,000</h6>
+                                    </div>
+                                    <div>
+                                        <div class="time-chart" id="time-chart04">
+                                            <apx-chart
+                                                [series]="timeChart4.series"
+                                                [chart]="timeChart4.chart"
+                                                [colors]="timeChart4.colors"
+                                                [fill]="timeChart4.fill"
+                                                [xaxis]="timeChart4.xaxis"
+                                                [stroke]="timeChart4.stroke"
+                                                [tooltip]="timeChart4.tooltip"
+                                                [dataLabels]="timeChart4.dataLabels"
+                                            ></apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end card body -->
+                        </div><!-- end card -->
+                    </div><!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <!-- Table Search Strat-->
+                <div class="mb-3">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="table-search d-flex align-items-center mb-0">
+                                <div class="search-input">
+                                    <a href="javascript:void(0);" class="btn-searchset"><i class="isax isax-search-normal fs-12"></i></a>
+                                    <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                      <label> 
+                                      <input type="search" [(ngModel)]="searchDataValue" [ngModelOptions]="{ standalone: true }" type="search" (ngModelChange)="searchData(searchDataValue)" class="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0">
+                                    </label>
+                                  </div>
+                                 </div>
+                            </div>
+                            <app-date-range-picker-2></app-date-range-picker-2>
+                            <a class="btn btn-outline-white fw-normal d-inline-flex align-items-center" href="javascript:void(0);" data-bs-toggle="offcanvas" data-bs-target="#customcanvas">
+                                <i class="isax isax-filter me-1"></i>Filter
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap gap-2">
+                            <div class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                                    <i class="isax isax-grid-3 me-1"></i>Column
+                                </a>
+                                <ul class="dropdown-menu  dropdown-menu">
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                                            <span>ID</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                                            <span>Date</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                                            <span>Vendor</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox" checked>
+                                            <span>Amount</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span>Payment Mode</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item d-flex align-items-center form-switch">
+                                            <i class="fa-solid fa-grip-vertical me-3 text-default"></i>
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span>Status</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Filter Info -->
+                    <div class="align-items-center gap-2 flex-wrap filter-info mt-3 " [ngClass]="{'show':showFilter}">
+                        <h6 class="fs-13 fw-semibold">Filters</h6>
+                        <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[1]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1" >5</span>Vendors Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(1)"><i class="fa-solid fa-x fs-10"></i></span></span>
+                        <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[2]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1">1</span>Status Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(2)"><i class="fa-solid fa-x fs-10"></i></span></span>
+                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline ms-md-1" (click)="isFilter()">Clear All</a>
+                    </div>
+                    <!-- /Filter Info -->
+                </div>
+                <!-- Table Search End -->
+
+                <!-- Table List Start-->
+                <div class="table-responsive">
+                    <table matSort (matSortChange)="sortData($event)" class="table table-nowrap dataTable datatable">
+                        <thead class="thead-light">
+                            <tr>
+                                <th class="no-sort">
+                                    <div class="form-check form-check-md" (click)="selectAll(initChecked)">
+                                        <input class="form-check-input" type="checkbox" id="select-all"  [(ngModel)]="initChecked">
+                                    </div>
+                                </th>
+                                <th class="no-sort">Reference ID</th>
+                                <th mat-sort-header="custoemr">Customer</th>
+                                <th mat-sort-header="date">Date</th>
+                                <th class="no-sort">Category</th>
+                                <th mat-sort-header="amount">Amount</th>
+                                <th class="no-sort">Payment Mode</th>
+                                <th mat-sort-header="discount">Discount</th>
+                                <th mat-sort-header="tax">Tax Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (data of tableData;track data){
+                            <tr>
+                                <td class="sorting_1">
+                                    <div class="form-check form-check-md" >
+                                        <input class="form-check-input" type="checkbox" [(ngModel)]="data.isSelected">
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0);" class="link-default">{{data.sku}}</a>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <a [routerLink]="routes.customerDetails" class="avatar avatar-sm rounded-circle me-2 flex-shrink-0">
+                                            <img src="assets/img/profiles/{{data.img}}" class="rounded-circle" alt="img">
+                                        </a>
+                                        <div>
+                                            <h6 class="fs-14 fw-medium mb-0"><a [routerLink]="routes.customerDetails">{{data.customer}}</a></h6>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>{{data.date}}</td>
+                                <td>{{data.category}}</td>
+                                <td class="text-dark">{{data.totalPrice}}</td>
+                                <td class="text-dark">{{data.mode}}</td>
+                                <td class="text-dark">{{data.price}}</td>
+                                <td class="text-dark">{{data.sellingPrice}}</td>
+                            </tr>
+                            } @if(tableData.length === 0){
+                                <tr>
+                                  <td colspan="12" class="text-center text-dark">No matching records found</td>
+                                </tr>
+                              }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Table List End -->
+                <app-custom-pagination *ngIf="row"/>
+            </div>
+            <!-- End Content -->
+
+
+                    <!-- Start Filter -->
+        <div class="offcanvas offcanvas-offset offcanvas-end" tabindex="-1" id="customcanvas">
+            <div class="offcanvas-header d-block pb-0">
+                <div class="border-bottom d-flex align-items-center justify-content-between pb-3">
+                    <h6 class="offcanvas-title">Filter</h6>
+                    <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                </div>
+            </div>
+            <div class="offcanvas-body pt-3">
+                <form action="#">
+                    <div class="mb-3">
+                        <label class="form-label">Customers</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="mb-3">
+                                    <div class="input-icon-start position-relative">
+                                        <span class="input-icon-addon fs-12">
+											<i class="isax isax-search-normal"></i>
+										</span>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search">
+                                    </div>
+                                </div>
+                                <ul class="mb-3">
+                                    <li class="d-flex align-items-center justify-content-between mb-3">
+                                        <label class="d-inline-flex align-items-center text-gray-9">
+                                            <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                                        </label>
+                                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/profiles/avatar-28.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Emily Clark
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/profiles/avatar-29.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>John Carter
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/profiles/avatar-12.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Sophia White
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/profiles/avatar-06.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Sophia White
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-outline-white w-100 close-filter">Cancel</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label id="dateRangePicker" class="form-label">Date Range</label>
+                        <div class="filter-daterange">
+                            <app-date-range-picker></app-date-range-picker>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Category</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="mb-3">
+                                    <div class="input-icon-start position-relative">
+                                        <span class="input-icon-addon fs-12">
+											<i class="isax isax-search-normal"></i>
+										</span>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search">
+                                    </div>
+                                </div>
+                                <ul class="mb-3">
+                                    <li class="d-flex align-items-center justify-content-between mb-3">
+                                        <label class="d-inline-flex align-items-center text-gray-9">
+                                            <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                                        </label>
+                                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Smartphones
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Headphones
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Men's Apparel
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Footwear
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Amount</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="filter-range">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="irs" style="visibility: visible;">$0</span>
+                                        <span class="irs" style="visibility: visible;">$1000</span>
+                                    </div>
+                                    <mat-slider
+                                        min="0"
+                                        max="1000"
+                                        discrete
+                                        [displayWith]="formatLabel"
+                                    >
+                                        <input value="350" matSliderThumb />
+                                    </mat-slider>
+                                    <p>Range : <span class="text-gray-9">$200 - $5695</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Payment Mode</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="mb-3">
+                                    <div class="input-icon-start position-relative">
+                                        <span class="input-icon-addon fs-12">
+											<i class="isax isax-search-normal"></i>
+										</span>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search">
+                                    </div>
+                                </div>
+                                <ul class="mb-3">
+                                    <li class="d-flex align-items-center justify-content-between mb-3">
+                                        <label class="d-inline-flex align-items-center text-gray-9">
+                                            <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                                        </label>
+                                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Cash
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Cheque
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Bank Transfer
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Paypal
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Stripe
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offcanvas-footer">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <a href="javascript:void(0);" class="btn btn-outline-white w-100" data-bs-dismiss="offcanvas">Reset</a>
+                            </div>
+                            <div class="col-6">
+                                <button data-bs-dismiss="offcanvas" class="btn btn-primary w-100" id="filter-submit" (click)="isFilter()">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Filter -->

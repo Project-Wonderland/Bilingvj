@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+        "productService": "Apple iPhone 15",
+        "code": "PR00025",
+        "unit": "Piece",
+        "quantity": "2",
+        "sellingPrice": "$100",
+        "purchasePrice": "$98",
+        "img": "product-01.jpg"
+    },
+    {
+        "productService": "Dell XPS 13 9310",
+        "code": "PR00014",
+        "unit": "Piece",
+        "quantity": "12",
+        "sellingPrice": "$25",
+        "purchasePrice": "$24",
+        "img": "product-02.jpg"
+    },
+    {
+        "productService": "Bose QuietComfort 45",
+        "code": "PR00012",
+        "unit": "Piece",
+        "quantity": "2",
+        "sellingPrice": "$34",
+        "purchasePrice": "$58",
+        "img": "product-03.jpg"
+    },
+    {
+        "productService": "Nike Dri-FIT T-shirt",
+        "code": "PR00016",
+        "unit": "Pack",
+        "quantity": "24",
+        "sellingPrice": "$75",
+        "purchasePrice": "$72",
+        "img": "product-04.jpg"
+    },
+    {
+        "productService": "Adidas Ultraboost 22 Running Shoe",
+        "code": "PR00022",
+        "unit": "Pack",
+        "quantity": "13",
+        "sellingPrice": "$9",
+        "purchasePrice": "$89",
+        "img": "product-05.jpg"
+    },
+    {
+        "productService": "Samsung French Door Refrigerator",
+        "code": "PR00047",
+        "unit": "Litre",
+        "quantity": "67",
+        "sellingPrice": "$120",
+        "purchasePrice": "$115",
+        "img": "product-06.jpg"
+    },
+    {
+        "productService": "Dyson V15 Detect  Vacuum Cleaner",
+        "code": "PR00014",
+        "unit": "Piece",
+        "quantity": "13",
+        "sellingPrice": "$250",
+        "purchasePrice": "$240",
+        "img": "product-07.jpg"
+    },
+    {
+        "productService": "HP Spectre x360 14",
+        "code": "PR00031",
+        "unit": "Piece",
+        "quantity": "25",
+        "sellingPrice": "$541",
+        "purchasePrice": "$525",
+        "img": "product-08.jpg"
+    },
+    {
+        "productService": "Dyson Supersonic Hair Dryer",
+        "code": "PR00077",
+        "unit": "Litre",
+        "quantity": "24",
+        "sellingPrice": "$741",
+        "purchasePrice": "$750",
+        "img": "product-09.jpg"
+    },
+    {
+        "productService": "Apple AirPods Pro",
+        "code": "PR00045",
+        "unit": "Piece",
+        "quantity": "65",
+        "sellingPrice": "$89",
+        "purchasePrice": "$49",
+        "img": "product-10.jpg"
+    },
+    {
+        "productService": "Levi’s 501 Original Fit Jeans",
+        "code": "PR00045",
+        "unit": "Piece",
+        "quantity": "23",
+        "sellingPrice": "$34",
+        "purchasePrice": "$36",
+        "img": "product-11.jpg"
+    }
+],
+
+  "totalData": 11
+}

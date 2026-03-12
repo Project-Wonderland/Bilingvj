@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "AccountHolderName": "Emily Clark",
+            "Image": "avatar-28.jpg",
+            "BankAccountNo": "GTB - 3298784309485",
+            "Credit": "$15,000",
+            "Debit": "$5,000",
+            "Balance": "$10,000"
+        },
+        {
+            "AccountHolderName": "John Carter",
+            "Image": "avatar-29.jpg",
+            "BankAccountNo": "PNB - 5475878970090",
+            "Credit": "$22,500",
+            "Debit": "$7,500",
+            "Balance": "$15,000"
+        },
+        {
+            "AccountHolderName": "Sophia White",
+            "Image": "avatar-12.jpg",
+            "BankAccountNo": "SFB - 3255465758698",
+            "Credit": "$30,000",
+            "Debit": "$10,000",
+            "Balance": "$20,000"
+        },
+        {
+            "AccountHolderName": "Michael Johnson",
+            "Image": "avatar-06.jpg",
+            "BankAccountNo": "HSB - 4353689870544",
+            "Credit": "$12,000",
+            "Debit": "$3,000",
+            "Balance": "$9,000"
+        },
+        {
+            "AccountHolderName": "Olivia Harris",
+            "Image": "avatar-30.jpg",
+            "BankAccountNo": "ETB - 4324356677889",
+            "Credit": "$18,000",
+            "Debit": "$6,000",
+            "Balance": "$12,000"
+        },
+        {
+            "AccountHolderName": "David Anderson",
+            "Image": "avatar-16.jpg",
+            "BankAccountNo": "NPB - 2343547586900",
+            "Credit": "$25,000",
+            "Debit": "$8,000",
+            "Balance": "$17,000"
+        },
+        {
+            "AccountHolderName": "Emma Lewis",
+            "Image": "avatar-17.jpg",
+            "BankAccountNo": "SDB - 3354456565687",
+            "Credit": "$35,000",
+            "Debit": "$12,000",
+            "Balance": "$23,000"
+        },
+        {
+            "AccountHolderName": "Robert Thomas",
+            "Image": "avatar-23.jpg",
+            "BankAccountNo": "FEB - 3453647664889",
+            "Credit": "$40,000",
+            "Debit": "$15,000",
+            "Balance": "$25,000"
+        },
+        {
+            "AccountHolderName": "Isabella Scott",
+            "Image": "avatar-07.jpg",
+            "BankAccountNo": "CCB - 9876543210123",
+            "Credit": "$27,500",
+            "Debit": "$9,500",
+            "Balance": "$18,000"
+        },
+        {
+            "AccountHolderName": "Daniel Martinez",
+            "Image": "avatar-31.jpg",
+            "BankAccountNo": "CCB - 9876543210123",
+            "Credit": "$20,000",
+            "Debit": "$7,000",
+            "Balance": "$13,000"
+        },
+        {
+            "AccountHolderName": "Charlotte Brown",
+            "Image": "avatar-37.jpg",
+            "BankAccountNo": "ICB - 6543217896543",
+            "Credit": "$45,000",
+            "Debit": "$18,000",
+            "Balance": "$27,000"
+        },
+        {
+            "AccountHolderName": "William Parker",
+            "Image": "avatar-21.jpg",
+            "BankAccountNo": "ECB - 3692581473692",
+            "Credit": "$37,500",
+            "Debit": "$14,000",
+            "Balance": "$23,500"
+        },
+        {
+            "AccountHolderName": "Mia Thompson",
+            "Image": "avatar-17.jpg",
+            "BankAccountNo": "RFB - 3214569873214",
+            "Credit": "$38,000",
+            "Debit": "$14,000",
+            "Balance": "$24,000"
+        },
+        {
+            "AccountHolderName": "Amelia Robinson",
+            "Image": "avatar-07.jpg",
+            "BankAccountNo": "MFB - 1597534682597",
+            "Credit": "$60,000",
+            "Debit": "$25,000",
+            "Balance": "$35,000"
+        }
+    ],
+    "totalData": 14
+}

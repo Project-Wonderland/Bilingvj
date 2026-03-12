@@ -1,0 +1,101 @@
+<div class="">
+    <div class="mb-3 pb-3 border-bottom d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <h6 class="fw-bold mb-0">Plugin Manager</h6>
+        <div class="d-flex align-items-center">
+            <a href="javascript:void(0);" class="btn btn-primary d-inline-flex align-items-center" data-bs-toggle="modal" data-bs-target="#google_login"><i class="isax isax-add-circle5 me-1"></i>New Plugin</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow-none">
+                <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between border-0 mb-3 pb-0 flex-wrap gap-2">
+                        <div class="d-flex align-items-center">
+                            <span class="avatar avatar-lg p-2 bg-light rounded flex-shrink-0 me-2"><img src="assets/img/icons/paypal.svg" alt="Img"></span>
+                            <p class="fw-medium text-gray-9">PayPal</p>
+                        </div>
+                        <span class="badge badge-soft-primary">Version : 8.78.1</span>
+                    </div>
+                    <p class="text-truncate line-clamb-2">PayPal is a global digital payments platform that enables secure, fast online transactions.</p>
+                </div>
+                <div class="card-footer bg-light d-flex align-items-center justify-content-between ">
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash"></i></a>
+                        <a class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#google_login"><i class="isax isax-setting-2"></i></a>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input m-0" type="checkbox" checked>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-none">
+                <div class="card-body">
+                    <div class="d-flex align-items-center justify-content-between border-0 mb-3 pb-0 flex-wrap gap-2">
+                        <div class="d-flex align-items-center">
+                            <span class="avatar avatar-lg p-2 bg-light rounded flex-shrink-0 me-2"><img src="assets/img/icons/google-analytics.svg" alt="Img"></span>
+                            <p class="fw-medium text-gray-9">Google Analytics</p>
+                        </div>
+                        <span class="badge badge-soft-primary">Version : GA4</span>
+                    </div>
+                    <p class="text-truncate line-clamb-2">Google Analytics tracks and analyzes website traffic & user interactions to provide insights.</p>
+                </div>
+                <div class="card-footer bg-light d-flex align-items-center justify-content-between ">
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash"></i></a>
+                        <a class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#google_login"><i class="isax isax-setting-2"></i></a>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input m-0" type="checkbox" checked>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- end col -->
+
+        <!-- Start Google Login Settings -->
+        <div class="modal fade" id="google_login">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="mb-0">Add Plugin</h5>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="file-upload drag-file w-100 d-flex align-items-center justify-content-center flex-column">
+                            <span class="upload-img d-block mb-2"><i class="isax isax-image text-primary"></i></span>
+                            <p class="mb-0 text-gray-9 fw-semibold">Drop Your Files or <a href="javascript:void(0);" class="text-primary text-decoration-underline">Browse</a></p>
+                            <input type="file" accept="video/image">
+                            <p>Maximum size : 50 MB</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex align-items-center justify-content-between">
+                        <a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+                        <a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Install</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Google Login Settings -->
+
+		<!-- Start Delete Modal  -->
+		<div class="modal fade" id="delete_modal">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<div class="mb-3">
+							<img src="assets/img/icons/delete.svg" alt="img">
+						</div>
+						<h6 class="mb-1">Delete</h6>
+						<p class="mb-3">Are you sure,  you want to delete?</p>
+						<div class="d-flex justify-content-center">
+							<a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+							<a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Yes, Delete</a>
+						</div>
+					</div><!-- End modal body -->
+				</div><!-- End modal content -->
+			</div><!-- End modal dialog -->
+		</div>
+		<!-- End Delete Modal  -->

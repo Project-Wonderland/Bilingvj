@@ -1,0 +1,247 @@
+<div class="">
+    <div>
+        <div class="pb-3 d-flex align-items-center justify-content-between border-bottom mb-3">
+            <h6 class="mb-0">SMS Gateways</h6>
+        </div>
+        <div class="mb-0">
+
+            <!-- start row -->
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                <div class="d-flex align-items-center">
+                                    <span>
+                                        <img src="assets/img/icons/nexmo-logo-icon.svg" class="img-fluid" alt="img">
+                                    </span>
+                                </div>
+                                <span class="badge badge-soft-success d-flex align-items-center">
+                                    <span class="badge-dot bg-success me-1"></span>
+                                    Connected
+                                </span>
+                            </div>
+                            <p class="fs-13">Enables seamless communication through SMS, voice, and APIs.</p>
+                        </div><!-- end card body -->
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#delete_modal">
+                                        <i class="isax isax-trash fs-14"></i>
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#add_nexmo">
+                                        <i class="isax isax-setting-2 fs-14"></i>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" checked>
+                                </div>
+                            </div>
+                        </div><!-- end card footer -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+                <div class="col-md-6 d-flex">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                <div class="d-flex align-items-center">
+                                    <span>
+                                        <img src="assets/img/icons/two-factor-icon.svg" class="img-fluid" alt="img">
+                                    </span>
+                                </div>
+                                <span class="badge badge-soft-success d-flex align-items-center">
+                                    <span class="badge-dot bg-success me-1"></span>
+                                    Connected
+                                </span>
+                            </div>
+                            <p class="fs-13">2Factor offers simple sms integration API and sample code to send SMS</p>
+                        </div><!-- end card body -->
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#delete_modal">
+                                        <i class="isax isax-trash fs-14"></i>
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#add_2factor">
+                                        <i class="isax isax-setting-2 fs-14"></i>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" checked>
+                                </div>
+                        </div>
+                        </div><!-- end card footer -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+                <div class="col-md-6 d-flex">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center justify-content-between mb-3 gap-2 flex-wrap">
+                                <div class="d-flex align-items-center">
+                                    <span>
+                                        <img src="assets/img/icons/twilio-icon.svg" class="img-fluid" alt="img">
+                                    </span>
+                                </div>
+                                <span class="badge badge-soft-primary d-flex align-items-center text-gray-9">
+                                    <span class="badge-dot bg-dark me-1"></span>
+                                    Not Connected
+                                </span>
+                            </div>
+                            <p class="fs-13">Twilio provides APIs for messaging, voice, and video integration.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#delete_modal">
+                                        <i class="isax isax-trash fs-14"></i>
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-dark rounded-2 d-inline-flex align-items-center justify-content-center p-1 me-2" data-bs-toggle="modal" data-bs-target="#add_twilio">
+                                        <i class="isax isax-setting-2 fs-14"></i>
+                                    </a>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" checked>
+                                </div>
+                            </div>
+                        </div><!-- end card footer -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+            </div>
+            <!-- end row -->
+
+        </div>
+    </div>
+</div><!-- end col -->
+
+
+
+		<!-- Start Add nexom -->
+        <div class="modal fade" id="add_nexmo">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+					<!-- Start modal header -->
+					<div class="modal-header">
+						<h5 class="mb-0">Nexmo</h5>
+						<button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fa-solid fa-x"></i>
+						</button>
+					</div>
+					<!-- End modal header -->
+                    <form>
+                    <div class="modal-body">
+						<div class="mb-3">
+							<label class="form-label">API Key  <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-3">
+							<label class="form-label">API Secret Key <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-0">
+							<label class="form-label">Sender ID <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+                    </div>
+					<div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                        <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </form>
+                </div><!-- End modal content-->
+            </div><!-- End modal dialog-->
+        </div>
+        <!-- End Add nexom -->
+
+		<!-- Start Add 2factor -->
+        <div class="modal fade" id="add_2factor">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+					<!-- Start modal header -->
+					<div class="modal-header">
+						<h5 class="mb-0">2Factor</h5>
+						<button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fa-solid fa-x"></i>
+						</button>
+					</div>
+					<!-- End modal header -->
+                    <form>
+                    <div class="modal-body">
+						<div class="mb-3">
+							<label class="form-label">API Key  <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-3">
+							<label class="form-label">API Secret Key <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-0">
+							<label class="form-label">Sender ID <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+                    </div>
+					<div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                        <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </form>
+                </div><!-- End modal content-->
+            </div><!-- End modal dialog-->
+        </div>
+        <!-- End Add nexom -->
+
+		<!-- Start Add twilio -->
+        <div class="modal fade" id="add_twilio">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+					<!-- Start modal header -->
+					<div class="modal-header">
+						<h5 class="mb-0">Twilio</h5>
+						<button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fa-solid fa-x"></i>
+						</button>
+					</div>
+					<!-- End modal header -->
+                    <form>
+                    <div class="modal-body">
+						<div class="mb-3">
+							<label class="form-label">API Key  <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-3">
+							<label class="form-label">API Secret Key <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+						<div class="mb-0">
+							<label class="form-label">Sender ID <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>                     
+                    </div>
+					<div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                        <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </form>
+                </div><!-- End modal content-->
+            </div><!-- End modal dialog-->
+        </div>
+        <!-- End Add nexom -->
+        
+		<!-- Start Delete Modal  -->
+		<div class="modal fade" id="delete_modal">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<div class="mb-3">
+							<img src="assets/img/icons/delete.svg" alt="img">
+						</div>
+						<h6 class="mb-1">Delete</h6>
+						<p class="mb-3">Are you sure,  you want to delete?</p>
+						<div class="d-flex justify-content-center">
+							<a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+							<a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Yes, Delete</a>
+						</div>
+					</div><!-- End modal body -->
+				</div><!-- End modal content -->
+			</div><!-- End modal dialog -->
+		</div>
+		<!-- End Delete Modal  -->

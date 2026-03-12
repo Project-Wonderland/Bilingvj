@@ -1,0 +1,193 @@
+            <!-- Start Content -->
+            <div class="content-two">
+
+                <!-- Page Header -->
+                <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+                    <div>
+                        <h6>Categories</h6>
+                    </div>
+                    <div class="d-flex my-xl-auto right-content align-items-center flex-wrap gap-2">
+                        <div>
+                            <a href="javascript:void(0);" class="btn btn-primary d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#add_modal">
+                                <i class="isax isax-add-circle5 me-1"></i>New Categories
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- Start Table Search -->
+                <div class="mb-3">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+                        <div class="d-flex align-items-center flex-wrap gap-2">
+                            <div class="table-search d-flex align-items-center mb-0">
+                                <div class="search-input">
+                                    <a href="javascript:void(0);" class="btn-searchset"><i class="isax isax-search-normal fs-12"></i></a>
+                                    <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                      <label> 
+                                      <input type="search" [(ngModel)]="searchDataValue" [ngModelOptions]="{ standalone: true }" type="search" (ngModelChange)="searchData(searchDataValue)" class="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0">
+                                    </label>
+                                  </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap gap-2">
+                            <div class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                                    <i class="isax isax-sort me-1"></i>Sort By : <span class="fw-normal ms-1">Latest</span>
+                                </a>
+                                <ul class="dropdown-menu  dropdown-menu-end">
+                                    <li>
+                                        <a href="javascript:void(0);" class="dropdown-item">Latest</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="dropdown-item">Oldest</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End Table Search -->
+
+                <!-- Start Table List -->
+                <div class="table-responsive">
+                    <table matSort (matSortChange)="sortData($event)" class="table table-nowrap dataTable datatable">
+                        <thead class="thead-light">
+                            <tr>
+                                <th class="no-sort">
+                                    <div class="form-check form-check-md" (click)="selectAll(initChecked)">
+                                        <input class="form-check-input" type="checkbox" id="select-all"  [(ngModel)]="initChecked">
+                                    </div>
+                                </th>
+                                <th class="no-sort">Category</th>
+                                <th class="no-sort">Date</th>
+                                <th class="no-sort">Status</th>
+                                <th class="no-sort"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (data of tableData;track data){
+                            <tr>
+                                <td class="sorting_1">
+                                    <div class="form-check form-check-md" >
+                                        <input class="form-check-input" type="checkbox" [(ngModel)]="data.isSelected">
+                                    </div>
+                                </td>
+                                <td><a href="javascript:void(0);" class="fw-medium">{{data.category}}</a></td>
+                                <td>{{data.date}}</td>
+                                <td>
+                                    <span class="badge  d-inline-flex align-items-center"
+                                    [ngClass]="data.status==='Inactive'?'badge-soft-danger':'badge-soft-success'">{{data.status}} 
+                                    <i class="isax  ms-1"
+                                    [ngClass]="data.status==='Inactive'?'isax-close-circle':'isax-tick-circle'"></i></span>
+                                </td>
+
+                                <td class="action-item">
+                                    <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                        <i class="isax isax-more"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a [routerLink]="routes.blogtag" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#edit_modal"><i class="isax isax-edit me-2"></i>Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        }                          
+                        @if(tableData.length === 0){
+                            <tr>
+                              <td colspan="12" class="text-center text-dark">No matching records found</td>
+                            </tr>
+                          }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- End Table List -->
+                <app-custom-pagination *ngIf="row"/>
+            </div>
+            <!-- End Content -->
+
+
+            
+        <!-- Start Add Modal  -->
+        <div id="add_modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add New Category</h4>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="mb-0">
+                                <label class="form-label">Category Name<span class="text-danger ms-1">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                            <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Add Modal -->
+
+
+        <!-- Start Edit Modal  -->
+        <div id="edit_modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Edit Category</h4>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label class="form-label">Category Name<span class="text-danger ms-1">*</span></label>
+                                <input type="text" class="form-control" value="Accounting">
+                            </div>
+                            <div class="mb-0">
+                                <label class="form-label">Status<span class="text-danger ms-1">*</span></label>
+                                <mat-select class="custom-mat-select select" placeholder="Active">
+                                    <mat-option value="1">Active</mat-option>
+                                    <mat-option value="1">Inactive</mat-option>
+                                </mat-select>
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                            <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Edit Modal -->
+
+        <!-- Start Delete Modal  -->
+        <div class="modal fade" id="delete_modal">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <div class="mb-3">
+                            <img src="assets/img/icons/delete.svg" alt="img">
+                        </div>
+                        <h6 class="mb-1">Delete Blog Category</h6>
+                        <p class="mb-3">Are you sure, you want to delete Blog Category?</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0);" class="btn btn-primary" data-bs-dismiss="modal">Yes, Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Delete Modal  -->

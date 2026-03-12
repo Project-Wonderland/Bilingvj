@@ -1,0 +1,266 @@
+ <!-- start row -->
+ <div class="row">
+    <div class="col-md-10 mx-auto">
+        <div>
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <h6><a [routerLink]="routes.customerList"><i class="isax isax-arrow-left me-2"></i>Customer</a></h6>
+                <a href="javascript:void(0);" class="btn btn-outline-white d-inline-flex align-items-center"><i class="isax isax-eye me-1"></i>Preview</a>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="mb-3">Basic Details</h6>
+                    <form>
+                        <div class="mb-3">
+                            <span class="text-gray-9 fw-bold mb-2 d-flex">Project Image <span class="text-danger">*</span></span>
+                            <div class="d-flex align-items-center">
+                                <div class="avatar avatar-xxl border border-dashed bg-light me-3 flex-shrink-0">
+                                    <div class="position-relative d-flex align-items-center">
+                                        <img src="assets/img/profiles/avatar-16.jpg" class="avatar avatar-xl " alt="User Img">
+                                        <a href="javascript:void(0);" class="rounded-trash trash-top d-flex align-items-center justify-content-center"><i class="isax isax-trash"></i></a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-flex flex-column align-items-start">
+                                    <div class="drag-upload-btn btn btn-sm btn-primary position-relative mb-2">
+                                        <i class="isax isax-image me-1"></i>Upload Image
+                                        <input type="file" class="form-control image-sign" multiple="">
+                                    </div>
+                                    <span class="text-gray-9">JPG or PNG format, not exceeding 5MB.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" value="Mitchel Johnson">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" value="mitchel@example.com">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" value="+1 9876543210">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Currency</label>
+                                    <mat-select class="custom-mat-select select" placeholder="Dollar">
+                                        <mat-option value="1">Select</mat-option>
+                                        <mat-option value="1">Dollar</mat-option>
+                                        <mat-option value="1">Euro</mat-option>
+                                        <mat-option value="1">Yen</mat-option>
+                                        <mat-option value="1">Pound</mat-option>
+                                        <mat-option value="1">Rupee</mat-option>
+                                    </mat-select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Website</label>
+                                    <input type="text" class="form-control" value="https://www.example.com">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Notes</label>
+                                    <input type="text" class="form-control" value="Ensure all details are accurate.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top my-2">
+                            <div class="row gx-5">
+                                <div class="col-md-6 ">
+                                    <h6 class="mb-3 pt-4">Billing Address</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Name</label>
+                                                <input type="text" class="form-control" value="Mitchel Johnson">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Address Line 1</label>
+                                                <input type="text" class="form-control" value="1234, Sunset Boulevard">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Address Line 2</label>
+                                                <input type="text" class="form-control" value="Los Angeles, CA 900026, USA">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Country</label>
+                                                <mat-select class="custom-mat-select select" placeholder="United States">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">United States</mat-option>
+                                                    <mat-option value="1">Canada</mat-option>
+                                                    <mat-option value="1">UK</mat-option>
+                                                    <mat-option value="1">Germany</mat-option>
+                                                    <mat-option value="1">France</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">State</label>
+                                                <mat-select class="custom-mat-select select" placeholder="California">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">California</mat-option>
+                                                    <mat-option value="1">Ontario</mat-option>
+                                                    <mat-option value="1">Bavaria</mat-option>
+                                                    <mat-option value="1">Wellington</mat-option>
+                                                    <mat-option value="1">Le-de-France</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">City</label>
+                                                <mat-select class="custom-mat-select select" placeholder="Los Angeles">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">Los Angeles</mat-option>
+                                                    <mat-option value="1">Toronto</mat-option>
+                                                    <mat-option value="1">London</mat-option>
+                                                    <mat-option value="1">Munich</mat-option>
+                                                    <mat-option value="1">Sydney</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Pincode</label>
+                                                <input type="text" class="form-control" value="900026">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center justify-content-between mb-3 pt-4">
+                                        <h6>Shipping Address</h6>
+                                        <a href="javascript:void(0);" class="d-inline-flex align-items-center text-primary text-decoration-underline fs-13">
+                                            <i class="isax isax-document-copy me-1"></i>Copy From Billing
+                                        </a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Name</label>
+                                                <input type="text" class="form-control" value="Mitchel Johnson">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Address Line 1</label>
+                                                <input type="text" class="form-control" value="1234, Sunset Boulevard">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Address Line 2</label>
+                                                <input type="text" class="form-control" value="Los Angeles, CA 900026, USA">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Country</label>
+                                                <mat-select class="custom-mat-select select" placeholder="United States">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">United States</mat-option>
+                                                    <mat-option value="1">Canada</mat-option>
+                                                    <mat-option value="1">UK</mat-option>
+                                                    <mat-option value="1">Germany</mat-option>
+                                                    <mat-option value="1">France</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">State</label>
+                                                <mat-select class="custom-mat-select select" placeholder="California">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">California</mat-option>
+                                                    <mat-option value="1">Ontario</mat-option>
+                                                    <mat-option value="1">Bavaria</mat-option>
+                                                    <mat-option value="1">Wellington</mat-option>
+                                                    <mat-option value="1">Le-de-France</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">City</label>
+                                                <mat-select class="custom-mat-select select" placeholder="Los Angeles">
+                                                    <mat-option value="1">Select</mat-option>
+                                                    <mat-option value="1">Los Angeles</mat-option>
+                                                    <mat-option value="1">Toronto</mat-option>
+                                                    <mat-option value="1">London</mat-option>
+                                                    <mat-option value="1">Munich</mat-option>
+                                                    <mat-option value="1">Sydney</mat-option>
+                                                </mat-select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Pincode</label>
+                                                <input type="text" class="form-control" value="900026">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top my-2">
+                            <h6 class="mb-3 pt-4">Banking Details</h6>
+                            <div class="row gx-3">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Bank Name</label>
+                                        <input type="text" class="form-control" value="ABCD International Bank">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Branch</label>
+                                        <input type="text" class="form-control" value="MNOP Branch">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Account Holder</label>
+                                        <input type="text" class="form-control" value="Mitchel Johnson">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Account Number</label>
+                                        <input type="text" class="form-control" value="988722543618">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">IFSC</label>
+                                        <input type="text" class="form-control" value="ABCD00001234">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between pt-4 border-top">
+                            <button type="button" class="btn btn-outline-white">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                    </form>
+                </div><!-- end card body -->
+            </div><!-- end card -->
+        </div>
+    </div><!-- end col -->
+</div>
+<!-- end row -->

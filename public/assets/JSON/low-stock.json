@@ -1,0 +1,116 @@
+{
+  "data":[{
+    "img": "product-01.jpg",
+    "sku": "PR00025",
+    "product": "Apple iPhone 15",
+    "category": "Smartphones",
+    "quantity": "28",
+    "closingQuantity": "24"
+  },
+  {
+    "img": "product-02.jpg",
+    "sku": "PR00014",
+    "product": "Dell XPS 13 9310",
+    "category": "Laptops",
+    "quantity": "12",
+    "closingQuantity": "25"
+  },
+  {
+    "img": "product-03.jpg",
+    "sku": "PR00012",
+    "product": "Bose QuietComfort 45",
+    "category": "Headphones",
+    "quantity": "34",
+    "closingQuantity": "2"
+  },
+  {
+    "img": "product-04.jpg",
+    "sku": "PR00016",
+    "product": "Nike Dri-FIT T-shirt",
+    "category": "Computer Service",
+    "quantity": "24",
+    "closingQuantity": "67"
+  },
+  {
+    "img": "product-05.jpg",
+    "sku": "PR00022",
+    "product": "Adidas Ultraboost 22 Running Shoe",
+    "category": "Footwear",
+    "quantity": "13",
+    "closingQuantity": "26"
+  },
+  {
+    "img": "product-06.jpg",
+    "sku": "PR00047",
+    "product": "Samsung French Door Refrigerator",
+    "category": "Kitchen",
+    "quantity": "67",
+    "closingQuantity": "13"
+  },
+  {
+    "img": "product-07.jpg",
+    "sku": "PR00014",
+    "product": "Dyson V15 Detect  Vacuum Cleaner",
+    "category": "Cleaning",
+    "quantity": "13",
+    "closingQuantity": "24"
+  },
+  {
+    "img": "product-08.jpg",
+    "sku": "PR00031",
+    "product": "HP Spectre x360 14",
+    "category": "Laptops",
+    "quantity": "25",
+    "closingQuantity": "65"
+  },
+  {
+    "img": "product-09.jpg",
+    "sku": "PR00077",
+    "product": "Dyson Supersonic Hair Dryer",
+    "category": "Haircare",
+    "quantity": "24",
+    "closingQuantity": "23"
+  },
+  {
+    "img": "product-10.jpg",
+    "sku": "PR00045",
+    "product": "Apple AirPods Pro",
+    "category": "Headphones",
+    "quantity": "65",
+    "closingQuantity": "12"
+  },
+  {
+    "img": "product-11.jpg",
+    "sku": "PR00021",
+    "product": "Levi’s 501 Original Fit Jeans",
+    "category": "Men’s Apparel",
+    "quantity": "23",
+    "closingQuantity": "34"
+  },
+  {
+    "img": "product-12.jpg",
+    "sku": "PR00074",
+    "product": "CeraVe Hydrating Facial Cleanser",
+    "category": "Skincare",
+    "quantity": "12",
+    "closingQuantity": "12"
+  },
+  {
+    "img": "product-13.jpg",
+    "sku": "PR00048",
+    "product": "Giro Synthe MIPS Helmet",
+    "category": "Bikes & Accessories",
+    "quantity": "43",
+    "closingQuantity": "43"
+  },
+  {
+    "img": "product-14.jpg",
+    "sku": "PR00022",
+    "product": "OnePlus 11 5G",
+    "category": "Smartphones",
+    "quantity": "20",
+    "closingQuantity": "20"
+  }
+],
+"totalData": 14
+}

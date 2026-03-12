@@ -1,0 +1,530 @@
+            <!-- Start Content -->
+            <div class="content-two">
+
+                <!-- Page Header -->
+                <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+                    <div>
+                        <h6>Pages</h6>
+                    </div>
+                    <div class="d-flex my-xl-auto right-content align-items-center flex-wrap gap-2">
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                                <i class="isax isax-export-1 me-1"></i>Export
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as PDF</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="javascript:void(0);">Download as Excel</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0);" class="btn btn-primary d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#add_modal"><i class="isax isax-add-circle5 me-1"></i>New Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- Start Table Search -->
+                <div class="mb-3">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+                        <div class="d-flex align-items-center flex-wrap gap-2">
+                            <div class="table-search d-flex align-items-center mb-0">
+                                <div class="search-input">
+                                    <a href="javascript:void(0);" class="btn-searchset"><i class="isax isax-search-normal fs-12"></i></a>
+                                    <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                      <label> 
+                                      <input type="search" [(ngModel)]="searchDataValue" [ngModelOptions]="{ standalone: true }" type="search" (ngModelChange)="searchData(searchDataValue)" class="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0">
+                                    </label>
+                                  </div>
+                                 </div>
+                            </div>
+                            <a class="btn btn-outline-white fw-normal d-inline-flex align-items-center" href="javascript:void(0);" data-bs-toggle="offcanvas" data-bs-target="#customcanvas">
+                                <i class="isax isax-filter me-1"></i>Filter
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Filter Info -->
+                    <div class="align-items-center gap-2 flex-wrap filter-info mt-3 " [ngClass]="{'show':showFilter}">
+                        <h6 class="fs-13 fw-semibold">Filters</h6>
+                        <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[1]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1" >5</span>Vendors Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(1)"><i class="fa-solid fa-x fs-10"></i></span></span>
+                        <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[2]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1">5</span>Status Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(2)"><i class="fa-solid fa-x fs-10"></i></span></span>
+                        <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[3]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1">5</span>Units Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(3)"><i class="fa-solid fa-x fs-10"></i></span></span>
+                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline ms-md-1" (click)="isFilter()">Clear All</a>
+                    </div>
+                    <!-- /Filter Info -->
+
+                </div>
+                <!-- End Table Search -->
+
+                <!-- Start Table List -->
+                <div class="table-responsive">
+                    <table matSort (matSortChange)="sortData($event)" class="table table-nowrap dataTable datatable">
+                        <thead>
+                            <tr>
+                                <th class="no-sort">
+                                    <div class="form-check form-check-md" (click)="selectAll(initChecked)">
+                                        <input class="form-check-input" type="checkbox" id="select-all"  [(ngModel)]="initChecked">
+                                    </div>
+                                </th>
+                                <th class="no-sort">Pages</th>
+                                <th class="no-sort">Page slug</th>
+                                <th class="no-sort">Status</th>
+                                <th class="no-sort"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (data of tableData;track data){
+                            <tr>
+                                <td class="sorting_1">
+                                    <div class="form-check form-check-md" >
+                                        <input class="form-check-input" type="checkbox" [(ngModel)]="data.isSelected">
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0);" class="link-default">{{data.pages}}</a>
+                                </td>
+
+                                <td>{{data.pageSlug}}</td>
+                                <td>
+                                    <span class="badge  d-inline-flex align-items-center"
+                                    [ngClass]="data.status==='Inactive'?'badge-soft-danger':'badge-soft-success'">{{data.status}} 
+                                    <i class="isax  ms-1"
+                                    [ngClass]="data.status==='Inactive'?'isax-close-circle':'isax-tick-circle'"></i></span>
+                                </td>
+                                <td class="action-item">
+                                    <a href="javascript:void(0);" data-bs-toggle="dropdown">
+                                        <i class="isax isax-more"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#edit_modal"><i class="isax isax-edit me-2"></i>Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#delete_modal"><i class="isax isax-trash me-2"></i>Delete</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        } @if(tableData.length === 0){
+                            <tr>
+                              <td colspan="12" class="text-center text-dark">No matching records found</td>
+                            </tr>
+                          }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- End Table List -->
+                 <app-custom-pagination *ngIf="row"/>
+
+            </div>
+            <!-- End Content -->
+
+
+                    <!-- Start Filter -->
+        <div class="offcanvas offcanvas-offset offcanvas-end" tabindex="-1" id="customcanvas">
+            <div class="offcanvas-header d-block pb-0">
+                <div class="border-bottom d-flex align-items-center justify-content-between pb-3">
+                    <h6 class="offcanvas-title">Filter</h6>
+                    <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                </div>
+            </div>
+            <div class="offcanvas-body pt-3">
+                <form action="#">
+                    <div class="mb-3">
+                        <label class="form-label">Products/Services</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="mb-3">
+                                    <div class="input-icon-start position-relative">
+                                        <span class="input-icon-addon fs-12">
+											<i class="isax isax-search-normal"></i>
+										</span>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search">
+                                    </div>
+                                </div>
+                                <ul class="mb-3">
+                                    <li class="d-flex align-items-center justify-content-between mb-3">
+                                        <label class="d-inline-flex align-items-center text-gray-9">
+                                            <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                                        </label>
+                                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-01.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Apple iPhone 15
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-02.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Dell XPS 13 9310
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-03.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Bose QuietComfort 45
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-04.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Nike Dri-FIT T-shirt
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-05.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Adidas Ultraboost 22 Running Shoe
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox">
+                                            <span class="avatar avatar-sm rounded-circle me-2"><img src="assets/img/products/product-06.jpg" class="flex-shrink-0 rounded-circle" alt="img"></span>Samsung French Door Refrigerator
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-outline-white w-100 close-filter">Cancel</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Category</label>
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+								Select
+							</a>
+                            <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                                <div class="mb-3">
+                                    <div class="input-icon-start position-relative">
+                                        <span class="input-icon-addon fs-12">
+											<i class="isax isax-search-normal"></i>
+										</span>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Search">
+                                    </div>
+                                </div>
+                                <ul class="mb-3">
+                                    <li class="d-flex align-items-center justify-content-between mb-3">
+                                        <label class="d-inline-flex align-items-center text-gray-9">
+                                            <input class="form-check-input select-all m-0 me-2" type="checkbox"> Select All
+                                        </label>
+                                        <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline">Reset</a>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Smartphones
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Headphones
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Men's Apparel
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Footwear
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Kitchen
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Cleaning
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Skincare
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                            <input class="form-check-input m-0 me-2" type="checkbox"> Bike & Accessories
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-outline-white w-100 close-filter">Cancel</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Units</label>
+                        <mat-select class="custom-mat-select select" placeholder="Select">
+                            <mat-option value="1">Select</mat-option>
+                            <mat-option value="1">Kilograms (Kg)</mat-option>
+                            <mat-option value="1">Gram (g)</mat-option>
+                            <mat-option value="1">Liter (l)</mat-option>
+                            <mat-option value="1">Millimetre (mm)</mat-option>
+                            <mat-option value="1">Milliliter (ml)</mat-option>
+                            <mat-option value="1">Pack (pk)</mat-option>
+                            <mat-option value="1">Piece (pc)</mat-option>
+                        </mat-select>
+                    </div>
+                    <div class="mb-0">
+                        <label class="form-label">Status</label>
+                        <mat-select class="custom-mat-select select2-color" placeholder="Select">
+                            <mat-option value="1">Select</mat-option>
+                            <mat-option value="1" class="text-success">Active</mat-option>
+                            <mat-option value="1" class="text-danger">Inactive</mat-option>
+                        </mat-select>
+                    </div>
+                    <div class="offcanvas-footer">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <a href="javascript:void(0);" class="btn btn-outline-white w-100" data-bs-dismiss="offcanvas">Reset</a>
+                            </div>
+                            <div class="col-6">
+                                <button data-bs-dismiss="offcanvas" class="btn btn-primary w-100" id="filter-submit" (click)="isFilter()">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Filter -->
+
+        <!-- Start Add Page Modal  -->
+        <div id="add_modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Page</h4>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Title <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Slug <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Description <span> (Meta Tag) </span> <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Keywords <span> (Meta Tag) </span> <span class="text-danger"> *</span></label>
+                                        <input class="input-tags form-control" id="inputBox" type="text" data-role="tagsinput" name="specialist">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Location <span class="text-danger">*</span></label>
+                                        <div class="d-flex align-items-center">
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="Radio" id="Radio-sm-1" checked="">
+                                                <label class="form-check-label" for="Radio-sm-1">
+                                                    Top Menu
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="Radio" id="Radio-sm-2">
+                                                <label class="form-check-label" for="Radio-sm-2">
+                                                    Quick Links
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Language <span class="text-danger ms-1">*</span></label>
+                                        <mat-select class="custom-mat-select select" placeholder="Select">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">English</mat-option>
+                                            <mat-option value="1">German</mat-option>
+                                            <mat-option value="1">Arabic</mat-option>
+                                            <mat-option value="1">French</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Status <span class="text-danger ms-1">*</span></label>
+                                        <mat-select class="custom-mat-select select" placeholder="Select">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">Active</mat-option>
+                                            <mat-option value="1">Inactive</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div>
+                                        <label class="form-label">Textarea</label>
+                                        <ngx-editor [editor]="editor">
+                                            <ngx-editor-menu [editor]="editor" [toolbar]="toolbar" >
+                                            </ngx-editor-menu>
+                                         </ngx-editor>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                            <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Add Page Modal -->
+
+        <!-- Start Edit Page Modal  -->
+        <div id="edit_modal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Edit Page</h4>
+                        <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Title <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control" value="About Us">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Slug <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control" value="abot-us">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Description <span> (Meta Tag) </span> <span class="text-danger"> *</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Keywords <span> (Meta Tag) </span> <span class="text-danger"> *</span></label>
+                                        <input class="input-tags form-control" id="inputBox2" type="text" data-role="tagsinput" name="specialist" value="Badge">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Location <span class="text-danger">*</span></label>
+                                        <div class="d-flex align-items-center">
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="Radio" id="Radio-sm-1" checked="">
+                                                <label class="form-check-label" for="Radio-sm-3">
+                                                    Top Menu
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="Radio" id="Radio-sm-2">
+                                                <label class="form-check-label" for="Radio-sm-4">
+                                                    Quick Links
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Language <span class="text-danger ms-1">*</span></label>
+                                        <mat-select class="custom-mat-select select" placeholder="English">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">English</mat-option>
+                                            <mat-option value="1">German</mat-option>
+                                            <mat-option value="1">Arabic</mat-option>
+                                            <mat-option value="1">French</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Status <span class="text-danger ms-1">*</span></label>
+                                        <mat-select class="custom-mat-select select" placeholder="Active">
+                                            <mat-option value="1">Select</mat-option>
+                                            <mat-option value="1">Active</mat-option>
+                                            <mat-option value="1">Inactive</mat-option>
+                                        </mat-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div>
+                                        <label class="form-label">Textarea</label>
+                                        <ngx-editor [editor]="editor1">
+                                            <ngx-editor-menu [editor]="editor1" [toolbar]="toolbar" >
+                                            </ngx-editor-menu>
+                                         </ngx-editor>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex align-items-center justify-content-between gap-1">
+                            <button type="button" class="btn btn-outline-white" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Edit Page Modal -->
+
+        <!-- Start Modal -->
+        <div class="modal fade" id="delete_modal">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <div class="mb-3">
+                            <img src="assets/img/icons/delete.svg" alt="img">
+                        </div>
+                        <h6 class="mb-1">Delete Page</h6>
+                        <p class="mb-3">Are you sure, you want to delete Page?</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="javascript:void(0);" class="btn btn-outline-white me-3" data-bs-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0);" class="btn btn-primary">Yes, Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->

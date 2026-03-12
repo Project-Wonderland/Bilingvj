@@ -1,0 +1,118 @@
+{
+    "data":[
+        {
+          "id": "INC00025",
+          "date": "22 Feb 2025",
+          "referenceNumber": "REF17420",
+          "description": "Sale of laptops",
+          "amount": "$10,000",
+          "paymentMode": "Cash"
+        },
+        {
+          "id": "INC00024",
+          "date": "07 Feb 2025",
+          "referenceNumber": "REF16512",
+          "description": "Website development",
+          "amount": "$25,750",
+          "paymentMode": "Cheque"
+        },
+        {
+          "id": "INC00023",
+          "date": "30 Jan 2025",
+          "referenceNumber": "REF16418",
+          "description": "Cloud migration service",
+          "amount": "$50,125",
+          "paymentMode": "Paypal"
+        },
+        {
+          "id": "INC00022",
+          "date": "17 Jan 2025",
+          "referenceNumber": "REF16317",
+          "description": "Sale of smartphones",
+          "amount": "$75,900",
+          "paymentMode": "Bank Transfer"
+        },
+        {
+          "id": "INC00021",
+          "date": "04 Jan 2025",
+          "referenceNumber": "REF15294",
+          "description": "Monthly premium plan",
+          "amount": "$99,999",
+          "paymentMode": "Stripe"
+        },
+        {
+          "id": "INC00020",
+          "date": "09 Dec 2024",
+          "referenceNumber": "REF15420",
+          "description": "IT consulting services",
+          "amount": "$1,20,500",
+          "paymentMode": "Cash"
+        },
+        {
+          "id": "INC00019",
+          "date": "02 Dec 2024",
+          "referenceNumber": "REF15275",
+          "description": "Sale of office equipment",
+          "amount": "$2,50,000",
+          "paymentMode": "Cheque"
+        },
+        {
+          "id": "INC00018",
+          "date": "15 Nov 2024",
+          "referenceNumber": "REF14405",
+          "description": "Online training session",
+          "amount": "$5,00,750",
+          "paymentMode": "Paypal"
+        },
+        {
+          "id": "INC00017",
+          "date": "30 Nov 2024",
+          "referenceNumber": "REF14754",
+          "description": "Purchase of manufacturing tools",
+          "amount": "$7,50,300",
+          "paymentMode": "Bank Transfer"
+        },
+        {
+          "id": "INC00016",
+          "date": "12 Oct 2024",
+          "referenceNumber": "REF14947",
+          "description": "Software maintenance",
+          "amount": "$9,99,999",
+          "paymentMode": "Stripe"
+        },
+        {
+          "id": "INC00015",
+          "date": "05 Oct 2024",
+          "referenceNumber": "REF13302",
+          "description": "Cloud storage solutions",
+          "amount": "$87,650",
+          "paymentMode": "Cheque"
+        },
+        {
+          "id": "INC00014",
+          "date": "09 Sep 2024",
+          "referenceNumber": "REF13035",
+          "description": "Sale of smart devices",
+          "amount": "$69,420",
+          "paymentMode": "Paypal"
+        },
+        {
+          "id": "INC00013",
+          "date": "02 Sep 2024",
+          "referenceNumber": "REF12710",
+          "description": "Software maintenance",
+          "amount": "$33,210",
+          "paymentMode": "Bank Transfer"
+        },
+        {
+          "id": "INC00012",
+          "date": "07 Aug 2024",
+          "referenceNumber": "REF12831",
+          "description": "Server maintenance",
+          "amount": "$2,10,000",
+          "paymentMode": "Cash"
+        }
+      ]
+      ,
+    "totalData":14
+}

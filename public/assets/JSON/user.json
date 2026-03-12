@@ -1,0 +1,131 @@
+{
+    "data": [
+        {
+            "img": "user-16.jpg",
+            "user": "Sarah Michelle",
+            "phone": "+1 202-555-0198",
+            "role": "Admin",
+            "lastActivity": "Online",
+            "createdOn": "22 Feb 2025",
+            "status": "Active"
+        },
+        {
+            "img": "user-26.jpg",
+            "user": "Daniel Patrick",
+            "phone": "+1 305-456-7821",
+            "role": "Customer",
+            "lastActivity": "10 mins ago",
+            "createdOn": "07 Feb 2025",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-27.jpg",
+            "user": "Emily Lauren",
+            "phone": "+1 415-678-1234",
+            "role": "Shop Owner",
+            "lastActivity": "1 hour ago",
+            "createdOn": "30 Jan 2025",
+            "status": "Active"
+        },
+        {
+            "img": "user-28.jpg",
+            "user": "Braun Kelton",
+            "phone": "+1 718-987-6543",
+            "role": "Receptionist",
+            "lastActivity": "Online",
+            "createdOn": "17 Jan 2025",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-29.jpg",
+            "user": "Jessica Renee",
+            "phone": "+1 909-234-5678",
+            "role": "Admin",
+            "lastActivity": "Online",
+            "createdOn": "04 Jan 2025",
+            "status": "Active"
+        },
+        {
+            "img": "user-30.jpg",
+            "user": "Ryan Christopher",
+            "phone": "+1 602-789-3456",
+            "role": "Customer",
+            "lastActivity": "45 mins ago",
+            "createdOn": "09 Dec 2024",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-24.jpg",
+            "user": "Abigail Harper",
+            "phone": "+1 812-456-9087",
+            "role": "Shop Owner",
+            "lastActivity": "2 hours ago",
+            "createdOn": "02 Dec 2024",
+            "status": "Active"
+        },
+        {
+            "img": "user-31.jpg",
+            "user": "Michael Johnson",
+            "phone": "+1 214-123-4567",
+            "role": "Receptionist",
+            "lastActivity": "Online",
+            "createdOn": "15 Nov 2024",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-32.jpg",
+            "user": "Madison Brooke",
+            "phone": "+1 646-789-1230",
+            "role": "Admin",
+            "lastActivity": "58 mins ago",
+            "createdOn": "30 Nov 2024",
+            "status": "Active"
+        },
+        {
+            "img": "user-33.jpg",
+            "user": "William Andrew",
+            "phone": "+1 901-678-4321",
+            "role": "Customer",
+            "lastActivity": "Online",
+            "createdOn": "12 Oct 2024",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-34.jpg",
+            "user": "Victoria Celeste",
+            "phone": "+1 503-987-2105",
+            "role": "Shop Owner",
+            "lastActivity": "Online",
+            "createdOn": "05 Oct 2024",
+            "status": "Active"
+        },
+        {
+            "img": "user-35.jpg",
+            "user": "Nathaniel Blake",
+            "phone": "+1 320-345-6789",
+            "role": "Receptionist",
+            "lastActivity": "8 hours ago",
+            "createdOn": "09 Sep 2024",
+            "status": "Inactive"
+        },
+        {
+            "img": "user-36.jpg",
+            "user": "Natalie Paige",
+            "phone": "+1 720-654-7890",
+            "role": "Admin",
+            "lastActivity": "Online",
+            "createdOn": "02 Sep 2024",
+            "status": "Active"
+        },
+        {
+            "img": "user-37.jpg",
+            "user": "Isabella Claire",
+            "phone": "+1 919-321-9876",
+            "role": "Customer",
+            "lastActivity": "1 day ago",
+            "createdOn": "07 Aug 2024",
+            "status": "Inactive"
+        }
+    ],
+    "totalData": 14
+}

@@ -1,0 +1,86 @@
+{
+    "data":[
+        {
+            "date": "22 Feb 2025",
+            "referenceNumber": "MT17420",
+            "fromAccountNo": "3298784309485",
+            "toAccountNo": "1597534682597",
+            "amount": "$200",
+            "status": "Active"
+        },
+        {
+            "date": "07 Feb 2025",
+            "referenceNumber": "MT16512",
+            "fromAccountNo": "5475878970090",
+            "toAccountNo": "3214569873214",
+            "amount": "$50",
+            "status": "Inactive"
+        },
+        {
+            "date": "30 Jan 2025",
+            "referenceNumber": "MT16418",
+            "fromAccountNo": "3255465758698",
+            "toAccountNo": "3692581473692",
+            "amount": "$800",
+            "status": "Active"
+        },
+        {
+            "date": "25 Jan 2025",
+            "referenceNumber": "MT16410",
+            "fromAccountNo": "4255465758697",
+            "toAccountNo": "5692581473696",
+            "amount": "$100",
+            "status": "Inactive"
+        },
+        {
+            "date": "17 Jan 2025",
+            "referenceNumber": "MT16317",
+            "fromAccountNo": "4353689870544",
+            "toAccountNo": "6543217896543",
+            "amount": "$100",
+            "status": "Active"
+        },
+        {
+            "date": "04 Jan 2025",
+            "referenceNumber": "MT15294",
+            "fromAccountNo": "4324356677889",
+            "toAccountNo": "3298784309485",
+            "amount": "$1000",
+            "status": "Inactive"
+        },
+        {
+            "date": "09 Dec 2024",
+            "referenceNumber": "MT15420",
+            "fromAccountNo": "2343547586900",
+            "toAccountNo": "4567891234567",
+            "amount": "$1200",
+            "status": "Active"
+        },
+        {
+            "date": "02 Dec 2024",
+            "referenceNumber": "MT15275",
+            "fromAccountNo": "3354456565687",
+            "toAccountNo": "9876543210123",
+            "amount": "$500",
+            "status": "Inactive"
+        },
+        {
+            "date": "15 Nov 2024",
+            "referenceNumber": "MT14405",
+            "fromAccountNo": "3453647664889",
+            "toAccountNo": "3453647664935",
+            "amount": "$600",
+            "status": "Active"
+        },
+        {
+            "date": "30 Nov 2024",
+            "referenceNumber": "MT14754",
+            "fromAccountNo": "9876543210123",
+            "toAccountNo": "3354456565687",
+            "amount": "$450",
+            "status": "Inactive"
+        }
+    ]
+    ,
+    "totalData":14
+}

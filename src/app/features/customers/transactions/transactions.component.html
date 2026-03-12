@@ -1,0 +1,259 @@
+<!-- Start Content -->
+<div class="content-two">
+
+    <!-- Page Header -->
+    <div class="d-flex d-block align-items-center justify-content-between flex-wrap gap-3 mb-3">
+        <div>
+            <h6>Transactions</h6>
+        </div>
+    </div>
+    <!-- End Page Header -->
+
+    <!-- Table Search Start -->
+    <div class="mb-3">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+            <div class="d-flex align-items-center flex-wrap gap-2">
+                <div class="table-search d-flex align-items-center mb-0">
+                    <div class="search-input">
+                        <a href="javascript:void(0);" class="btn-searchset"><i class="isax isax-search-normal fs-12"></i></a>
+                        <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                          <label> 
+                          <input type="search" [(ngModel)]="searchDataValue" [ngModelOptions]="{ standalone: true }" type="search" (ngModelChange)="searchData(searchDataValue)" class="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0">
+                        </label>
+                      </div>
+                     </div>
+                </div>
+                <a class="btn btn-outline-white fw-normal d-inline-flex align-items-center" href="javascript:void(0);" data-bs-toggle="offcanvas" data-bs-target="#customcanvas">
+                    <i class="isax isax-filter me-1"></i>Filter
+                </a>
+            </div>
+            <div class="d-flex align-items-center flex-wrap gap-2">
+                <div class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle btn btn-outline-white d-inline-flex align-items-center" data-bs-toggle="dropdown">
+                        <i class="isax isax-sort me-1"></i>Sort By : <span class="fw-normal ms-1">Latest</span>
+                    </a>
+                    <ul class="dropdown-menu  dropdown-menu-end">
+                        <li>
+                            <a href="javascript:void(0);" class="dropdown-item">Latest</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="dropdown-item">Oldest</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Info -->
+        <div class="align-items-center gap-2 flex-wrap filter-info mt-3" [ngClass]="{'show':showFilter}">
+            <h6 class="fs-13 fw-semibold">Filters</h6>
+            <span class="tag bg-light border rounded-1 fs-12 text-dark badge"  [ngClass]="{'d-none':selectedFilter[1]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1">1</span>Type Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(1)"><i class="fa-solid fa-x fs-10"></i></span></span>
+            <span class="tag bg-light border rounded-1 fs-12 text-dark badge" [ngClass]="{'d-none':selectedFilter[2]}"><span class="num-count d-inline-flex align-items-center justify-content-center bg-success fs-10 me-1">1</span>Status Selected<span class="ms-1 tag-close" (click)="isSelectedFilter(2)"><i class="fa-solid fa-x fs-10"></i></span></span>
+            <a href="javascript:void(0);" class="link-danger fw-medium text-decoration-underline ms-md-1"  (click)="isFilter()">Clear All</a>
+        </div>
+        <!-- /Filter Info -->
+    </div>
+    <!-- /Table Search End -->
+
+    <!-- Table List Start -->
+    <div class="table-responsive">
+        <table matSort (matSortChange)="sortData($event)" class="table table-nowrap dataTable datatable">
+            <thead class="thead-light">
+                <tr>
+                    <th mat-sort-header="type">Type</th>
+                    <th mat-sort-header="amount">Amount</th>
+                    <th mat-sort-header="date">Date</th>
+                    <th mat-sort-header="payment">Payment Mode</th>
+                    <th class="no-sort">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (data of tableData;track data){ 
+                <tr>
+                    <td class="text-dark">{{data.Type}}</td>
+                    <td class="text-dark">{{data.Amount}}</td>
+                    <td>{{data.Date}}</td>
+                    <td>{{data.PaymentMode}}</td>
+                    <td>
+                        <span class="badge d-inline-flex align-items-center" 
+                        [ngClass]="data.Status==='Completed'?'badge-soft-success' : 'badge-soft-danger'">
+                            {{data.Status}} 
+                            <i class="isax ms-1" 
+                            [ngClass]="data.Status==='Completed'?'isax-tick-circle':' isax-close-circle'"></i>
+                        </span>
+                    </td>
+                </tr>
+                }
+                @if(tableData.length === 0){
+                    <tr>
+                    <td colspan="12" class="text-center text-dark">No matching records found</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- /Table List End -->
+    <app-custom-pagination *ngIf="row"></app-custom-pagination>
+
+</div>
+<!-- End Content -->
+
+<!-- Start Filter -->
+<div class="offcanvas offcanvas-offset offcanvas-end" tabindex="-1" id="customcanvas">
+    <div class="offcanvas-header d-block pb-0">
+        <div class="border-bottom d-flex align-items-center justify-content-between pb-3">
+            <h6 class="offcanvas-title">Filter</h6>
+            <button type="button" class="btn-close btn-close-modal custom-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+        </div>
+    </div>
+    <div class="offcanvas-body pt-3">
+        <form action="#">
+            <div class="mb-3">
+                <label class="form-label">Type</label>
+                <div class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                        Select
+                    </a>
+                    <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                        <div class="mb-3">
+                            <div class="input-icon-start position-relative">
+                                <span class="input-icon-addon fs-12">
+                                    <i class="isax isax-search-normal"></i>
+                                </span>
+                                <input type="text" class="form-control form-control-sm" placeholder="Search">
+                            </div>
+                        </div>
+                        <ul class="mb-3">
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Wallet Topup
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Purchase
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Refund
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <a href="javascript:void(0);" class="btn btn-outline-white w-100" id="close-filter">Cancel</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="javascript:void(0);" class="btn btn-primary w-100">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="dateRangePicker" class="form-label">Date Range</label>
+                <div class="filter-daterange">
+                    <app-date-range-picker></app-date-range-picker>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Amount</label>
+                <div class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                        Select
+                    </a>
+                    <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                        <div class="filter-range">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="irs" style="visibility: visible;">$0</span>
+                                <span class="irs" style="visibility: visible;">$1000</span>
+                            </div>
+                            <mat-slider
+                                min="0"
+                                max="1000"
+                                discrete
+                                [displayWith]="formatLabel"
+                            >
+                                <input value="350" matSliderThumb />
+                            </mat-slider>
+                            <p>Range : <span class="text-gray-9">$200 - $5695</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Payment Mode</label>
+                <div class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                        Select
+                    </a>
+                    <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                        <ul class="mb-3">
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Cash
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Cheque
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Bank Transfer
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Paypal
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox"> Stripe
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Status</label>
+                <div class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle btn btn-lg bg-light  d-flex align-items-center justify-content-start fs-13 fw-normal border" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true">
+                        Select
+                    </a>
+                    <div class="dropdown-menu shadow-lg w-100 dropdown-info">
+                        <ul class="mb-3">
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox">
+                                    <i class="fa-solid fa-circle fs-6 text-success me-1"></i>Completed
+                                </label>
+                            </li>
+                            <li>
+                                <label class="dropdown-item px-2 d-flex align-items-center text-dark">
+                                    <input class="form-check-input m-0 me-2" type="checkbox">
+                                    <i class="fa-solid fa-circle fs-6 text-danger me-1"></i>Canceled
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas-footer">
+                <div class="row g-2">
+                    <div class="col-6">
+                        <a href="javascript:void(0);" class="btn btn-outline-white w-100">Reset</a>
+                    </div>
+                    <div class="col-6">
+                        <button data-bs-dismiss="offcanvas" class="btn btn-primary w-100" id="filter-submit" (click)="isFilter()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- End Filter -->

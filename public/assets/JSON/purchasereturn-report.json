@@ -1,0 +1,133 @@
+{
+    "data": [
+      {
+        "img": "avatar-01.jpg",
+        "id": "PUR00025",
+        "date": "22 Feb 2025",
+        "vendor": "Emma Rose",
+        "status": "Paid",
+        "amount": "$10,000",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-02.jpg",
+        "id": "PUR00024",
+        "date": "07 Feb 2025",
+        "vendor": "Ethan James",
+        "status": "Pending",
+        "amount": "$25,750",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-03.jpg",
+        "id": "PUR00023",
+        "date": "30 Jan 2025",
+        "vendor": "Olivia Grace",
+        "status": "Cancelled",
+        "amount": "$50,125",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-04.jpg",
+        "id": "PUR00022",
+        "date": "17 Jan 2025",
+        "vendor": "Liam Michael",
+        "status": "Paid",
+        "amount": "$75,900",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-05.jpg",
+        "id": "PUR00021",
+        "date": "04 Jan 2025",
+        "vendor": "Sophia Marie",
+        "status": "Pending",
+        "amount": "$99,999",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-06.jpg",
+        "id": "PUR00020",
+        "date": "09 Dec 2024",
+        "vendor": "Noah Daniel",
+        "status": "Cancelled",
+        "amount": "$1,20,500",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-07.jpg",
+        "id": "PUR00019",
+        "date": "15 Nov 2024",
+        "vendor": "Isabella Faith",
+        "status": "Paid",
+        "amount": "$2,50,000",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-08.jpg",
+        "id": "PUR00018",
+        "date": "02 Dec 2024",
+        "vendor": "Oliver Scott",
+        "status": "Pending",
+        "amount": "$5,00,750",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-09.jpg",
+        "id": "PUR00017",
+        "date": "30 Nov 2024",
+        "vendor": "Ava Louise",
+        "status": "Cancelled",
+        "amount": "$7,50,300",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-10.jpg",
+        "id": "PUR00016",
+        "date": "12 Oct 2024",
+        "vendor": "James Robert",
+        "status": "Paid",
+        "amount": "$9,99,999",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-11.jpg",
+        "id": "PUR00015",
+        "date": "05 Oct 2024",
+        "vendor": "Charlotte Anne",
+        "status": "Pending",
+        "amount": "$87,650",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-12.jpg",
+        "id": "PUR00014",
+        "date": "09 Sep 2024",
+        "vendor": "Benjamin Thomas",
+        "status": "Cancelled",
+        "amount": "$69,420",
+        "paymentMode": "Cash"
+      },
+      {
+        "img": "avatar-13.jpg",
+        "id": "PUR00013",
+        "date": "02 Sep 2024",
+        "vendor": "Amelia Jane",
+        "status": "Paid",
+        "amount": "$33,210",
+        "paymentMode": "Cheque"
+      },
+      {
+        "img": "avatar-14.jpg",
+        "id": "PUR00012",
+        "date": "07 Aug 2024",
+        "vendor": "Mia Elizabeth",
+        "status": "Pending",
+        "amount": "$2,10,000",
+        "paymentMode": "Cheque"
+      }
+    ]
+    ,
+    "totalData": 14
+  }
+  

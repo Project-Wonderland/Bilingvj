@@ -1,0 +1,49 @@
+<div class="main-wrapper auth-bg">
+  <div class="container-fuild">
+    <div class="w-100 overflow-hidden position-relative flex-wrap d-block vh-100">
+      <div class="row justify-content-center align-items-center vh-100 overflow-auto flex-wrap ">
+        <div class="col-lg-4 mx-auto">
+          <form (ngSubmit)="redirectPage()" class="d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column justify-content-lg-center p-4 p-lg-0 pb-0 flex-fill">
+              <div class=" mx-auto mb-5 text-center">
+                <img src="assets/img/logo.svg"
+                  class="img-fluid" alt="Logo">
+              </div>
+              <div class="card border-0 p-lg-3 shadow-lg rounded-2">
+                <div class="card-body">
+                  <div class="text-center mb-3">
+                    <h5 class="mb-2">Welcome Back!</h5>
+                  </div>
+                                      <div class="text-center mb-3">
+                                          <span class="avatar avatar-xl rounded-circle flex-shrink-0">
+                                              <img src="assets/img/users/user-01.jpg" class="rounded-circle" alt="img">
+                                          </span>
+                                      </div>
+                  <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <div class="pass-group input-group">
+                      <span class="input-group-text border-end-0">
+                        <i class="isax isax-lock"></i>
+                      </span>
+                      <span class="isax toggle-password "(click)="show_password = !show_password"
+                      [ngClass]="
+                      show_password === true
+                        ? 'toggle-password isax-eye-slash'
+                        : 'toggle-password isax-eye'
+                    "></span>
+                      <input type="password" [type]="show_password ? 'password' : 'text'" class="pass-inputs form-control border-start-0 ps-0" placeholder="****************">
+                    </div>
+                  </div>
+                  <div class="mb-0">
+                    <button type="submit" class="btn bg-primary-gradient text-white w-100">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

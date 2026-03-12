@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "img": "avatar-28.jpg",
+      "quotationId": "QU0014",
+      "customer": "Emily Clark",
+      "createdOn": "22 Feb 2025",
+      "status": "Accepted"
+    },
+    {
+      "img": "avatar-29.jpg",
+      "quotationId": "QU0013",
+      "customer": "John Carter",
+      "createdOn": "07 Feb 2025",
+      "status": "Declined"
+    },
+    {
+      "img": "avatar-12.jpg",
+      "quotationId": "QU0012",
+      "customer": "Sophia White",
+      "createdOn": "30 Jan 2025",
+      "status": "Sent"
+    },
+    {
+      "img": "avatar-06.jpg",
+      "quotationId": "QU0011",
+      "customer": "Michael Johnson",
+      "createdOn": "17 Jan 2025",
+      "status": "Expired"
+    },
+    {
+      "img": "avatar-30.jpg",
+      "quotationId": "QU0010",
+      "customer": "Olivia Harris",
+      "createdOn": "04 Jan 2025",
+      "status": "Accepted"
+    },
+    {
+      "img": "avatar-16.jpg",
+      "quotationId": "QU0009",
+      "customer": "David Anderson",
+      "createdOn": "09 Dec 2024",
+      "status": "Declined"
+    },
+    {
+      "img": "avatar-17.jpg",
+      "quotationId": "QU0008",
+      "customer": "Emma Lewis",
+      "createdOn": "02 Dec 2024",
+      "status": "Sent"
+    },
+    {
+      "img": "avatar-23.jpg",
+      "quotationId": "QU0007",
+      "customer": "Robert Thomas",
+      "createdOn": "15 Nov 2024",
+      "status": "Expired"
+    },
+    {
+      "img": "avatar-07.jpg",
+      "quotationId": "QU0006",
+      "customer": "Isabella Scott",
+      "createdOn": "30 Nov 2024",
+      "status": "Accepted"
+    },
+    {
+      "img": "avatar-31.jpg",
+      "quotationId": "QU0005",
+      "customer": "Daniel Martinez",
+      "createdOn": "12 Oct 2024",
+      "status": "Declined"
+    },
+    {
+      "img": "avatar-32.jpg",
+      "quotationId": "QU0004",
+      "customer": "Charlotte Brown",
+      "createdOn": "05 Oct 2024",
+      "status": "Sent"
+    },
+    {
+      "img": "avatar-33.jpg",
+      "quotationId": "QU0003",
+      "customer": "William Parker",
+      "createdOn": "09 Oct 2024",
+      "status": "Expired"
+    },
+    {
+      "img": "avatar-34.jpg",
+      "quotationId": "QU0002",
+      "customer": "Mia Thompson",
+      "createdOn": "02 Sep 2024",
+      "status": "Accepted"
+    },
+    {
+      "img": "avatar-35.jpg",
+      "quotationId": "QU0001",
+      "customer": "Amelia Robinson",
+      "createdOn": "07 Aug 2024",
+      "status": "Declined"
+    }
+  ],
+  "totalData": 14
+}

@@ -1,0 +1,144 @@
+{
+    "data" : [
+        {
+          "ID": "INV00025",
+          "CreatedOn": "22 Feb 2025",
+          "Amount": "$10,000",
+          "Paid": "$5,000",
+          "Status": "Paid",
+          "PaymentMode": "Cash",
+          "DueDate": "04 Mar 2025",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00024",
+          "CreatedOn": "07 Feb 2025",
+          "Amount": "$25,750",
+          "Paid": "$10,750",
+          "Status": "Unpaid",
+          "PaymentMode": "Check",
+          "DueDate": "20 Feb 2025",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00023",
+          "CreatedOn": "30 Jan 2025",
+          "Amount": "$50,125",
+          "Paid": "$20,000",
+          "Status": "Cancelled",
+          "PaymentMode": "Cash",
+          "DueDate": "13 Feb 2025",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00022",
+          "CreatedOn": "17 Jan 2025",
+          "Amount": "$75,900",
+          "Paid": "$50,000",
+          "Status": "Partially Paid",
+          "PaymentMode": "Check",
+          "DueDate": "30 Jan 2025",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00021",
+          "CreatedOn": "04 Jan 2025",
+          "Amount": "$99,999",
+          "Paid": "$80,000",
+          "Status": "Overdue",
+          "PaymentMode": "Check",
+          "DueDate": "17 Jan 2025",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00020",
+          "CreatedOn": "09 Dec 2024",
+          "Amount": "$1,20,500",
+          "Paid": "$60,000",
+          "Status": "Paid",
+          "PaymentMode": "Cash",
+          "DueDate": "22 Dec 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00019",
+          "CreatedOn": "02 Dec 2024",
+          "Amount": "$2,50,000",
+          "Paid": "$1,25,000",
+          "Status": "Unpaid",
+          "PaymentMode": "Cash",
+          "DueDate": "15 Dec 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00018",
+          "CreatedOn": "15 Nov 2024",
+          "Amount": "$5,00,750",
+          "Paid": "$5,00,000",
+          "Status": "Cancelled",
+          "PaymentMode": "Check",
+          "DueDate": "28 Nov 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00017",
+          "CreatedOn": "30 Nov 2024",
+          "Amount": "$7,50,300",
+          "Paid": "$2,50,500",
+          "Status": "Partially Paid",
+          "PaymentMode": "Check",
+          "DueDate": "12 Nov 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00016",
+          "CreatedOn": "12 Oct 2024",
+          "Amount": "$9,99,999",
+          "Paid": "$4,00,000",
+          "Status": "Overdue",
+          "PaymentMode": "Cash",
+          "DueDate": "25 Oct 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00015",
+          "CreatedOn": "05 Oct 2024",
+          "Amount": "$87,650",
+          "Paid": "$40,000",
+          "Status": "Paid",
+          "PaymentMode": "Check",
+          "DueDate": "18 Oct 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00014",
+          "CreatedOn": "05 Oct 2024",
+          "Amount": "$87,650",
+          "Paid": "$40,000",
+          "Status": "Unpaid",
+          "PaymentMode": "Cash",
+          "DueDate": "18 Oct 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00013",
+          "CreatedOn": "02 Sep 2024",
+          "Amount": "$33,210",
+          "Paid": "$15,000",
+          "Status": "Cancelled",
+          "PaymentMode": "Check",
+          "DueDate": "15 Sep 2024",
+          "Pay": "Pay Now"
+        },
+        {
+          "ID": "INV00012",
+          "CreatedOn": "07 Aug 2024",
+          "Amount": "$2,10,000",
+          "Paid": "$1,50,000",
+          "Status": "Partially Paid",
+          "PaymentMode": "Check",
+          "DueDate": "20 Aug 2024",
+          "Pay": "Pay Now"
+        }
+       ]
+}
