@@ -1,0 +1,111 @@
+{
+    "data": [
+      {
+        "img": "avatar-28.jpg",
+        "customer": "Emily Clark",
+        "rating": "",
+        "content": "Invoicing system is a game-changer! I get paid faster, and my clients love the automated reminders",
+        "createdOn": "22 Feb 2025",
+        "status": "active"
+      },
+      {
+        "img": "avatar-29.jpg",
+        "customer": "John Carter",
+        "rating": "1",
+        "content": "Creating professional invoices in seconds has never been easier. Kanakku simplifies my billing process completely!",
+        "createdOn": "07 Feb 2025",
+        "status": "Inactive"
+      },
+      {
+        "img": "avatar-12.jpg",
+        "customer": "Sophia White",
+        "rating": "1",
+        "content": "Recurring invoices save me so much time! I don’t have to worry about sending invoices every month anymore.",
+        "createdOn": "30 Jan 2025",
+        "status": "active"
+      },
+      {
+        "img": "avatar-06.jpg",
+        "customer": "Michael Johnson",
+        "rating": "2",
+        "content": "Helps me track every rupee I spend. Now, I know exactly where my money is going.",
+        "createdOn": "17 Jan 2025",
+        "status": "Inactive"
+      },
+      {
+        "img": "avatar-30.jpg",
+        "customer": "Olivia Harris",
+        "rating": "",
+        "content": "Expense categorization is effortless. It keeps my books clean and accurate.",
+        "createdOn": "04 Jan 2025",
+        "status": "active"
+      },
+      {
+        "img": "avatar-27.jpg",
+        "customer": "David Anderson",
+        "rating": "1",
+        "content": "Gives me a clear picture of my cash flow, so I can plan better for my business growth.",
+        "createdOn": "09 Dec 2024",
+        "status": "Inactive"
+      },
+      {
+        "img": "avatar-22.jpg",
+        "customer": "Emma Lewis",
+        "rating": "2",
+        "content": "Filing GST has never been this easy. Kanakku calculates everything automatically, saving me hours of work.",
+        "createdOn": "02 Dec 2024",
+        "status": "active"
+      },
+      {
+        "img": "avatar-23.jpg",
+        "customer": "Robert Thomas",
+        "rating": "",
+        "content": "The tax reports are spot on! I no longer worry about making errors during tax season.",
+        "createdOn": "15 Nov 2024",
+        "status": "Inactive"
+      },
+      {
+        "img": "avatar-07.jpg",
+        "customer": "Isabella Scott",
+        "rating": "1",
+        "content": "Ensures my clients stay 100% compliant with GST and other tax regulations.",
+        "createdOn": "30 Nov 2024",
+        "status": "active"
+      },
+      {
+        "img": "avatar-41.jpg",
+        "customer": "Charlotte Brown",
+        "rating": "1",
+        "content": "Even with multiple accounts, It remains super easy to use. The UI is simple and intuitive.",
+        "createdOn": "05 Oct 2024",
+        "status": "active"
+      },
+      {
+        "img": "avatar-21.jpg",
+        "customer": "William Parker",
+        "rating": "1",
+        "content": "Invoice customization is fantastic! I can add my logo, terms, and even set up recurring invoices effortlessly.",
+        "createdOn": "09 Sep 2024",
+        "status": "Inactive"
+      },
+      {
+        "img": "avatar-26.jpg",
+        "customer": "Mia Thompson",
+        "rating": "",
+        "content": "I no longer chase clients for payments! The automated invoice reminders ensure I get paid on time, every time.",
+        "createdOn": "02 Sep 2024",
+        "status": "active"
+      },
+      {
+        "img": "avatar-30.jpg",
+        "customer": "Amelia Robinson",
+        "rating": "1",
+        "content": "Bulk invoice generation is a lifesaver! I can create and send multiple invoices in just a few clicks",
+        "createdOn": "07 Aug 2024",
+        "status": "Inactive"
+      }
+    ]
+    ,
+    "totalData": 9
+  }
+  

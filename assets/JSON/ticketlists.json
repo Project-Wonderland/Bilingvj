@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+     "img": "profiles/avatar-28.jpg",
+      "img2": "user-16.jpg",
+      "ticketId": "TK00025",
+      "subject": "Support for theme",
+      "assigned": "Emily Clark",
+      "assignedDate": "22 Feb 2025",
+      "priority": "Medium",
+      "createdOn": "04 Mar 2025",
+      "assignee": "Sarah Michelle",
+      "status": "Resolved"
+    },
+    {
+     "img": "profiles/avatar-01.jpg",
+      "img2": "user-26.jpg",
+      "ticketId": "TK00024",
+      "subject": "Verify your email",
+      "assigned": "John Carter",
+      "assignedDate": "07 Feb 2025",
+      "priority": "Low",
+      "createdOn": "20 Feb 2025",
+      "assignee": "Daniel Patrick",
+      "status": "Pending"
+    },
+    {
+     "img": "profiles/avatar-16.jpg",
+      "img2": "user-27.jpg",
+      "ticketId": "TK00023",
+      "subject": "Calling for help",
+      "assigned": "Sophia White",
+      "assignedDate": "30 Jan 2025",
+      "priority": "High",
+      "createdOn": "13 Feb 2025",
+      "assignee": "Emily Lauren",
+      "status": "Closed"
+    },
+    {
+     "img": "profiles/avatar-08.jpg",
+      "img2": "user-28.jpg",
+      "ticketId": "TK00022",
+      "subject": "Management",
+      "assigned": "Michael Johnson",
+      "assignedDate": "17 Jan 2025",
+      "priority": "Medium",
+      "createdOn": "30 Jan 2025",
+      "assignee": "Braun Kelton",
+      "status": "Open"
+    },
+    {
+     "img": "profiles/avatar-30.jpg",
+      "img2": "user-18.jpg",
+      "ticketId": "TK00021",
+      "subject": "Invoice not generating",
+      "assigned": "David Anderson",
+      "assignedDate": "09 Dec 2024",
+      "priority": "High",
+      "createdOn": "22 Jan 2025",
+      "assignee": "Ryan Christopher",
+      "status": "Resolved"
+    },
+    {
+     "img": "profiles/avatar-22.jpg",
+      "img2": "user-29.jpg",
+      "ticketId": "TK00020",
+      "subject": "Unable to log in",
+      "assigned": "Olivia Harris",
+      "assignedDate": "04 Jan 2024",
+      "priority": "Low",
+      "createdOn": "17 Jan 2025",
+      "assignee": "Jessica Renee",
+      "status": "Pending"
+    },
+    {
+     "img": "profiles/avatar-25.jpg",
+      "img2": "user-27.jpg",
+      "ticketId": "TK00019",
+      "subject": "Payment gateway issue",
+      "assigned": "Emma Lewis",
+      "assignedDate": "02 Dec 2024",
+      "priority": "Medium",
+      "createdOn": "15 Jan 2025",
+      "assignee": "Abigail Harper",
+      "status": "Closed"
+    },
+    {
+     "img": "profiles/avatar-21.jpg",
+      "img2": "user-31.jpg",
+      "ticketId": "TK00017",
+      "subject": "Verify your email",
+      "assigned": "Isabella Scott",
+      "assignedDate": "30 Nov 2024",
+      "priority": "High",
+      "createdOn": "12 Nov 2025",
+      "assignee": "Madison Brooke",
+      "status": "Resolved"
+    },
+    {
+     "img": "profiles/avatar-24.jpg",
+      "img2": "user-06.jpg",
+      "ticketId": "TK00016",
+      "subject": "Calling for help",
+      "assigned": "Daniel Martinez",
+      "assignedDate": "12 Oct 2024",
+      "priority": "Medium",
+      "createdOn": "25 Oct 2025",
+      "assignee": "William Andrew",
+      "status": "Pending"
+    },
+    {
+     "img": "profiles/avatar-15.jpg",
+      "img2": "user-33.jpg",
+      "ticketId": "TK00015",
+      "subject": "Management",
+      "assigned": "Charlotte Brown",
+      "assignedDate": "05 Oct 2024",
+      "priority": "Low",
+      "createdOn": "18 Oct 2024",
+      "assignee": "Victoria Celeste",
+      "status": "Closed"
+    },
+    {
+      "img": "users/user-23.jpg",
+      "img2": "user-10.jpg",
+      "ticketId": "TK00014",
+      "subject": "Invoice not generating",
+      "assigned": "William Parker",
+      "assignedDate": "09 Sep 2024",
+      "priority": "High",
+      "createdOn": "22 Sep 2024",
+      "assignee": "Nathaniel Blake",
+      "status": "Open"
+    },
+    {
+      "img": "users/user-24.jpg",
+      "img2": "user-29.jpg",
+      "ticketId": "TK00013",
+      "subject": "Payment gateway issue",
+      "assigned": "Mia Thompson",
+      "assignedDate": "02 Sep 2024",
+      "priority": "Medium",
+      "createdOn": "15 Sep 2024",
+      "assignee": "Natalie Paige",
+      "status": "Resolved"
+    }
+  ],
+  "totalData": 14
+}

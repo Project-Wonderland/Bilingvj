@@ -1,0 +1,174 @@
+{
+    "data": [
+      {
+        "ID": "INV00025",
+        "Image": "avatar-28.jpg",
+        "CreatedOn": "22 Feb 2025",
+        "Customer": "Emily Clark",
+        "RecurringCycle": "6 Months",
+        "IssueDate": "25 Feb 2025",
+        "DueDate": "04 Mar 2025",
+        "Paid": "$5,000",
+        "DueAmount": "$10,000",
+        "Status": "Paid"
+      },
+      {
+        "ID": "INV00024",
+        "Image": "avatar-29.jpg",
+        "Customer": "John Carter",
+        "CreatedOn": "07 Feb 2025",
+        "RecurringCycle": "1 Year",
+        "IssueDate": "10 Feb 2025",
+        "DueDate": "20 Feb 2025",
+        "Paid": "$10,750",
+        "DueAmount": "$25,750",
+        "Status": "Unpaid"
+      },
+      {
+        "ID": "INV00023",
+        "Image": "avatar-12.jpg",
+        "Customer": "Sophia White",
+        "CreatedOn": "30 Jan 2025",
+        "RecurringCycle": "9 Months",
+        "IssueDate": "03 Feb 2025",
+        "DueDate": "13 Feb 2025",
+        "Paid": "$20,000",
+        "DueAmount": "$50,125",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "INV00022",
+        "Image": "avatar-06.jpg",
+        "Customer": "Michael Johnson",
+        "CreatedOn": "17 Jan 2025",
+        "RecurringCycle": "2 Years",
+        "IssueDate": "20 Jan 2025",
+        "DueDate": "30 Jan 2025",
+        "Paid": "$50,000",
+        "DueAmount": "$75,900",
+        "Status": "Partially Paid"
+      },
+      {
+        "ID": "INV00021",
+        "Image": "avatar-30.jpg",
+        "Customer": "Olivia Harris",
+        "CreatedOn": "04 Jan 2025",
+        "RecurringCycle": "3 Months",
+        "IssueDate": "07 Jan 2025",
+        "DueDate": "17 Jan 2025",
+        "Paid": "$80,000",
+        "DueAmount": "$99,999",
+        "Status": "Overdue"
+      },
+      {
+        "ID": "INV00020",
+        "Image": "avatar-16.jpg",
+        "Customer": "David Anderson",
+        "CreatedOn": "09 Dec 2024",
+        "RecurringCycle": "3 Years",
+        "IssueDate": "12 Dec 2024",
+        "DueDate": "22 Dec 2024",
+        "Paid": "$60,000",
+        "DueAmount": "$1,20,500",
+        "Status": "Paid"
+      },
+      {
+        "ID": "INV00019",
+        "Image": "avatar-17.jpg",
+        "Customer": "Emma Lewis",
+        "CreatedOn": "02 Dec 2024",
+        "RecurringCycle": "6 Months",
+        "IssueDate": "05 Dec 2024",
+        "DueDate": "15 Dec 2024",
+        "Paid": "$1,25,000",
+        "DueAmount": "$2,50,000",
+        "Status": "Unpaid"
+      },
+      {
+        "ID": "INV00018",
+        "Image": "avatar-23.jpg",
+        "Customer": "Robert Thomas",
+        "CreatedOn": "15 Nov 2024",
+        "RecurringCycle": "1 Year",
+        "IssueDate": "18 Nov 2024",
+        "DueDate": "28 Nov 2024",
+        "Paid": "$5,00,000",
+        "DueAmount": "$5,00,750",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "INV00017",
+        "Image": "avatar-07.jpg",
+        "Customer": "Isabella Scott",
+        "CreatedOn": "30 Nov 2024",
+        "RecurringCycle": "2 Years",
+        "IssueDate": "02 Nov 2024",
+        "DueDate": "12 Nov 20244",
+        "Paid": "$2,50,500",
+        "DueAmount": "$7,50,300",
+        "Status": "Partially Paid"
+      },
+      {
+        "ID": "INV00016",
+        "Image": "avatar-31.jpg",
+        "Customer": "Daniel Martinez",
+        "CreatedOn": "12 Oct 2024",
+        "RecurringCycle": "6 Months",
+        "IssueDate": "15 Oct 2024",
+        "DueDate": "25 Oct 2024",
+        "Paid": "$4,00,000",
+        "DueAmount": "$9,99,999",
+        "Status": "Overdue"
+      },
+      {
+        "ID": "INV00015",
+        "Image": "avatar-08.jpg",
+        "Customer": "Charlotte Brown",
+        "CreatedOn": "05 Oct 2024",
+        "RecurringCycle": "3 Years",
+        "IssueDate": "08 Oct 2024",
+        "DueDate": "18 Oct 2024",
+        "Paid": "$40,000",
+        "DueAmount": "$87,650",
+        "Status": "Paid"
+      },
+      {
+        "ID": "INV00014",
+        "Image": "avatar-10.jpg",
+        "Customer": "William Parker",
+        "CreatedOn": "09 Sep 2024",
+        "RecurringCycle": "1 Year",
+        "IssueDate": "12 Sep 2024",
+        "DueDate": "22 Sep 2024",
+        "Paid": "$30,000",
+        "DueAmount": "$69,420",
+        "Status": "Unpaid"
+      },
+      {
+        "ID": "INV00013",
+        "Image": "avatar-18.jpg",
+        "Customer": "Mia Thompson",
+        "CreatedOn": "02 Sep 2024",
+        "RecurringCycle": "2 Years",
+        "IssueDate": "05 Sep 2024",
+        "DueDate": "15 Sep 2024",
+        "Paid": "$15,000",
+        "DueAmount": "$33,210",
+        "Status": "Cancelled"
+      },
+      {
+        "ID": "INV00012",
+        "Image": "avatar-26.jpg",
+        "Customer": "Amelia Robinson",
+        "CreatedOn": "07 Aug 2024",
+        "RecurringCycle": "6 Months",
+        "IssueDate": "10 Aug 2024",
+        "DueDate": "20 Aug 2024",
+        "Paid": "$1,50,000",
+        "DueAmount": "$2,10,000",
+        "Status": "Partially Paid"
+      }
+     ],
+    "totalData": 14
+  }
+  

@@ -1,0 +1,96 @@
+{
+    "data":[
+        {
+          "id": "1",
+          "img": "user-33.jpg",
+          "name": "Carl Evans",
+          "email": "carlevans@example.com",
+          "phone": "+12163547758",
+          "role": "Admin",
+          "status": "Active"
+        },
+        {
+          "id": "2",
+          "img": "user-02.jpg",
+          "name": "Minerva Rameriz",
+          "email": "rameriz@example.com",
+          "phone": "+11367529510",
+          "role": "Manager",
+          "status": "Active"
+        },
+        {
+          "id": "3",
+          "img": "user-34.jpg",
+          "name": "Robert Lamon",
+          "email": "robert@example.com",
+          "phone": "+15362789414",
+          "role": "Salesman",
+          "status": "Active"
+        },
+        {
+          "id": "4",
+          "img": "user-35.jpg",
+          "name": "Patricia Lewis",
+          "email": "patricia@example.com",
+          "phone": "+18513094627",
+          "role": "Supervisor",
+          "status": "Active"
+        },
+        {
+          "id": "5",
+          "img": "user-36.jpg",
+          "name": "Mark Joslyn",
+          "email": "markjoslyn@example.com",
+          "phone": "+14678219025",
+          "role": "Store Keeper",
+          "status": "Active"
+        },
+        {
+          "id": "6",
+          "img": "user-37.jpg",
+          "name": "Marsha Betts",
+          "email": "marshabetts@example.com",
+          "phone": "+10913278319",
+          "role": "Purchase",
+          "status": "Active"
+        },
+        {
+          "id": "7",
+          "img": "user-28.jpg",
+          "name": "Daniel Jude",
+          "email": "daieljude@example.com",
+          "phone": "+19125852947",
+          "role": "Delivery Biker",
+          "status": "Active"
+        },
+        {
+          "id": "8",
+          "img": "user-38.jpg",
+          "name": "Emma Bates",
+          "email": "emmabates@example.com",
+          "phone": "+13671835209",
+          "role": "Maintenance",
+          "status": "Active"
+        },
+        {
+          "id": "9",
+          "img": "user-39.jpg",
+          "name": "Richard Fralick",
+          "email": "richard@example.com",
+          "phone": "+19756194733",
+          "role": "Quality Analyst",
+          "status": "Active"
+        },
+        {
+          "id": "10",
+          "img": "user-03.jpg",
+          "name": "Michelle Robison",
+          "email": "robinson@example.com",
+          "phone": "+19167850925",
+          "role": "Accountant",
+          "status": "Active"
+        }
+      ],
+      "totalData":10
+      
+}

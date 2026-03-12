@@ -1,0 +1,131 @@
+{
+    "data": [
+        {
+            "img": "avatar-28.jpg",
+            "provider": "Emily Clark",
+            "subscription": "Enterprise",
+            "amount": "$299",
+            "duration": "3 months",
+            "startDate": "22 Feb 2025",
+            "endDate": "22 May 2025"
+        },
+        {
+            "img": "avatar-29.jpg",
+            "provider": "John Carter",
+            "subscription": "Standard",
+            "amount": "$199",
+            "duration": "2 months",
+            "startDate": "07 Feb 2025",
+            "endDate": "07 Apr 2025"
+        },
+        {
+            "img": "avatar-12.jpg",
+            "provider": "Sophia White",
+            "subscription": "Basic",
+            "amount": "$349",
+            "duration": "6 months",
+            "startDate": "30 Jan 2025",
+            "endDate": "30 Jul 2025"
+        },
+        {
+            "img": "avatar-06.jpg",
+            "provider": "Michael Johnson",
+            "subscription": "Enterprise",
+            "amount": "$499",
+            "duration": "2 months",
+            "startDate": "17 Jan 2025",
+            "endDate": "17 Mar 2025"
+        },
+        {
+            "img": "avatar-30.jpg",
+            "provider": "Olivia Harris",
+            "subscription": "Standard",
+            "amount": "$1999",
+            "duration": "1 year",
+            "startDate": "04 Jan 2025",
+            "endDate": "04 Jan 2026"
+        },
+        {
+            "img": "avatar-16.jpg",
+            "provider": "David Anderson",
+            "subscription": "Basic",
+            "amount": "$99",
+            "duration": "1 month",
+            "startDate": "09 Dec 2024",
+            "endDate": "09 Jan 2025"
+        },
+        {
+            "img": "avatar-17.jpg",
+            "provider": "Emma Lewis",
+            "subscription": "Enterprise",
+            "amount": "$549",
+            "duration": "6 months",
+            "startDate": "02 Dec 2024",
+            "endDate": "02 May 2025"
+        },
+        {
+            "img": "avatar-23.jpg",
+            "provider": "Robert Thomas",
+            "subscription": "Standard",
+            "amount": "$799",
+            "duration": "1 year",
+            "startDate": "15 Nov 2024",
+            "endDate": "15 Nov 2025"
+        },
+        {
+            "img": "avatar-35.jpg",
+            "provider": "Isabella Scott",
+            "subscription": "Basic",
+            "amount": "$2499",
+            "duration": "2 years",
+            "startDate": "30 Nov 2024",
+            "endDate": "30 Nov 2026"
+        },
+        {
+            "img": "avatar-07.jpg",
+            "provider": "Daniel Martinez",
+            "subscription": "Enterprise",
+            "amount": "$999",
+            "duration": "1 year",
+            "startDate": "12 Oct 2024",
+            "endDate": "12 Oct 2025"
+        },
+        {
+            "img": "avatar-31.jpg",
+            "provider": "Charlotte Brown",
+            "subscription": "Standard",
+            "amount": "$199",
+            "duration": "2 months",
+            "startDate": "05 Oct 2024",
+            "endDate": "05 Dec 2024"
+        },
+        {
+            "img": "avatar-32.jpg",
+            "provider": "William Parker",
+            "subscription": "Basic",
+            "amount": "$349",
+            "duration": "3 months",
+            "startDate": "09 Sep 2024",
+            "endDate": "09 Dec 2024"
+        },
+        {
+            "img": "avatar-33.jpg",
+            "provider": "Mia Thompson",
+            "subscription": "Enterprise",
+            "amount": "$499",
+            "duration": "6 months",
+            "startDate": "02 Sep 2024",
+            "endDate": "02 Mar 2025"
+        },
+        {
+            "img": "avatar-34.jpg",
+            "provider": "Amelia Robinson",
+            "subscription": "Standard",
+            "amount": "$799",
+            "duration": "1 year",
+            "startDate": "07 Aug 2024",
+            "endDate": "07 Aug 2025"
+        }
+    ],
+    "totalData": 14
+}

@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "ID": "INV00025",
+      "Customer": "Trend Hive",
+      "Image": "company-01.svg",
+      "Email": "trendhive@example.com",
+      "CreatedOn": "22 Feb 2025",
+      "Amount": "$200",
+      "PaymentMode": "Cash",
+      "Status": "Approved"
+    },
+    {
+      "ID": "INV00024",
+      "Customer": "Quick Cart",
+      "Image": "company-02.svg",
+      "Email": "quickcart@example.com",
+      "CreatedOn": "07 Feb 2025",
+      "Amount": "$600",
+      "PaymentMode": "Cheque",
+      "Status": "Pending"
+    },
+    {
+      "ID": "INV00023",
+      "Customer": "Tech Bazaar",
+      "Image": "company-03.svg",
+      "Email": "techbazaar@example.com",
+      "CreatedOn": "30 Jan 2025",
+      "Amount": "$200",
+      "PaymentMode": "Cash",
+      "Status": "Approved"
+    },
+    {
+      "ID": "INV00022",
+      "Customer": "Harvest Basket",
+      "Image": "company-04.svg",
+      "Email": "haervestbasket@example.com",
+      "CreatedOn": "17 Jan 2025",
+      "Amount": "$200",
+      "PaymentMode": "Cheque",
+      "Status": "Pending"
+    },
+    {
+      "ID": "INV00021",
+      "Customer": "Elite Mart",
+      "Image": "company-05.svg",
+      "Email": "elitemart@example.com",
+      "CreatedOn": "04 Jan 2025",
+      "Amount": "$400",
+      "PaymentMode": "Cheque",
+      "Status": "Approved"
+    },
+    {
+      "ID": "INV00020",
+      "Customer": "Prime Mart",
+      "Image": "company-06.svg",
+      "Email": "primemart@example.com",
+      "CreatedOn": "09 Dec 2024",
+      "Amount": "$200",
+      "PaymentMode": "Cash",
+      "Status": "Rejected"
+    },
+    {
+      "ID": "INV00019",
+      "Customer": "Trend Crafters",
+      "Image": "company-07.svg",
+      "Email": "trendcreafters@example.com",
+      "CreatedOn": "02 Dec 2024",
+      "Amount": "$4800",
+      "PaymentMode": "Cash",
+      "Status": "Pending"
+    },
+    {
+      "ID": "INV00018",
+      "Customer": "Fresh Nest",
+      "Image": "company-08.svg",
+      "Email": "freshnest@example.com",
+      "CreatedOn": "30 Nov 2024",
+      "Amount": "$50",
+      "PaymentMode": "Cheque",
+      "Status": "Rejected"
+    },
+    {
+      "ID": "INV00017",
+      "Customer": "Gizmo Mart",
+      "Image": "company-09.svg",
+      "Email": "gizmomart@example.com",
+      "CreatedOn": "15 Nov 2024",
+      "Amount": "$600",
+      "PaymentMode": "Cheque",
+      "Status": "Approved"
+    },
+    {
+      "ID": "INV00016",
+      "Customer": "Dream Space",
+      "Image": "company-10.svg",
+      "Email": "dreamspace@example.com",
+      "CreatedOn": "12 Oct 2024",
+      "Amount": "$400",
+      "PaymentMode": "Cash",
+      "Status": "Pending"
+    },
+    {
+      "ID": "INV00015",
+      "Customer": "Mega Mart",
+      "Image": "company-11.svg",
+      "Email": "megamart@example.com",
+      "CreatedOn": "05 Oct 2024",
+      "Amount": "$200",
+      "PaymentMode": "Cheque",
+      "Status": "Rejected"
+    },
+    {
+      "ID": "INV00014",
+      "Customer": "Decor Ease",
+      "Image": "company-12.svg",
+      "Email": "decorease@example.com",
+      "CreatedOn": "09 Sep 2024",
+      "Amount": "$600",
+      "PaymentMode": "Cash",
+      "Status": "Rejected"
+    },
+    {
+      "ID": "INV00013",
+      "Customer": "Electro World",
+      "Image": "company-13.svg",
+      "Email": "electroworld@example.com",
+      "CreatedOn": "02 Sep 2024",
+      "Amount": "$200",
+      "PaymentMode": "Cheque",
+      "Status": "Approved"
+    },
+    {
+      "ID": "INV00012",
+      "Customer": "Urban Home",
+      "Image": "company-14.svg",
+      "Email": "urbanhome@example.com",
+      "CreatedOn": "07 Aug 2024",
+      "Amount": "$400",
+      "PaymentMode": "Cheque",
+      "Status": "Pending"
+    }
+  ],
+  "totalData": 14
+}

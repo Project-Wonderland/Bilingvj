@@ -1,0 +1,147 @@
+{
+    "data": [
+      {
+        "img": "product-01.jpg",
+        "sku": "PR00025",
+        "product": "Apple iPhone 15",
+        "category": "Smartphones",
+        "soldAmount": "$100",
+        "soldQuantity": "2",
+        "instockQuantity": "25",
+        "dueDate": "22 Feb 2025"
+      },
+      {
+        "img": "product-02.jpg",
+        "sku": "PR00014",
+        "product": "Dell XPS 13 9310",
+        "category": "Laptops",
+        "soldAmount": "$25",
+        "soldQuantity": "12",
+        "instockQuantity": "35",
+        "dueDate": "07 Feb 2025"
+      },
+      {
+        "img": "product-03.jpg",
+        "sku": "PR00012",
+        "product": "Bose QuietComfort 45",
+        "category": "Headphones",
+        "soldAmount": "$34",
+        "soldQuantity": "2",
+        "instockQuantity": "56",
+        "dueDate": "30 Jan 2025"
+      },
+      {
+        "img": "product-04.jpg",
+        "sku": "PR00016",
+        "product": "Nike Dri-FIT T-shirt",
+        "category": "Computer Service",
+        "soldAmount": "$75",
+        "soldQuantity": "24",
+        "instockQuantity": "37",
+        "dueDate": "04 Jan 2025"
+      },
+      {
+        "img": "product-05.jpg",
+        "sku": "PR00022",
+        "product": "Adidas Ultraboost 22 Running Shoe",
+        "category": "Footwear",
+        "soldAmount": "$9",
+        "soldQuantity": "13",
+        "instockQuantity": "28",
+        "dueDate": "09 Dec 2024"
+      },
+      {
+        "img": "product-06.jpg",
+        "sku": "PR00047",
+        "product": "Samsung French Door Refrigerator",
+        "category": "Kitchen",
+        "soldAmount": "$120",
+        "soldQuantity": "67",
+        "instockQuantity": "109",
+        "dueDate": "02 Dec 2024"
+      },
+      {
+        "img": "product-07.jpg",
+        "sku": "PR00014",
+        "product": "Dyson V15 Detect  Vacuum Cleaner",
+        "category": "Cleaning",
+        "soldAmount": "$250",
+        "soldQuantity": "13",
+        "instockQuantity": "25",
+        "dueDate": "02 Dec 2024"
+      },
+      {
+        "img": "product-08.jpg",
+        "sku": "PR00031",
+        "product": "HP Spectre x360 14",
+        "category": "Laptops",
+        "soldAmount": "$541",
+        "soldQuantity": "25",
+        "instockQuantity": "58",
+        "dueDate": "15 Nov 2024"
+      },
+      {
+        "img": "product-09.jpg",
+        "sku": "PR00077",
+        "product": "Dyson Supersonic Hair Dryer",
+        "category": "Haircare",
+        "soldAmount": "$741",
+        "soldQuantity": "24",
+        "instockQuantity": "42",
+        "dueDate": "30 Nov 2024"
+      },
+      {
+        "img": "product-10.jpg",
+        "sku": "PR00045",
+        "product": "Apple AirPods Pro",
+        "category": "Headphones",
+        "soldAmount": "$89",
+        "soldQuantity": "65",
+        "instockQuantity": "98",
+        "dueDate": "12 Oct 2024"
+      },
+      {
+        "img": "product-11.jpg",
+        "sku": "PR00021",
+        "product": "Levi’s 501 Original Fit Jeans",
+        "category": "Men’s Apparel",
+        "soldAmount": "$34",
+        "soldQuantity": "23",
+        "instockQuantity": "65",
+        "dueDate": "05 Oct 2024"
+      },
+      {
+        "img": "product-12.jpg",
+        "sku": "PR00074",
+        "product": "CeraVe Hydrating Facial Cleanser",
+        "category": "Skincare",
+        "soldAmount": "$45",
+        "soldQuantity": "12",
+        "instockQuantity": "36",
+        "dueDate": "09 Sep 2024"
+      },
+      {
+        "img": "product-13.jpg",
+        "sku": "PR00048",
+        "product": "Giro Synthe MIPS Helmet",
+        "category": "Bikes & Accessories",
+        "soldAmount": "$74",
+        "soldQuantity": "43",
+        "instockQuantity": "70",
+        "dueDate": "02 Sep 2024"
+      },
+      {
+        "img": "product-14.jpg",
+        "sku": "PR00022",
+        "product": "OnePlus 11 5G",
+        "category": "Smartphones",
+        "soldAmount": "$80",
+        "soldQuantity": "20",
+        "instockQuantity": "54",
+        "dueDate": "07 Aug 2024"
+      }
+    ]
+    ,
+    "totalData": 14
+  }
+  

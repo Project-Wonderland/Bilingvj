@@ -1,0 +1,132 @@
+{
+    "data": [
+      {
+        "id": "INV00025",
+        "customer": "Emily Clark",
+        "image": "avatar-28.jpg",
+        "totalAmount": "$10,000",
+        "paid": "$5,000",
+        "status": "Paid",
+        "due": "$50"
+      },
+      {
+        "id": "INV00024",
+        "customer": "John Carter",
+        "image": "avatar-29.jpg",
+        "totalAmount": "$15,000",
+        "paid": "$10,750",
+        "status": "Pending",
+        "due": "$100"
+      },
+      {
+        "id": "INV00023",
+        "customer": "Sophia White",
+        "image": "avatar-12.jpg",
+        "totalAmount": "$20,000",
+        "paid": "$20,000",
+        "status": "Cancelled",
+        "due": "$200"
+      },
+      {
+        "id": "INV00022",
+        "customer": "Michael Johnson",
+        "image": "avatar-06.jpg",
+        "totalAmount": "$9,000",
+        "paid": "$50,000",
+        "status": "Paid",
+        "due": "$500"
+      },
+      {
+        "id": "INV00021",
+        "customer": "Olivia Harris",
+        "image": "avatar-30.jpg",
+        "totalAmount": "$12,000",
+        "paid": "$80,000",
+        "status": "Pending",
+        "due": "$800"
+      },
+      {
+        "id": "INV00020",
+        "customer": "David Anderson",
+        "image": "avatar-16.jpg",
+        "totalAmount": "$17,000",
+        "paid": "$60,000",
+        "status": "Cancelled",
+        "due": "$600"
+      },
+      {
+        "id": "INV00019",
+        "customer": "Emma Lewis",
+        "image": "avatar-17.jpg",
+        "totalAmount": "$23,000",
+        "paid": "$1,25,000",
+        "status": "Paid",
+        "due": "$125"
+      },
+      {
+        "id": "INV00018",
+        "customer": "Robert Thomas",
+        "image": "avatar-23.jpg",
+        "totalAmount": "$25,000",
+        "paid": "$5,00,000",
+        "status": "Pending",
+        "due": "$50000"
+      },
+      {
+        "id": "INV00017",
+        "customer": "Isabella Scott",
+        "image": "avatar-07.jpg",
+        "totalAmount": "$18,000",
+        "paid": "$2,50,500",
+        "status": "Cancelled",
+        "due": "$25000"
+      },
+      {
+        "id": "INV00016",
+        "customer": "Daniel Martinez",
+        "image": "avatar-31.jpg",
+        "totalAmount": "$13,000",
+        "paid": "$4,00,000",
+        "status": "Paid",
+        "due": "$40000"
+      },
+      {
+        "id": "INV00015",
+        "customer": "Charlotte Brown",
+        "image": "avatar-37.jpg",
+        "totalAmount": "$27,000",
+        "paid": "$40,000",
+        "status": "Pending",
+        "due": "$40,000"
+      },
+      {
+        "id": "INV00014",
+        "customer": "William Parker",
+        "image": "avatar-21.jpg",
+        "totalAmount": "$23,500",
+        "paid": "$30,000",
+        "status": "Cancelled",
+        "due": "$3355"
+      },
+      {
+        "id": "INV00013",
+        "customer": "Mia Thompson",
+        "image": "avatar-17.jpg",
+        "totalAmount": "$24,000",
+        "paid": "$15,000",
+        "status": "Paid",
+        "due": "$1500"
+      },
+      {
+        "id": "INV00012",
+        "customer": "Amelia Robinson",
+        "image": "avatar-07.jpg",
+        "totalAmount": "$35,000",
+        "paid": "$1,50,000",
+        "status": "Pending",
+        "due": "$1450"
+      }
+    ],
+    "totalData":14
+  }
+  

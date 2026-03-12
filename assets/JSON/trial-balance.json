@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "AccountName": "PNB - 5475878970090",
+            "Credit": "$22,500",
+            "Debit": "$7,500"
+        },
+        {
+            "AccountName": "SFB - 3255465758698",
+            "Credit": "$30,000",
+            "Debit": "$10,000"
+        },
+        {
+            "AccountName": "HSB - 4353689870544",
+            "Credit": "$12,000",
+            "Debit": "$3,000"
+        },
+        {
+            "AccountName": "ETB - 4324356677889",
+            "Credit": "$18,000",
+            "Debit": "$6,000"
+        },
+        {
+            "AccountName": "NPB - 2343547586900",
+            "Credit": "$25,000",
+            "Debit": "$8,000"
+        },
+        {
+            "AccountName": "SDB - 3354456565687",
+            "Credit": "$35,000",
+            "Debit": "$12,000"
+        },
+        {
+            "AccountName": "FEB - 3453647664889",
+            "Credit": "$40,000",
+            "Debit": "$15,000"
+        },
+        {
+            "AccountName": "CCB - 9876543210123",
+            "Credit": "$27,500",
+            "Debit": "$9,500"
+        },
+        {
+            "AccountName": "CCB - 9876543210123",
+            "Credit": "$20,000",
+            "Debit": "$7,000"
+        },
+        {
+            "AccountName": "ICB - 6543217896543",
+            "Credit": "$45,000",
+            "Debit": "$18,000"
+        }
+    ],
+   "totalData": 10
+}

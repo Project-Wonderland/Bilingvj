@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "Company": "Trend Hive",
+      "Image": "company-01.svg",
+      "DomainURL": "th.example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "22 Feb 2025",
+      "Status": "Approved"
+    },
+    {
+      "Company": "Quick Cart",
+      "Image": "company-02.svg",
+      "DomainURL": "qc.example.com",
+      "Plan": "Basic (Yearly)",
+      "CreatedOn": "07 Feb 2025",
+      "Status": "Pending"
+    },
+    {
+      "Company": "Tech Bazaar",
+      "Image": "company-03.svg",
+      "DomainURL": "tb.example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "30 Jan 2025",
+      "Status": "Approved"
+    },
+    {
+      "Company": "Harvest Basket",
+      "Image": "company-04.svg",
+      "DomainURL": "hb.example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "17 Jan 2025",
+      "Status": "Pending"
+    },
+    {
+      "Company": "Elite Mart",
+      "Image": "company-05.svg",
+      "DomainURL": "em.example.com",
+      "Plan": "Enterprise (Monthly)",
+      "CreatedOn": "04 Jan 2025",
+      "Status": "Approved"
+    },
+    {
+      "Company": "Prime Mart",
+      "Image": "company-06.svg",
+      "DomainURL": "pm.example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "09 Dec 2024",
+      "Status": "Rejected"
+    },
+    {
+      "Company": "Trend Crafters",
+      "Image": "company-07.svg",
+      "DomainURL": "tc.example.com",
+      "Plan": "Enterprise (Yearly)",
+      "CreatedOn": "02 Dec 2024",
+      "Status": "Pending"
+    },
+    {
+      "Company": "Fresh Nest",
+      "Image": "company-08.svg",
+      "DomainURL": "fn.example.com",
+      "Plan": "Basic (Monthly)",
+      "CreatedOn": "30 Nov 2024",
+      "Status": "Rejected"
+    },
+    {
+      "Company": "Gizmo Mart",
+      "Image": "company-09.svg",
+      "DomainURL": "gm.@example.com",
+      "Plan": "Basic (Yearly)",
+      "CreatedOn": "15 Nov 2024",
+      "Status": "Approved"
+    },
+    {
+      "Company": "Dream Space",
+      "Image": "company-10.svg",
+      "DomainURL": "ds.@example.com",
+      "Plan": "Enterprise (Monthly)",
+      "CreatedOn": "12 Oct 2024",
+      "Status": "Pending"
+    },
+    {
+      "Company": "Mega Mart",
+      "Image": "company-11.svg",
+      "DomainURL": "mm.@example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "05 Oct 2024",
+      "Status": "Rejected"
+    },
+    {
+      "Company": "Decor Ease",
+      "Image": "company-12.svg",
+      "DomainURL": "de.@example.com",
+      "Plan": "Basic (Yearly)",
+      "CreatedOn": "09 Sep 2024",
+      "Status": "Rejected"
+    },
+    {
+      "Company": "Electro World",
+      "Image": "company-13.svg",
+      "DomainURL": "ew.@example.com",
+      "Plan": "Advanced (Monthly)",
+      "CreatedOn": "02 Sep 2024",
+      "Status": "Approved"
+    },
+    {
+      "Company": "Urban Home",
+      "Image": "company-14.svg",
+      "DomainURL": "uh.@example.com",
+      "Plan": "Enterprise (Monthly)",
+      "CreatedOn": "07 Aug 2024",
+      "Status": "Pending"
+    }
+  ],
+  "totalData": 14
+}

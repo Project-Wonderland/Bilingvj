@@ -1,0 +1,119 @@
+{
+    "data":[
+      {
+        "id": "1",
+        "img": "avatar-28.jpg",
+        "quotationId": "QU0014",
+        "customer": "Emily Clark",
+        "status": "Accepted",
+        "createdOn": "22 Feb 2025"
+      },
+      {
+        "id": "2",
+        "img": "avatar-29.jpg",
+        "quotationId": "QU0013",
+        "customer": "John Carter",
+        "status": "Declined",
+        "createdOn": "07 Feb 2025"
+      },
+      {
+        "id": "3",
+        "img": "avatar-12.jpg",
+        "quotationId": "QU0012",
+        "customer": "Sophia White",
+        "status": "Sent",
+        "createdOn": "30 Jan 2025"
+      },
+      {
+        "id": "4",
+        "img": "avatar-06.jpg",
+        "quotationId": "QU0011",
+        "customer": "Michael Johnson",
+        "status": "Expired",
+        "createdOn": "17 Jan 2025"
+      },
+      {
+        "id": "5",
+        "img": "avatar-30.jpg",
+        "quotationId": "QU0010",
+        "customer": "Olivia Harris",
+        "status": "Accepted",
+        "createdOn": "04 Jan 2025"
+      },
+      {
+        "id": "6",
+        "img": "avatar-16.jpg",
+        "quotationId": "QU0009",
+        "customer": "David Anderson",
+        "status": "Declined",
+        "createdOn": "09 Dec 2024"
+      },
+      {
+        "id": "7",
+        "img": "avatar-16.jpg",
+        "quotationId": "QU0008",
+        "customer": "Emma Lewis",
+        "status": "Sent",
+        "createdOn": "02 Dec 2024"
+      },
+      {
+        "id": "8",
+        "img": "avatar-23.jpg",
+        "quotationId": "QU0007",
+        "customer": "Robert Thomas",
+        "status": "Expired",
+        "createdOn": "15 Nov 2024"
+      },
+      {
+        "id": "9",
+        "img": "avatar-07.jpg",
+        "quotationId": "QU0006",
+        "customer": "Isabella Scott",
+        "status": "Accepted",
+        "createdOn": "30 Nov 2024"
+      },
+      {
+        "id": "10",
+        "img": "avatar-31.jpg",
+        "quotationId": "QU0005",
+        "customer": "Daniel Martinez",
+        "status": "Declined",
+        "createdOn": "12 Oct 2024"
+      },
+      {
+        "id": "11",
+        "img": "avatar-37.jpg",
+        "quotationId": "QU0004",
+        "customer": "Charlotte Brown",
+        "status": "Sent",
+        "createdOn": "05 Oct 2024"
+      },
+      {
+        "id": "12",
+        "img": "avatar-21.jpg",
+        "quotationId": "QU0003",
+        "customer": "William Parker",
+        "status": "Expired",
+        "createdOn": "09 Sep 2024"
+      },
+      {
+        "id": "13",
+        "img": "avatar-17.jpg",
+        "quotationId": "QU0002",
+        "customer": "Mia Thompson",
+        "status": "Accepted",
+        "createdOn": "02 Sep 2024"
+      },
+      {
+        "id": "14",
+        "img": "avatar-07.jpg",
+        "quotationId": "QU0001",
+        "customer": "Amelia Robinson",
+        "status": "Declined",
+        "createdOn": "07 Aug 2024"
+      }
+    ]
+    ,
+    "totalData": 14
+  }
+  

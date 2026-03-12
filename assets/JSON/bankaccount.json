@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "img": "avatar-28.jpg",
+      "accountHolderName": "Emily Clark",
+      "accountNo": "3298784309485",
+      "accountType": "Savings Account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$200",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-29.jpg",
+      "accountHolderName": "John Carter",
+      "accountNo": "5475878970090",
+      "accountType": "Current Account",
+      "notes": "Designed for businesses and individuals",
+      "openingBalance": "$50",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-12.jpg",
+      "accountHolderName": "Sophia White",
+      "accountNo": "3255465758698",
+      "accountType": "Savings account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$800",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-06.jpg",
+      "accountHolderName": "Michael Johnson",
+      "accountNo": "4353689870544",
+      "accountType": "Salary Account",
+      "notes": "Savings account specifically for salaried employees",
+      "openingBalance": "$100",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-30.jpg",
+      "accountHolderName": "Olivia Harris",
+      "accountNo": "4324356677889",
+      "accountType": "Savings account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$700",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-16.jpg",
+      "accountHolderName": "David Anderson",
+      "accountNo": "2343547586900",
+      "accountType": "Current Account",
+      "notes": "Designed for businesses and individuals",
+      "openingBalance": "$1000",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-17.jpg",
+      "accountHolderName": "Emma Lewis",
+      "accountNo": "3354456565687",
+      "accountType": "Salary Account",
+      "notes": "Savings account specifically for salaried employees",
+      "openingBalance": "$1200",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-23.jpg",
+      "accountHolderName": "Robert Thomas",
+      "accountNo": "3453647664889",
+      "accountType": "Savings account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$500",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-07.jpg",
+      "accountHolderName": "Isabella Scott",
+      "accountNo": "9876543210123",
+      "accountType": "Current Account",
+      "notes": "Designed for businesses and individuals",
+      "openingBalance": "$600",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-31.jpg",
+      "accountHolderName": "Daniel Martinez",
+      "accountNo": "4567891234567",
+      "accountType": "Salary Account",
+      "notes": "Savings account specifically for salaried employees",
+      "openingBalance": "$450",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-09.jpg",
+      "accountHolderName": "Charlotte Brown",
+      "accountNo": "6543217896543",
+      "accountType": "Savings account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$300",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-21.jpg",
+      "accountHolderName": "William Parker",
+      "accountNo": "3692581473692",
+      "accountType": "Current Account",
+      "notes": "Designed for businesses and individuals",
+      "openingBalance": "$850",
+      "status": "Inactive"
+    },
+    {
+      "img": "avatar-30.jpg",
+      "accountHolderName": "Mia Thompson",
+      "accountNo": "3214569873214",
+      "accountType": "Savings account",
+      "notes": "Account that allows individuals to save money",
+      "openingBalance": "$450",
+      "status": "Active"
+    },
+    {
+      "img": "avatar-07.jpg",
+      "accountHolderName": "Amelia Robinson",
+      "accountNo": "1597534682597",
+      "accountType": "Current Account",
+      "notes": "Designed for businesses and individuals",
+      "openingBalance": "$750",
+      "status": "Inactive"
+    }
+  ],
+  "totalData": 14
+}

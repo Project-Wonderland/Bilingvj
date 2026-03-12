@@ -1,0 +1,21 @@
+{
+    "data":[
+        {
+            "accountType": "Salary Account",
+            "createdOn": "07 Feb 2025",
+            "status": "Active"
+        },
+        {
+            "accountType": "Current Account",
+            "createdOn": "30 Jan 2025",
+            "status": "Active"
+        },
+        {
+            "accountType": "Savings Account",
+            "createdOn": "04 Jan 2025",
+            "status": "Active"
+        }
+    ]
+    ,
+    "totalData":3
+}

@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+            "img": "avatar-28.jpg",
+            "transactionId": "TXN2025022212",
+            "invoiceId": "INV00025",
+            "customer": "Emily Clark",
+            "paidDate": "22 Feb 2025, 05:30 AM",
+            "amount": "$200",
+            "paymentMode": "Cash"
+        },
+        {
+            "img": "avatar-27.jpg",
+            "transactionId": "TXN2025022211",
+            "invoiceId": "INV00024",
+            "customer": "John Carter",
+            "paidDate": "20 Feb 2025, 07:30 AM",
+            "amount": "$300",
+            "paymentMode": "Cheque"
+        },
+        {
+            "img": "avatar-26.jpg",
+            "transactionId": "TXN2025098789",
+            "invoiceId": "INV00023",
+            "customer": "Sophia White",
+            "paidDate": "09 Feb 2025, 03:30 AM",
+            "amount": "$6000",
+            "paymentMode": "Paypal"
+        },
+        {
+            "img": "avatar-25.jpg",
+            "transactionId": "TXN2025056436",
+            "invoiceId": "INV00022",
+            "customer": "Michael Johnson",
+            "paidDate": "22 Jan 2025, 05:30 AM",
+            "amount": "$7000",
+            "paymentMode": "Bank Transfer"
+        },
+        {
+            "img": "avatar-23.jpg",
+            "transactionId": "TXN2025045321",
+            "invoiceId": "INV00021",
+            "customer": "Olivia Harris",
+            "paidDate": "15 Jan 2025, 03:30 AM",
+            "amount": "$2500",
+            "paymentMode": "Stripe"
+        },
+        {
+            "img": "avatar-20.jpg",
+            "transactionId": "TXN2025012341",
+            "invoiceId": "INV00020",
+            "customer": "Robert Thomas",
+            "paidDate": "05 Jan 2025, 02:30 AM",
+            "amount": "$5000",
+            "paymentMode": "Cash"
+        },
+        {
+            "img": "avatar-19.jpg",
+            "transactionId": "TXN2025076754",
+            "invoiceId": "INV00019",
+            "customer": "Emma Lewis",
+            "paidDate": "09 Dec 2024, 09:45 AM",
+            "amount": "$1900",
+            "paymentMode": "Cheque"
+        },
+        {
+            "img": "avatar-15.jpg",
+            "transactionId": "TXN2025022435",
+            "invoiceId": "INV00018",
+            "customer": "John Clark",
+            "paidDate": "01 Dec 2024, 05:45 AM",
+            "amount": "$2000",
+            "paymentMode": "Paypal"
+        },
+        {
+            "img": "avatar-14.jpg",
+            "transactionId": "TXN2025087865",
+            "invoiceId": "INV00017",
+            "customer": "Jordan Dine",
+            "paidDate": "30 Nov 2024, 05:25 AM",
+            "amount": "$3000",
+            "paymentMode": "Bank Transfer"
+        },
+        {
+            "img": "avatar-13.jpg",
+            "transactionId": "TXN2025076543",
+            "invoiceId": "INV00016",
+            "customer": "Jack Rias",
+            "paidDate": "22 Feb 2025, 05:30 AM",
+            "amount": "$200",
+            "paymentMode": "Cash"
+        },
+        {
+            "img": "avatar-11.jpg",
+            "transactionId": "TXN2025022212",
+            "invoiceId": "INV00015",
+            "customer": "Emily Clark",
+            "paidDate": "22 Feb 2025, 05:30 AM",
+            "amount": "$1500",
+            "paymentMode": "Cash"
+        }
+    ],
+    "totalData": 11
+}

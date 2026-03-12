@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "Type": "Wallet Topup",
+      "Amount": "$300",
+      "Date": "22 Feb 2025",
+      "PaymentMode": "Cash",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Purchase",
+      "Amount": "$150",
+      "Date": "07 Feb 2025",
+      "PaymentMode": "Cheque",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Refund",
+      "Amount": "$350",
+      "Date": "30 Jan 2025",
+      "PaymentMode": "Bank Transfer",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Wallet Topup",
+      "Amount": "$500",
+      "Date": "17 Jan 2025",
+      "PaymentMode": "Paypal",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Purchase",
+      "Amount": "$2000",
+      "Date": "04 Jan 2025",
+      "PaymentMode": "Stripe",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Refund",
+      "Amount": "$100",
+      "Date": "09 Dec 2024",
+      "PaymentMode": "Cash",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Wallet Topup",
+      "Amount": "$550",
+      "Date": "02 Dec 2024",
+      "PaymentMode": "Cheque",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Purchase",
+      "Amount": "$700",
+      "Date": "15 Nov 2024",
+      "PaymentMode": "Bank Transfer",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Refund",
+      "Amount": "$2500",
+      "Date": "30 Nov 2024",
+      "PaymentMode": "Paypal",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Wallet Topup",
+      "Amount": "$1000",
+      "Date": "12 Oct 2024",
+      "PaymentMode": "Stripe",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Purchase",
+      "Amount": "$200",
+      "Date": "05 Oct 2024",
+      "PaymentMode": "Cash",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Refund",
+      "Amount": "$350",
+      "Date": "09 Sep 2024",
+      "PaymentMode": "Cheque",
+      "Status": "Cancelled"
+    },
+    {
+      "Type": "Wallet Topup",
+      "Amount": "$500",
+      "Date": "02 Sep 2024",
+      "PaymentMode": "Bank Transfer",
+      "Status": "Completed"
+    },
+    {
+      "Type": "Purchase",
+      "Amount": "$800",
+      "Date": "07 Aug 2024",
+      "PaymentMode": "Paypal",
+      "Status": "Cancelled"
+    }
+  ],
+  "totalData": 14
+}

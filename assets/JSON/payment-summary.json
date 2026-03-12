@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "img": "avatar-28.jpg",
+            "customer": "Emily Clark",
+            "sku": "PAY00025",
+            "date": "22 Feb 2025",
+            "totalPrice": "$10,000",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-29.jpg",
+            "customer": "John Carter",
+            "sku": "PAY00024",
+            "date": "07 Feb 2025",
+            "totalPrice": "$25,750",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-12.jpg",
+            "customer": "Sophia White",
+            "sku": "PAY00023",
+            "date": "30 Jan 2025",
+            "totalPrice": "$50,125",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-06.jpg",
+            "customer": "Michael Johnson",
+            "sku": "PAY00022",
+            "date": "17 Jan 2025",
+            "totalPrice": "$75,900",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-30.jpg",
+            "customer": "Olivia Harris",
+            "sku": "PAY00021",
+            "date": "04 Jan 2025",
+            "totalPrice": "$99,999",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-16.jpg",
+            "customer": "David Anderson",
+            "sku": "PAY00020",
+            "date": "09 Dec 2024",
+            "totalPrice": "$120,500",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-17.jpg",
+            "customer": "Emma Lewis",
+            "sku": "PAY00019",
+            "date": "02 Dec 2024",
+            "totalPrice": "$250,000",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-23.jpg",
+            "customer": "Robert Thomas",
+            "sku": "PAY00018",
+            "date": "15 Nov 2024",
+            "totalPrice": "$500,750",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-07.jpg",
+            "customer": "Isabella Scott",
+            "sku": "PAY00017",
+            "date": "30 Nov 2024",
+            "totalPrice": "$750,300",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-31.jpg",
+            "customer": "Daniel Martinez",
+            "sku": "PAY00016",
+            "date": "12 Oct 2024",
+            "totalPrice": "$999,999",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-32.jpg",
+            "customer": "Charlotte Brown",
+            "sku": "PAY00015",
+            "date": "05 Oct 2024",
+            "totalPrice": "$87,650",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-33.jpg",
+            "customer": "William Parker",
+            "sku": "PAY00014",
+            "date": "09 Sep 2024",
+            "totalPrice": "$69,420",
+            "mode": "Cash"
+        },
+        {
+            "img": "avatar-34.jpg",
+            "customer": "Mia Thompson",
+            "sku": "PAY00013",
+            "date": "02 Sep 2024",
+            "totalPrice": "$33,210",
+            "mode": "Cheque"
+        },
+        {
+            "img": "avatar-35.jpg",
+            "customer": "Amelia Robinson",
+            "sku": "PAY00012",
+            "date": "07 Aug 2024",
+            "totalPrice": "$210,000",
+            "mode": "Cheque"
+        }
+    ],
+    "totalData": 14
+}

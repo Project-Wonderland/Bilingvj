@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "img": "user-24.jpg",
+      "user": "Sarah Michelle",
+      "deleteRequestDate": "04 Mar 2025"
+    },
+    {
+      "img": "user-28.jpg",
+      "user": "Daniel Patrick",
+      "deleteRequestDate": "20 Feb 2025"
+    },
+    {
+      "img": "user-26.jpg",
+      "user": "Emily Lauren",
+      "deleteRequestDate": "13 Feb 2025"
+    },
+    {
+      "img": "user-27.jpg",
+      "user": "Braun Kelton",
+      "deleteRequestDate": "30 Jan 2025"
+    },
+    {
+      "img": "user-37.jpg",
+      "user": "Jessica Renee",
+      "deleteRequestDate": "17 Jan 2025"
+    },
+    {
+      "img": "user-29.jpg",
+      "user": "Ryan Christopher",
+      "deleteRequestDate": "22 Dec 2024"
+    },
+    {
+      "img": "user-32.jpg",
+      "user": "Abigail Harper",
+      "deleteRequestDate": "15 Dec 2024"
+    },
+    {
+      "img": "user-31.jpg",
+      "user": "Michael Johnson",
+      "deleteRequestDate": "28 Nov 2024"
+    },
+    {
+      "img": "user-36.jpg",
+      "user": "Madison Brooke",
+      "deleteRequestDate": "12 Nov 2024"
+    },
+    {
+      "img": "user-35.jpg",
+      "user": "William Andrew",
+      "deleteRequestDate": "25 Oct 2024"
+    },
+    {
+      "img": "user-30.jpg",
+      "user": "Victoria Celeste",
+      "deleteRequestDate": "18 Oct 2024"
+    },
+    {
+      "img": "user-16.jpg",
+      "user": "Nathaniel Blake",
+      "deleteRequestDate": "22 Sep 2024"
+    },
+    {
+      "img": "user-34.jpg",
+      "user": "Natalie Paige",
+      "deleteRequestDate": "15 Sep 2024"
+    },
+    {
+      "img": "user-33.jpg",
+      "user": "Isabella Claire",
+      "deleteRequestDate": "20 Aug 2024"
+    }
+  ],
+  "totalData": 14
+}

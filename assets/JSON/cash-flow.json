@@ -1,0 +1,135 @@
+{
+    "data": [
+        {
+            "Date": "22 Feb 2025",
+            "BankAccountNo": "GTB - 3298784309485",
+            "Description": "Sale of laptops",
+            "Credit": "$15,000",
+            "Debit": "$5,000",
+            "AccountBalance": "$10,000",
+            "TotalBalance": "$10,000",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "07 Feb 2025",
+            "BankAccountNo": "PNB - 5475878970090",
+            "Description": "Customer Refund",
+            "Credit": "$22,500",
+            "Debit": "$7,500",
+            "AccountBalance": "$15,000",
+            "TotalBalance": "$25,750",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "30 Jan 2025",
+            "BankAccountNo": "SFB - 3255465758698",
+            "Description": "Office Supplies Bought",
+            "Credit": "$30,000",
+            "Debit": "$10,000",
+            "AccountBalance": "$20,000",
+            "TotalBalance": "$50,125",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "17 Jan 2025",
+            "BankAccountNo": "HSB - 4353689870544",
+            "Description": "Salary Received",
+            "Credit": "$12,000",
+            "Debit": "$3,000",
+            "AccountBalance": "$9,000",
+            "TotalBalance": "$75,900",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "04 Jan 2025",
+            "BankAccountNo": "ETB - 4324356677889",
+            "Description": "Electricity Bill Paid",
+            "Credit": "$18,000",
+            "Debit": "$6,000",
+            "AccountBalance": "$12,000",
+            "TotalBalance": "$99,999",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "09 Dec 2024",
+            "BankAccountNo": "NPB - 2343547586900",
+            "Description": "Service Fee Collected",
+            "Credit": "$25,000",
+            "Debit": "$8,000",
+            "AccountBalance": "$17,000",
+            "TotalBalance": "$1,20,500",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "02 Dec 2024",
+            "BankAccountNo": "SDB - 3354456565687",
+            "Description": "Customer Refund",
+            "Credit": "$35,000",
+            "Debit": "$12,000",
+            "AccountBalance": "$23,000",
+            "TotalBalance": "$2,50,000",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "15 Nov 2024",
+            "BankAccountNo": "FEB - 3453647664889",
+            "Description": "Equipment Purchase",
+            "Credit": "$40,000",
+            "Debit": "$15,000",
+            "AccountBalance": "$25,000",
+            "TotalBalance": "$5,00,750",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "30 Nov 2024",
+            "BankAccountNo": "CCB - 9876543210123",
+            "Description": "Freelance Payment",
+            "Credit": "$27,500",
+            "Debit": "$15,000",
+            "AccountBalance": "$18,000",
+            "TotalBalance": "$7,50,300",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "12 Oct 2024",
+            "BankAccountNo": "PWB - 4567891234567",
+            "Description": "Office Rent Paid",
+            "Credit": "$20,000",
+            "Debit": "$9,500",
+            "AccountBalance": "$13,000",
+            "TotalBalance": "$9,99,999",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "05 Oct 2024",
+            "BankAccountNo": "ICB - 6543217896543",
+            "Description": "Subscription Sale",
+            "Credit": "$45,000",
+            "Debit": "$7,000",
+            "AccountBalance": "$27,000",
+            "TotalBalance": "$87,650",
+            "PaymentMode": "Cash"
+        },
+        {
+            "Date": "09 Sep 2024",
+            "BankAccountNo": "ECB - 3692581473692",
+            "Description": "Refund Issued",
+            "Credit": "$37,500",
+            "Debit": "$18,000",
+            "AccountBalance": "$23,500",
+            "TotalBalance": "$69,420",
+            "PaymentMode": "Cheque"
+        },
+        {
+            "Date": "02 Sep 2024",
+            "BankAccountNo": "RFB - 3214569873214",
+            "Description": "Inventory Restock",
+            "Credit": "$38,000",
+            "Debit": "$14,000",
+            "AccountBalance": "$24,000",
+            "TotalBalance": "$33,210",
+            "PaymentMode": "Cash"
+        }
+    ],
+    "totalData": 13
+}
