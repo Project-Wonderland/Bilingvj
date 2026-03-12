@@ -1,0 +1,1 @@
+var e;function n(){if(e==null){if(typeof document!="object"||!document||typeof Element!="function"||!Element)return e=!1,e;if(document.documentElement?.style&&"scrollBehavior"in document.documentElement.style)e=!0;else{let t=Element.prototype.scrollTo;t?e=!/\{\s*\[native code\]\s*\}/.test(t.toString()):e=!1}}return e}export{n as a};
